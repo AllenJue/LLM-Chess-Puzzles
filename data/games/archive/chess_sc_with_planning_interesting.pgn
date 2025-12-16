@@ -1,0 +1,14 @@
+[Event "LLM vs Random"]
+[Site "Chess Game Engine"]
+[Date "2025.11.11"]
+[Round "?"]
+[White "Model"]
+[Black "Random"]
+[Result "1-0"]
+[Model "gpt-3.5-turbo-instruct"]
+[Approach "self_consistency"]
+[Opponent "Random"]
+[FallbackMoves "0"]
+[TotalMoves "7"]
+
+1. e4 h6 2. d4 f6 3. Qh5+ g6 4. Qxg6# 1-0

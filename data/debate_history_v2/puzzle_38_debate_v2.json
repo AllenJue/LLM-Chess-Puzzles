@@ -1,0 +1,91 @@
+{
+  "round1": {
+    "affirmative_move": "Kc7",
+    "negative_move": "Kc7",
+    "affirmative_response": "1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Bd3 c5 6. c3 Nc6 7. O-O Bd6 8. h3 O-O 9. Re1 Re8 10. Bg5 Be6 11. Nbd2 c4 12. Bc2 h6 13. Bh4 g5 14. Bg3 Bxg3 15. fxg3 Qd6 16. Nf1 Re7 17. Qd2 Nh7 18. Ne3 Rae8 19. Bf5 Qxg3 20. Rf1 Nf8 21. Qc2 Qd6 22. Ng4 Kg7 23. Nfe5 Nxe5 24. Nxe5 Bxf5 25. Qxf5 Qe6 26. Qf3 Ng6 27. Rae1 Nf4 28. Nd3 Qf5 29. Rxe7 Rxe7 30. Nxf4 Qxf4 31. Qxd5 Qe3+ 32. Kh2 Qe6 33. Qxe6 Rxe6 34. Rf2 Kg6 35. g4 h5 36. Kg3 hxg4 37. hxg4 Re4 38. Rf5 Re2 39. Rc5 Rxb2 40. Rxc4 Rxa2 41. Rb4 b6 42. Rb5 Ra3 43. Kf3 Rxc3+ 44. Ke4 Rc1 45. Ke5 Rg1 46. d5 Rxg4 47. d6 Rg1 48. d7 Re1+ 49. Kd6 Re6+ 50. Kc7 Re7 51. Kc8 Rxd7 52. Kxd7 f5 53. Ke6 f4 54. Rf5 Kh5 55. Kf6 Kg4 56. Rxg5+ Kf3 57. Kf5 Ke3 58. Rg4 f3 59. Rg3 Ke2 60. Kf4 f2 61. Re3+ Kd2 62. Rf3 Ke2 63. Re3+ Kd2 64. Rf3 Ke2 65. Re3+ Kd2 66. Rf3 Ke2 67. Re3+ Kd2 1/2-1/2",
+    "negative_response": "1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Bd3 c5 6. c3 Nc6 7. O-O Bd6 8. h3 O-O 9. Re1 Re8 10. Bg5 Be6 11. Nbd2 c4 12. Bc2 h6 13. Bh4 g5 14. Bg3 Bxg3 15. fxg3 Qd6 16. Nf1 Re7 17. Qd2 Nh7 18. Ne3 Rae8 19. Bf5 Qxg3 20. Rf1 Nf8 21. Qc2 Qd6 22. Ng4 Kg7 23. Nfe5 Nxe5 24. Nxe5 Bxf5 25. Qxf5 Qe6 26. Qf3 Ng6 27. Rae1 Nf4 28. Nd3 Qf5 29. Rxe7 Rxe7 30. Nxf4 Qxf4 31. Qxd5 Qe3+ 32. Kh2 Qe6 33. Qxe6 Rxe6 34. Rf2 Kg6 35. g4 h5 36. Kg3 hxg4 37. hxg4 Re4 38. Rf5 Re2 39. Rc5 Rxb2 40. Rxc4 Rxa2 41. Rb4 b6 42. Rb5 Ra3 43. Kf3 Rxc3+ 44. Ke4 Rc1 45. Ke5 Rg1 46. d5 Rxg4 47. d6 Rg1 48. d7 Re1+ 49. Kd6 Re6+ 50. Kc7 Re7 51. Kc8 Rxd7 52. Kxd7 f5",
+    "affirmative_tokens": {
+      "prompt_tokens": 492,
+      "completion_tokens": 556,
+      "total_tokens": 1048,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative_tokens": {
+      "prompt_tokens": 492,
+      "completion_tokens": 423,
+      "total_tokens": 915,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator_response": "Early consensus - no moderator needed",
+    "early_consensus": true
+  },
+  "final_result": {
+    "final_move_san": "Kc7",
+    "final_move_uci": "d6c7",
+    "success": true,
+    "reason": "Early consensus - both models agreed",
+    "supported_side": "Both",
+    "source_agent": "affirmative",
+    "source_agents": [
+      "affirmative",
+      "negative"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 492,
+      "completion_tokens": 556,
+      "total_tokens": 1048,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 492,
+      "completion_tokens": 423,
+      "total_tokens": 915,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 984,
+    "total_completion_tokens": 979,
+    "total_tokens": 1963
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 98,
+      "turn_number": 50,
+      "is_white_to_move": true,
+      "prompt_tokens": 492,
+      "completion_tokens": 556,
+      "total_tokens": 1048,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 98,
+      "turn_number": 50,
+      "is_white_to_move": true,
+      "prompt_tokens": 492,
+      "completion_tokens": 423,
+      "total_tokens": 915,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": null
+  }
+}

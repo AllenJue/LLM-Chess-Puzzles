@@ -1,0 +1,94 @@
+{
+  "round1": {
+    "affirmative_move": "h4",
+    "negative_move": "hxg3",
+    "affirmative_response": "1. d4 g6 2. Bf4 Bg7 3. Nf3 Nc6 4. e3 d6 5. c3 e5 6. dxe5 Nxe5 7. Nxe5 dxe5 8. Qxd8+ Kxd8 9. Bg3 Ke7 10. Nd2 Be6 11. Nf3 f6 12. a3 Rd8 13. Be2 Nh6 14. Bh4 Nf5 15. Bg3 Nxg3 16. hxg3 h5 17. O-O g5 18. Rfd1 c6 19. Nd2 f5 20. Bc4 b5 21. Bxe6 Kxe6 22. Nb3 Rd5 23. Rxd5 cxd5 24. Nc5+ Kd6 25. Nb7+ Kc6 26. Na5+ Kb6 27. Nb3 a5 28. Rd1 Rd8 29. Nd2 Bf6 30. f4 a4 31. Nf3 gxf4 32. gxf4 e4 33. Nd4 Bxd4 34. Rxd4 Kc5 35. Kh2 Rg8 36. Kh3 Kd6 37. g3 Rg4 38. Kg2 h4 39. Kh3 h4\n\n40. gxh4",
+    "negative_response": "1. d4 g6 2. Bf4 Bg7 3. Nf3 Nc6 4. e3 d6 5. c3 e5 6. dxe5 Nxe5 7. Nxe5 dxe5 8. Qxd8+ Kxd8 9. Bg3 Ke7 10. Nd2 Be6 11. Nf3 f6 12. a3 Rd8 13. Be2 Nh6 14. Bh4 Nf5 15. Bg3 Nxg3 16. hxg3 h5 17. O-O g5 18. Rfd1 c6 19. Nd2 f5 20. Bc4 b5 21. Bxe6 Kxe6 22. Nb3 Rd5 23. Rxd5 cxd5 24. Nc5+ Kd6 25. Nb7+ Kc6 26. Na5+ Kb6 27. Nb3 a5 28. Rd1 Rd8 29. Nd2 Bf6 30. f4 a4 31. Nf3 gxf4 32. gxf4 e4 33. Nd4 Bxd4 34. Rxd4 Kc5 35. Kh2 Rg8 36. Kh3 Kd6 37. g3 Rg4 38. Kg2 h4 39. Kh3 hxg3",
+    "moderator_response": {
+      "Whether there is a preference": "Yes",
+      "Supported Side": "Positional",
+      "Reason": "The positional side's move 39...hxg3 is more consistent with opening lines and increasing pressure on White's kingside, which aligns with the strategic plan of exploiting weaknesses and creating attacking chances. The aggressive side's 39.Kh3 is passive and does not address the threat effectively. Capturing on g3 opens the h-file and enhances Black's attacking prospects.",
+      "debate_answer": "1. d4 g6 2. Bf4 Bg7 3. Nf3 Nc6 4. e3 d6 5. c3 e5 6. dxe5 Nxe5 7. Nxe5 dxe5 8. Qxd8+ Kxd8 9. Bg3 Ke7 10. Nd2 Be6 11. Nf3 f6 12. a3 Rd8 13. Be2 Nh6 14. Bh4 Nf5 15. Bg3 Nxg3 16. hxg3 h5 17. O-O g5 18. Rfd1 c6 19. Nd2 f5 20. Bc4 b5 21. Bxe6 Kxe6 22. Nb3 Rd5 23. Rxd5 cxd5 24. Nc5+ Kd6 25. Nb7+ Kc6 26. Na5+ Kb6 27. Nb3 a5 28. Rd1 Rd8 29. Nd2 Bf6 30. f4 a4 31. Nf3 gxf4 32. gxf4 e4 33. Nd4 Bxd4 34. Rxd4 Kc5 35. Kh2 Rg8 36. Kh3 Kd6 37. g3 Rg4 38. Kg2 h4 39. Kh3 hxg3"
+    }
+  },
+  "final_result": {
+    "final_move_san": "hxg3",
+    "final_move_uci": "h4g3",
+    "success": true,
+    "reason": "The positional side's move 39...hxg3 is more consistent with opening lines and increasing pressure on White's kingside, which aligns with the strategic plan of exploiting weaknesses and creating attacking chances. The aggressive side's 39.Kh3 is passive and does not address the threat effectively. Capturing on g3 opens the h-file and enhances Black's attacking prospects.",
+    "supported_side": "Positional",
+    "source_agent": "moderator",
+    "source_agents": [
+      "moderator"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 397,
+      "completion_tokens": 313,
+      "total_tokens": 710,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 397,
+      "completion_tokens": 309,
+      "total_tokens": 706,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 794,
+    "total_completion_tokens": 622,
+    "total_tokens": 1416
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 77,
+      "turn_number": 39,
+      "is_white_to_move": false,
+      "prompt_tokens": 397,
+      "completion_tokens": 313,
+      "total_tokens": 710,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 77,
+      "turn_number": 39,
+      "is_white_to_move": false,
+      "prompt_tokens": 397,
+      "completion_tokens": 309,
+      "total_tokens": 706,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "moderator",
+      "role": "moderator_round1",
+      "round": 1,
+      "ply_index": 77,
+      "turn_number": 39,
+      "is_white_to_move": false,
+      "prompt_tokens": 2111,
+      "completion_tokens": 412,
+      "total_tokens": 2523,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": "{\"Whether there is a preference\": \"Yes\", \"Supported Side\": \"Positional\", \"Reason\": \"The positional side's move 39...hxg3 is more consistent with opening lines and increasing pressure on White's kingside, which aligns with the strategic plan of exploiting weaknesses and creating attacking chances. The aggressive side's 39.Kh3 is passive and does not address the threat effectively. Capturing on g3 opens the h-file and enhances Black's attacking prospects.\", \"debate_answer\": \"1. d4 g6 2. Bf4 Bg7 3. Nf3 Nc6 4. e3 d6 5. c3 e5 6. dxe5 Nxe5 7. Nxe5 dxe5 8. Qxd8+ Kxd8 9. Bg3 Ke7 10. Nd2 Be6 11. Nf3 f6 12. a3 Rd8 13. Be2 Nh6 14. Bh4 Nf5 15. Bg3 Nxg3 16. hxg3 h5 17. O-O g5 18. Rfd1 c6 19. Nd2 f5 20. Bc4 b5 21. Bxe6 Kxe6 22. Nb3 Rd5 23. Rxd5 cxd5 24. Nc5+ Kd6 25. Nb7+ Kc6 26. Na5+ Kb6 27. Nb3 a5 28. Rd1 Rd8 29. Nd2 Bf6 30. f4 a4 31. Nf3 gxf4 32. gxf4 e4 33. Nd4 Bxd4 34. Rxd4 Kc5 35. Kh2 Rg8 36. Kh3 Kd6 37. g3 Rg4 38. Kg2 h4 39. Kh3 hxg3\"}"
+  }
+}

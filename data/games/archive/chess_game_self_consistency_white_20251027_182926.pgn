@@ -1,0 +1,15 @@
+[Event "LLM vs Stockfish"]
+[Site "Chess Game Engine"]
+[Date "2025.10.27"]
+[Round "?"]
+[White "Model"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Model "gpt-3.5-turbo-instruct"]
+[Approach "self_consistency"]
+[Opponent "Stockfish"]
+[FallbackMoves "0"]
+[TotalMoves "221"]
+[StockfishSkill "4"]
+
+1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Nb8 5. Nxe4 Bf5 6. Ng3 Bc8 7. Nf3 c6 8. Bc4 g6 9. O-O Nf6 10. dxc6 Nxc6 11. Qxd8+ Nxd8 12. Ne5 Nd7 13. Bb5 a6 14. Bxd7+ Bxd7 15. Nxd7 Kxd7 16. Rd1+ Kc8 17. Ne4 Bg7 18. Bg5 Bxb2 19. Bxe7 Bxa1 20. Nd6+ Kc7 21. Rxa1 Nc6 22. Nxf7 Rhe8 23. Bd6+ Kd7 24. Rd1 b5 25. Bc5+ Ke6 26. Ng5+ Kf5 27. Rd5+ Re5 28. g4+ Kxg5 29. Be3+ Kh4 30. Rxe5 Nxe5 31. Kg2 Nxg4 32. Bf4 Kh5 33. Kg3 Rc8 34. h3 Ne3 35. Bxe3 Rc4 36. a3 Rc3 37. Kf4 g5+ 38. Kf5 a5 39. Bxg5 a4 40. Be7 Rf3+ 41. Ke4 Rxh3 42. f4 Rc3 43. f5 Rxc2 44. f6 Kg6 45. Ke5 h5 46. Ke6 Re2+ 47. Kd7 Kf7 48. Kc6 Rxe7 49. fxe7 Kxe7 50. Kxb5 Ke6 51. Kxa4 Kd7 52. Kb5 Kd8 53. a4 Kc7 54. a5 Kb7 55. a6+ Kb8 56. Kc4 h4 57. Kd3 h3 58. Ke2 h2 59. Kf2 h1=Q 60. a7+ Kxa7 61. Ke3 Qh2 62. Kd4 Qc7 63. Kd5 Qa5+ 64. Kc6 Qd8 65. Kc5 Qe7+ 66. Kc6 Qd8 67. Kc5 Qh4 68. Kd5 Qh2 69. Kc6 Qh3 70. Kd5 Qh6 71. Kc5 Kb7 72. Kd5 Qh1+ 73. Kc5 Qh6 74. Kd4 Qh8+ 75. Kd5 Ka6 76. Kc6 Qd8 77. Kc5 Qa5+ 78. Kc6 Qc3+ 79. Kd5 Qd2+ 80. Kc4 Qg2 81. Kd4 Qg7+ 82. Kc5 Qg2 83. Kd6 Qg3+ 84. Kc5 Qg7 85. Kd6 Qg2 86. Kc5 Qg1+ 87. Kc6 Qg2+ 88. Kc7 Qg3+ 89. Kc6 Qg2+ 90. Kc5 Qc2+ 91. Kd4 Qc8 92. Kd5 Qg8+ 93. Kc6 Qd8 94. Kc5 Qg5+ 95. Kc6 Qh5 96. Kd6 Ka5 97. Kc6 Qf5 98. Kd6 Qh5 99. Kc6 Qf5 100. Kd6 Qf2 101. Kc6 Qb6+ 102. Kd5 Qb2 103. Kc4 Qc2+ 104. Kd5 Qh2 105. Kc4 Ka6 106. Kc5 Qg2 107. Kc4 Qb7 108. Kc5 Qh7 109. Kc4 Qd7 110. Kc5 Qd5+ 111. Kxd5 1/2-1/2

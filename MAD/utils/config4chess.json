@@ -1,0 +1,13 @@
+{
+    "debate_topic": "",
+    "base_answer": "",
+    "debate_answer": "",
+    "player_meta_prompt": "You are a chess grandmaster.\n\nYou will be given a partially completed game.\n\nAfter seeing it, you should repeat the ENTIRE GAME and then give ONE new move.\n\nUse standard algebraic notation, e.g. \"e4\" or \"Rdf8\" or \"R1a3\".\n\nALWAYS repeat the entire representation of the game so far.\n\nNEVER explain your choice.\n",
+    "moderator_meta_prompt": "You are a chess grandmaster.\n\nYou will be given a partially completed game.\n\nAfter seeing it, you should repeat the ENTIRE GAME and then give ONE new move.\n\nUse standard algebraic notation, e.g. \"e4\" or \"Rdf8\" or \"R1a3\".\n\nALWAYS repeat the entire representation of the game so far.\n\nNEVER explain your choice.\n",
+    "affirmative_prompt": "##debate_topic##",
+    "negative_prompt": "##aff_ans##\n\nYou disagree with my move. Provide your move and reasons.",
+    "moderator_prompt": "Now the ##round## round of debate for both sides has ended.\n\nAggressive side arguing:\n##aff_ans##\n\nPositional side arguing: ##neg_ans##\n\nYou, as the moderator, will evaluate both sides' answers and determine if there is a clear preference for an answer candidate. If so, please summarize your reasons for supporting aggressive/positional side and give the final answer that you think is correct, and the debate will conclude. If not, the debate will continue to the next round. Now please output your answer in json format, with the format as follows: {\"Whether there is a preference\": \"Yes or No\", \"Supported Side\": \"Aggressive or Positional\", \"Reason\": \"\", \"debate_answer\": \"\"}. Please strictly output in JSON format, do not output irrelevant content.",
+    "judge_prompt_last1": "Aggressive side arguing: ##aff_ans##\n\nPositional side arguing: ##neg_ans##\n\nNow, what answer candidates do we have? Present them without reasons.",
+    "judge_prompt_last2": "Therefore, ##debate_topic##\nPlease summarize your reasons and give the final answer that you think is correct. Now please output your answer in json format, with the format as follows: {\"Reason\": \"\", \"debate_answer\": \"\"}. Please strictly output in JSON format, do not output irrelevant content.",
+    "debate_prompt": "##oppo_ans##\n\nDo you agree with my perspective? Please provide your reasons and answer."
+}

@@ -1,0 +1,94 @@
+{
+  "round1": {
+    "affirmative_move": "Kxf7",
+    "negative_move": "Rxf7",
+    "affirmative_response": "1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Nf6 5. Bb5+ c6 6. Ba4 Be7 7. Bf4 O-O 8. O-O Bd6 9. Ne5 Nbd7 10. Nxf7 Kxf7",
+    "negative_response": "1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Nf6 5. Bb5+ c6 6. Ba4 Be7 7. Bf4 O-O 8. O-O Bd6 9. Ne5 Nbd7 10. Nxf7 Rxf7",
+    "moderator_response": {
+      "Whether there is a preference": "Yes",
+      "Supported Side": "Aggressive",
+      "Reason": "After 10. Nxf7, the correct recapture by Black is Kxf7, not Rxf7. The rook cannot capture on f7 because it is not on a square to do so, and the king must recapture to maintain material balance and proper position.",
+      "debate_answer": "1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Nf6 5. Bb5+ c6 6. Ba4 Be7 7. Bf4 O-O 8. O-O Bd6 9. Ne5 Nbd7 10. Nxf7 Kxf7"
+    }
+  },
+  "final_result": {
+    "final_move_san": "Kxf7",
+    "final_move_uci": "g8f7",
+    "success": true,
+    "reason": "After 10. Nxf7, the correct recapture by Black is Kxf7, not Rxf7. The rook cannot capture on f7 because it is not on a square to do so, and the king must recapture to maintain material balance and proper position.",
+    "supported_side": "Aggressive",
+    "source_agent": "moderator",
+    "source_agents": [
+      "moderator"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 165,
+      "completion_tokens": 78,
+      "total_tokens": 243,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 165,
+      "completion_tokens": 78,
+      "total_tokens": 243,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 330,
+    "total_completion_tokens": 156,
+    "total_tokens": 486
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 19,
+      "turn_number": 10,
+      "is_white_to_move": false,
+      "prompt_tokens": 165,
+      "completion_tokens": 78,
+      "total_tokens": 243,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 19,
+      "turn_number": 10,
+      "is_white_to_move": false,
+      "prompt_tokens": 165,
+      "completion_tokens": 78,
+      "total_tokens": 243,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "moderator",
+      "role": "moderator_round1",
+      "round": 1,
+      "ply_index": 19,
+      "turn_number": 10,
+      "is_white_to_move": false,
+      "prompt_tokens": 400,
+      "completion_tokens": 163,
+      "total_tokens": 563,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": "{\"Whether there is a preference\": \"Yes\", \"Supported Side\": \"Aggressive\", \"Reason\": \"After 10. Nxf7, the correct recapture by Black is Kxf7, not Rxf7. The rook cannot capture on f7 because it is not on a square to do so, and the king must recapture to maintain material balance and proper position.\", \"debate_answer\": \"1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Nf6 5. Bb5+ c6 6. Ba4 Be7 7. Bf4 O-O 8. O-O Bd6 9. Ne5 Nbd7 10. Nxf7 Kxf7\"}"
+  }
+}

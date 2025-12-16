@@ -1,0 +1,9 @@
+[Event "Model vs Model Tournament"]
+[Site "Chess Tournament Engine"]
+[Date "2025.11.29"]
+[Round "?"]
+[White "deepseek-ai/deepseek-v3"]
+[Black "gpt-3.5-turbo-instruct"]
+[Result "0-1"]
+
+1. e4 e5 2. b4 Nf6 3. b5 Nxe4 4. Nc3 Nxc3 5. dxc3 d5 6. Bd3 e4 7. Bxe4 dxe4 8. Qd2 Ke7 9. Qxd8+ Kxd8 10. Kd1 Ke7 11. Bh6 gxh6 12. Ke2 Bg7 13. Ke3 f5 14. f4 Ke6 15. Rc1 Bxc3 16. Ra1 Bxa1 17. c4 Bc3 18. Kf2 Nc6 19. Nf3 Nd4 20. Nxd4+ Bxd4+ 21. Ke2 Bc5 22. g4 fxg4 23. Rd1 Kf5 24. Rd5+ Kxf4 25. a4 Be6 26. Rd6 Bxd6 27. c5 Bxc5 28. a5 Bc4+ 29. Ke1 Bb4+ 30. Kd1 Bxb5 31. Kc1 Bxa5 32. Kc2 Bd3+ 33. Kb3 c5 34. Kb2 c4 35. Kc1 c3 36. h3 c2 37. Kb2 c1=Q+ 38. Kb3 Qc2+ 39. Ka3 Qc3+ 40. Ka4 Qb4# 0-1

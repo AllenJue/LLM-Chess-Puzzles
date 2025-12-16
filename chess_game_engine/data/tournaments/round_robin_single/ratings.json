@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-29T21:52:51.912480",
+  "method": "Bradley-Terry",
+  "ratings": {
+    "Stockfish": 1980.090868889346,
+    "deepseek-ai/deepseek-v3": 1180.090868889346,
+    "gpt-3.5-turbo-instruct": 1979.636524442616,
+    "meta-llama/llama-3.3-70b-instruct": 1180.090868889346,
+    "mistralai/mistral-small-24b-instruct-2501": 1180.090868889346
+  },
+  "beta": {
+    "Stockfish": 0.0,
+    "deepseek-ai/deepseek-v3": -957.1670114678633,
+    "gpt-3.5-turbo-instruct": -0.5436043953169669,
+    "meta-llama/llama-3.3-70b-instruct": -957.1670114678633,
+    "mistralai/mistral-small-24b-instruct-2501": -957.1670114678633
+  },
+  "game_history": [
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_8",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_2",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_7",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_1",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_5",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_3",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_6",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_4",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0
+    }
+  ]
+}

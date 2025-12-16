@@ -1,0 +1,94 @@
+{
+  "round1": {
+    "affirmative_move": "Rc1",
+    "negative_move": "Rb5",
+    "affirmative_response": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Bc5 5. O-O O-O 6. a3 a5 7. Qe2 h6 8. d3 d6 9. h3 Be6 10. Nd5 Bxd5 11. exd5 Nd4 12. Nxd4 Bxd4 13. c3 Ba7 14. Be3 c6 15. Bxa7 Rxa7 16. dxc6 bxc6 17. Qe3 Re7 18. Qf3 d5 19. Bb3 e4 20. dxe4 dxe4 21. Qd1 Qb6 22. Rb1 e3 23. fxe3 Qxe3+ 24. Kh1 Rd7 25. Qf3 Qg5 26. Qxc6 Rd2 27. Rfd1 Nh5 28. Rxd2 Qxd2 29. Qf3 Nf4 30. Bc4 Ne6 31. Rf1 Ng5 32. Qf2 Qd7 33. b3 Ne4 34. Qf3 Ng5 35. Qf5 Qxf5 36. Rxf5 Ne4 37. Rxa5 Nxc3 38. b4 Ne4 39. b5 Rb8 40. Ra7 Nd6 41. Ba2 Rxb5 42. a4 Rb2 43. Bd5 Rd2 44. Bf3 Ra2 45. a5 Nb5 46. Ra8+ Kh7 47. a6 Kg6 48. Bd5 Ra1+ 49. Kh2 f6 50. Bb7 h5 51. Rc8 h4 52. Rc5 Nd6 53. Rd5 Nf5 54. Rb5 Rc1",
+    "negative_response": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Bc5 5. O-O O-O 6. a3 a5 7. Qe2 h6 8. d3 d6 9. h3 Be6 10. Nd5 Bxd5 11. exd5 Nd4 12. Nxd4 Bxd4 13. c3 Ba7 14. Be3 c6 15. Bxa7 Rxa7 16. dxc6 bxc6 17. Qe3 Re7 18. Qf3 d5 19. Bb3 e4 20. dxe4 dxe4 21. Qd1 Qb6 22. Rb1 e3 23. fxe3 Qxe3+ 24. Kh1 Rd7 25. Qf3 Qg5 26. Qxc6 Rd2 27. Rfd1 Nh5 28. Rxd2 Qxd2 29. Qf3 Nf4 30. Bc4 Ne6 31. Rf1 Ng5 32. Qf2 Qd7 33. b3 Ne4 34. Qf3 Ng5 35. Qf5 Qxf5 36. Rxf5 Ne4 37. Rxa5 Nxc3 38. b4 Ne4 39. b5 Rb8 40. Ra7 Nd6 41. Ba2 Rxb5 42. a4 Rb2 43. Bd5 Rd2 44. Bf3 Ra2 45. a5 Nb5 46. Ra8+ Kh7 47. a6 Kg6 48. Bd5 Ra1+ 49. Kh2 f6 50. Bb7 h5 51. Rc8 h4 52. Rc5 Nd6 53. Rd5 Nf5 54. Rb5 \n\n55. Be4",
+    "moderator_response": {
+      "Whether there is a preference": "Yes",
+      "Supported Side": "Positional",
+      "Reason": "The positional side's move 55. Be4 improves piece activity and targets weaknesses in the aggressive side's position, maintaining pressure and control over key squares. The aggressive side's last move 54...Rc1 was met effectively by 55. Be4, which consolidates the position and prepares for further infiltration, showing a clear strategic advantage.",
+      "debate_answer": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Bc5 5. O-O O-O 6. a3 a5 7. Qe2 h6 8. d3 d6 9. h3 Be6 10. Nd5 Bxd5 11. exd5 Nd4 12. Nxd4 Bxd4 13. c3 Ba7 14. Be3 c6 15. Bxa7 Rxa7 16. dxc6 bxc6 17. Qe3 Re7 18. Qf3 d5 19. Bb3 e4 20. dxe4 dxe4 21. Qd1 Qb6 22. Rb1 e3 23. fxe3 Qxe3+ 24. Kh1 Rd7 25. Qf3 Qg5 26. Qxc6 Rd2 27. Rfd1 Nh5 28. Rxd2 Qxd2 29. Qf3 Nf4 30. Bc4 Ne6 31. Rf1 Ng5 32. Qf2 Qd7 33. b3 Ne4 34. Qf3 Ng5 35. Qf5 Qxf5 36. Rxf5 Ne4 37. Rxa5 Nxc3 38. b4 Ne4 39. b5 Rb8 40. Ra7 Nd6 41. Ba2 Rxb5 42. a4 Rb2 43. Bd5 Rd2 44. Bf3 Ra2 45. a5 Nb5 46. Ra8+ Kh7 47. a6 Kg6 48. Bd5 Ra1+ 49. Kh2 f6 50. Bb7 h5 51. Rc8 h4 52. Rc5 Nd6 53. Rd5 Nf5 54. Rb5 Rc1 55. Be4"
+    }
+  },
+  "final_result": {
+    "final_move_san": "Rc1",
+    "final_move_uci": "a1c1",
+    "success": true,
+    "reason": "The positional side's move 55. Be4 improves piece activity and targets weaknesses in the aggressive side's position, maintaining pressure and control over key squares. The aggressive side's last move 54...Rc1 was met effectively by 55. Be4, which consolidates the position and prepares for further infiltration, showing a clear strategic advantage.",
+    "supported_side": "Positional",
+    "source_agent": "moderator",
+    "source_agents": [
+      "moderator"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 517,
+      "completion_tokens": 426,
+      "total_tokens": 943,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 517,
+      "completion_tokens": 429,
+      "total_tokens": 946,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 1034,
+    "total_completion_tokens": 855,
+    "total_tokens": 1889
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 107,
+      "turn_number": 54,
+      "is_white_to_move": false,
+      "prompt_tokens": 517,
+      "completion_tokens": 426,
+      "total_tokens": 943,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 107,
+      "turn_number": 54,
+      "is_white_to_move": false,
+      "prompt_tokens": 517,
+      "completion_tokens": 429,
+      "total_tokens": 946,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "moderator",
+      "role": "moderator_round1",
+      "round": 1,
+      "ply_index": 107,
+      "turn_number": 54,
+      "is_white_to_move": false,
+      "prompt_tokens": 1099,
+      "completion_tokens": 529,
+      "total_tokens": 1628,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": "{\"Whether there is a preference\": \"Yes\", \"Supported Side\": \"Positional\", \"Reason\": \"The positional side's move 55. Be4 improves piece activity and targets weaknesses in the aggressive side's position, maintaining pressure and control over key squares. The aggressive side's last move 54...Rc1 was met effectively by 55. Be4, which consolidates the position and prepares for further infiltration, showing a clear strategic advantage.\", \"debate_answer\": \"1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Bc5 5. O-O O-O 6. a3 a5 7. Qe2 h6 8. d3 d6 9. h3 Be6 10. Nd5 Bxd5 11. exd5 Nd4 12. Nxd4 Bxd4 13. c3 Ba7 14. Be3 c6 15. Bxa7 Rxa7 16. dxc6 bxc6 17. Qe3 Re7 18. Qf3 d5 19. Bb3 e4 20. dxe4 dxe4 21. Qd1 Qb6 22. Rb1 e3 23. fxe3 Qxe3+ 24. Kh1 Rd7 25. Qf3 Qg5 26. Qxc6 Rd2 27. Rfd1 Nh5 28. Rxd2 Qxd2 29. Qf3 Nf4 30. Bc4 Ne6 31. Rf1 Ng5 32. Qf2 Qd7 33. b3 Ne4 34. Qf3 Ng5 35. Qf5 Qxf5 36. Rxf5 Ne4 37. Rxa5 Nxc3 38. b4 Ne4 39. b5 Rb8 40. Ra7 Nd6 41. Ba2 Rxb5 42. a4 Rb2 43. Bd5 Rd2 44. Bf3 Ra2 45. a5 Nb5 46. Ra8+ Kh7 47. a6 Kg6 48. Bd5 Ra1+ 49. Kh2 f6 50. Bb7 h5 51. Rc8 h4 52. Rc5 Nd6 53. Rd5 Nf5 54. Rb5 Rc1 55. Be4\"}"
+  }
+}

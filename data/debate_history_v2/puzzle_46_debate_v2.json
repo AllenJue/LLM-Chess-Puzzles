@@ -1,0 +1,94 @@
+{
+  "round1": {
+    "affirmative_move": "Qxd5",
+    "negative_move": "Re8",
+    "affirmative_response": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Bc5 7. Nb3 Bb6 8. Be2 d5 9. exd5 exd5 10. Bg5 O-O 11. Nxd5 Qxd5",
+    "negative_response": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Bc5 7. Nb3 Bb6 8. Be2 d5 9. exd5 exd5 10. Bg5 O-O 11. Nxd5 Re8",
+    "moderator_response": {
+      "Whether there is a preference": "Yes",
+      "Supported Side": "Positional",
+      "Reason": "The move 11...Re8 is more precise than 11...Qxd5 because it avoids exchanging queens prematurely and maintains better control over the center and potential tactical threats. It also keeps more tension in the position, which is generally favorable for the side aiming for a positional advantage.",
+      "debate_answer": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Bc5 7. Nb3 Bb6 8. Be2 d5 9. exd5 exd5 10. Bg5 O-O 11. Nxd5 Re8"
+    }
+  },
+  "final_result": {
+    "final_move_san": "Re8",
+    "final_move_uci": "f8e8",
+    "success": true,
+    "reason": "The move 11...Re8 is more precise than 11...Qxd5 because it avoids exchanging queens prematurely and maintains better control over the center and potential tactical threats. It also keeps more tension in the position, which is generally favorable for the side aiming for a positional advantage.",
+    "supported_side": "Positional",
+    "source_agent": "moderator",
+    "source_agents": [
+      "moderator"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 172,
+      "completion_tokens": 85,
+      "total_tokens": 257,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 172,
+      "completion_tokens": 84,
+      "total_tokens": 256,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 344,
+    "total_completion_tokens": 169,
+    "total_tokens": 513
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 21,
+      "turn_number": 11,
+      "is_white_to_move": false,
+      "prompt_tokens": 172,
+      "completion_tokens": 85,
+      "total_tokens": 257,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 21,
+      "turn_number": 11,
+      "is_white_to_move": false,
+      "prompt_tokens": 172,
+      "completion_tokens": 84,
+      "total_tokens": 256,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "moderator",
+      "role": "moderator_round1",
+      "round": 1,
+      "ply_index": 21,
+      "turn_number": 11,
+      "is_white_to_move": false,
+      "prompt_tokens": 413,
+      "completion_tokens": 170,
+      "total_tokens": 583,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": "{\"Whether there is a preference\": \"Yes\", \"Supported Side\": \"Positional\", \"Reason\": \"The move 11...Re8 is more precise than 11...Qxd5 because it avoids exchanging queens prematurely and maintains better control over the center and potential tactical threats. It also keeps more tension in the position, which is generally favorable for the side aiming for a positional advantage.\", \"debate_answer\": \"1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Bc5 7. Nb3 Bb6 8. Be2 d5 9. exd5 exd5 10. Bg5 O-O 11. Nxd5 Re8\"}"
+  }
+}

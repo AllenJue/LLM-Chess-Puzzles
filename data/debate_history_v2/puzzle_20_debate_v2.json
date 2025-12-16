@@ -1,0 +1,94 @@
+{
+  "round1": {
+    "affirmative_move": "cxb4",
+    "negative_move": "bxc6",
+    "affirmative_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O a6 5. Ba4 b5 6. Bb3 d6 7. d3 h6 8. c3 Nf6 9. Nbd2 O-O 10. Bd5 Nxd5 11. exd5 Ne7 12. c4 Bg4 13. Qc2 Ng6 14. a3 a5 15. h3 Bd7 16. Ne4 Bb6 17. Qb3 bxc4 18. dxc4 f5 19. Ng3 e4 20. Nh2 Qe7 21. Be3 Bxe3 22. Qxe3 f4 23. Qxe4 fxg3 24. Qxe7 Nxe7 25. fxg3 Rxf1+ 26. Rxf1 Rf8 27. Re1 Re8 28. Nf3 Nf5 29. Rxe8+ Bxe8 30. g4 Ne3 31. Nd2 Bg6 32. Kf2 Nc2 33. g3 Kf7 34. h4 Kf6 35. Kf3 Ke5 36. a4 Nd4+ 37. Ke3 Be8 38. b3 Bg6 39. h5 Bc2 40. b4 axb4 41. a5 Ba4 42. a6 Bc6 43. dxc6 Nxc6 44. Nf3+ Ke6 45. Nd4+ Kd7 46. Nxc6 cxb4\n\n47. Nxb4 Nxb4 48. a7 Nc6 49. a8=Q Ne5 50. Qd5 Nxg4+",
+    "negative_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O a6 5. Ba4 b5 6. Bb3 d6 7. d3 h6 8. c3 Nf6 9. Nbd2 O-O 10. Bd5 Nxd5 11. exd5 Ne7 12. c4 Bg4 13. Qc2 Ng6 14. a3 a5 15. h3 Bd7 16. Ne4 Bb6 17. Qb3 bxc4 18. dxc4 f5 19. Ng3 e4 20. Nh2 Qe7 21. Be3 Bxe3 22. Qxe3 f4 23. Qxe4 fxg3 24. Qxe7 Nxe7 25. fxg3 Rxf1+ 26. Rxf1 Rf8 27. Re1 Re8 28. Nf3 Nf5 29. Rxe8+ Bxe8 30. g4 Ne3 31. Nd2 Bg6 32. Kf2 Nc2 33. g3 Kf7 34. h4 Kf6 35. Kf3 Ke5 36. a4 Nd4+ 37. Ke3 Be8 38. b3 Bg6 39. h5 Bc2 40. b4 axb4 41. a5 Ba4 42. a6 Bc6 43. dxc6 Nxc6 44. Nf3+ Ke6 45. Nd4+ Kd7 46. Nxc6 bxc6\n\n47. a7",
+    "moderator_response": {
+      "Whether there is a preference": "Yes",
+      "Supported Side": "Aggressive",
+      "Reason": "The aggressive side's continuation with 46...cxb4 is more precise and maintains active play by opening lines and creating immediate threats, whereas the positional side's 46...bxc6 is less challenging and allows White to consolidate. The aggressive move leads to a more dynamic position favoring Black's counterplay.",
+      "debate_answer": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O a6 5. Ba4 b5 6. Bb3 d6 7. d3 h6 8. c3 Nf6 9. Nbd2 O-O 10. Bd5 Nxd5 11. exd5 Ne7 12. c4 Bg4 13. Qc2 Ng6 14. a3 a5 15. h3 Bd7 16. Ne4 Bb6 17. Qb3 bxc4 18. dxc4 f5 19. Ng3 e4 20. Nh2 Qe7 21. Be3 Bxe3 22. Qxe3 f4 23. Qxe4 fxg3 24. Qxe7 Nxe7 25. fxg3 Rxf1+ 26. Rxf1 Rf8 27. Re1 Re8 28. Nf3 Nf5 29. Rxe8+ Bxe8 30. g4 Ne3 31. Nd2 Bg6 32. Kf2 Nc2 33. g3 Kf7 34. h4 Kf6 35. Kf3 Ke5 36. a4 Nd4+ 37. Ke3 Be8 38. b3 Bg6 39. h5 Bc2 40. b4 axb4 41. a5 Ba4 42. a6 Bc6 43. dxc6 Nxc6 44. Nf3+ Ke6 45. Nd4+ Kd7 46. Nxc6 cxb4 47. Nxb4 Nxb4 48. a7 Nc6 49. a8=Q Ne5 50. Qd5 Nxg4+"
+    }
+  },
+  "final_result": {
+    "final_move_san": "cxb4",
+    "final_move_uci": null,
+    "success": true,
+    "reason": "The aggressive side's continuation with 46...cxb4 is more precise and maintains active play by opening lines and creating immediate threats, whereas the positional side's 46...bxc6 is less challenging and allows White to consolidate. The aggressive move leads to a more dynamic position favoring Black's counterplay.",
+    "supported_side": "Aggressive",
+    "source_agent": "moderator",
+    "source_agents": [
+      "moderator"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 453,
+      "completion_tokens": 399,
+      "total_tokens": 852,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 453,
+      "completion_tokens": 369,
+      "total_tokens": 822,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 906,
+    "total_completion_tokens": 768,
+    "total_tokens": 1674
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 91,
+      "turn_number": 46,
+      "is_white_to_move": false,
+      "prompt_tokens": 453,
+      "completion_tokens": 399,
+      "total_tokens": 852,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 91,
+      "turn_number": 46,
+      "is_white_to_move": false,
+      "prompt_tokens": 453,
+      "completion_tokens": 369,
+      "total_tokens": 822,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "moderator",
+      "role": "moderator_round1",
+      "round": 1,
+      "ply_index": 91,
+      "turn_number": 46,
+      "is_white_to_move": false,
+      "prompt_tokens": 1011,
+      "completion_tokens": 491,
+      "total_tokens": 1502,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": "{\"Whether there is a preference\": \"Yes\", \"Supported Side\": \"Aggressive\", \"Reason\": \"The aggressive side's continuation with 46...cxb4 is more precise and maintains active play by opening lines and creating immediate threats, whereas the positional side's 46...bxc6 is less challenging and allows White to consolidate. The aggressive move leads to a more dynamic position favoring Black's counterplay.\", \"debate_answer\": \"1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O a6 5. Ba4 b5 6. Bb3 d6 7. d3 h6 8. c3 Nf6 9. Nbd2 O-O 10. Bd5 Nxd5 11. exd5 Ne7 12. c4 Bg4 13. Qc2 Ng6 14. a3 a5 15. h3 Bd7 16. Ne4 Bb6 17. Qb3 bxc4 18. dxc4 f5 19. Ng3 e4 20. Nh2 Qe7 21. Be3 Bxe3 22. Qxe3 f4 23. Qxe4 fxg3 24. Qxe7 Nxe7 25. fxg3 Rxf1+ 26. Rxf1 Rf8 27. Re1 Re8 28. Nf3 Nf5 29. Rxe8+ Bxe8 30. g4 Ne3 31. Nd2 Bg6 32. Kf2 Nc2 33. g3 Kf7 34. h4 Kf6 35. Kf3 Ke5 36. a4 Nd4+ 37. Ke3 Be8 38. b3 Bg6 39. h5 Bc2 40. b4 axb4 41. a5 Ba4 42. a6 Bc6 43. dxc6 Nxc6 44. Nf3+ Ke6 45. Nd4+ Kd7 46. Nxc6 cxb4 47. Nxb4 Nxb4 48. a7 Nc6 49. a8=Q Ne5 50. Qd5 Nxg4+\"}"
+  }
+}

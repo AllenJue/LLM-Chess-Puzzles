@@ -1,0 +1,2282 @@
+{
+  "timestamp": "2025-12-01T17:32:07.846260",
+  "method": "Bradley-Terry",
+  "ratings": {
+    "Stockfish": 1871.482349238008,
+    "deepseek-ai/deepseek-v3": 1073.089786022066,
+    "gpt-3.5-turbo-instruct": 1678.3086152644921,
+    "gpt-3.5-turbo-instruct_SC": 1726.2863271894166,
+    "gpt-3.5-turbo-instruct_SC_plan3": 1735.1334283351518,
+    "gpt-3.5-turbo-instruct_plan3": 1711.9162273574284,
+    "meta-llama/llama-3.3-70b-instruct": 1071.482349238008,
+    "mistralai/mistral-small-24b-instruct-2501": 1132.3009173554285
+  },
+  "beta": {
+    "Stockfish": 0.0,
+    "deepseek-ai/deepseek-v3": -1.1490845909666054,
+    "gpt-3.5-turbo-instruct": -0.2780248355449827,
+    "gpt-3.5-turbo-instruct_SC": -0.20897302817255559,
+    "gpt-3.5-turbo-instruct_SC_plan3": -0.1962398589652447,
+    "gpt-3.5-turbo-instruct_plan3": -0.229655160056496,
+    "meta-llama/llama-3.3-70b-instruct": -1.1513980905213528,
+    "mistralai/mistral-small-24b-instruct-2501": -1.063865111523052
+  },
+  "game_history": [
+    {
+      "game_id": "Stockfish_vs_deepseek-ai_deepseek-v3_62",
+      "white_player": "Stockfish",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_deepseek-ai_deepseek-v3_64",
+      "white_player": "Stockfish",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_deepseek-ai_deepseek-v3_66",
+      "white_player": "Stockfish",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_deepseek-ai_deepseek-v3_68",
+      "white_player": "Stockfish",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_deepseek-ai_deepseek-v3_70",
+      "white_player": "Stockfish",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_Stockfish_61",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_Stockfish_63",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_Stockfish_65",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_Stockfish_67",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_Stockfish_69",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_32",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_34",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_36",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_38",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_40",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_10",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_2",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_4",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_6",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_8",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_plan3_10",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_plan3_2",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_plan3_4",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_plan3_6",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_SC_plan3_8",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_plan3_10",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_plan3_2",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_plan3_4",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_plan3_6",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_gpt-3.5-turbo-instruct_plan3_8",
+      "white_player": "Stockfish",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_31",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "Stockfish",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_33",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_35",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_37",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_39",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "Stockfish",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_SC_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_Stockfish_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_100",
+      "white_player": "Stockfish",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_92",
+      "white_player": "Stockfish",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_94",
+      "white_player": "Stockfish",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_96",
+      "white_player": "Stockfish",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_98",
+      "white_player": "Stockfish",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_91",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_93",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_95",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_97",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_99",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_82",
+      "white_player": "Stockfish",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_84",
+      "white_player": "Stockfish",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_86",
+      "white_player": "Stockfish",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_88",
+      "white_player": "Stockfish",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_90",
+      "white_player": "Stockfish",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_81",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_83",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_85",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_87",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_89",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "Stockfish",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_10",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_2",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_4",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_6",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_8",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_10",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_2",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_4",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_6",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_8",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_plan3_10",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_plan3_2",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_plan3_4",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_plan3_6",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_SC_plan3_8",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_plan3_10",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_plan3_2",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_plan3_4",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_plan3_6",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_plan3_8",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_1",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_3",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_5",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_7",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_9",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_SC_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_51",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_53",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_55",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_57",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_59",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_52",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_54",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_56",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_58",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_60",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_41",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_43",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_45",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_47",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_49",
+      "white_player": "deepseek-ai/deepseek-v3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_42",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_44",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_46",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_48",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_50",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "deepseek-ai/deepseek-v3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_plan3_10",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_plan3_2",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_plan3_4",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_plan3_6",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_plan3_8",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_SC_10",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_SC_2",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_SC_4",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_SC_6",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_SC_8",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_SC_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_SC_plan3_11",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_SC_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_SC_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.5,
+      "black_score": 0.5,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_SC_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_SC_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_10",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_2",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_4",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_6",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_SC_8",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_10",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_2",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_4",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_6",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_vs_gpt-3.5-turbo-instruct_8",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.5,
+      "black_score": 0.5,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_1",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_11",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_3",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_5",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_7",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_9",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_10",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_2",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_4",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_6",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_SC_plan3_vs_gpt-3.5-turbo-instruct_8",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_10",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_2",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_4",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_6",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_plan3_vs_gpt-3.5-turbo-instruct_8",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_gpt-3.5-turbo-instruct_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_21",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_23",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_25",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_27",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_29",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_SC_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_22",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_24",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_26",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_28",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_30",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_10",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_2",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_4",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_6",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_8",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_10",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_2",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_4",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_6",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_SC_plan3_8",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_plan3_10",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_plan3_2",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_plan3_4",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_plan3_6",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_plan3_8",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_11",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_13",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_15",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_17",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_19",
+      "white_player": "gpt-3.5-turbo-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_SC_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_plan3_1",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_plan3_3",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_plan3_5",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_plan3_7",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_plan3_9",
+      "white_player": "gpt-3.5-turbo-instruct_plan3",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_12",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_14",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_16",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_18",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_20",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_10",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_2",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_4",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_6",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_8",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_plan3_10",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_plan3_2",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_plan3_4",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_plan3_6",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_SC_plan3_8",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_SC_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "SC_plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_plan3_10",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_plan3_2",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_plan3_4",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_plan3_6",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_plan3_8",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "gpt-3.5-turbo-instruct_plan3",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "plan3"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_72",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_74",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_76",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_78",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_80",
+      "white_player": "meta-llama/llama-3.3-70b-instruct",
+      "black_player": "mistralai/mistral-small-24b-instruct-2501",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_71",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_73",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_75",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_77",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 0.0,
+      "black_score": 1.0,
+      "configuration": "single"
+    },
+    {
+      "game_id": "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_79",
+      "white_player": "mistralai/mistral-small-24b-instruct-2501",
+      "black_player": "meta-llama/llama-3.3-70b-instruct",
+      "white_score": 1.0,
+      "black_score": 0.0,
+      "configuration": "single"
+    }
+  ]
+}

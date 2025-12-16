@@ -1,0 +1,14 @@
+[Event "LLM vs Random"]
+[Site "Chess Game Engine"]
+[Date "2025.10.27"]
+[Round "?"]
+[White "Model"]
+[Black "Random"]
+[Result "1-0"]
+[Model "gpt-3.5-turbo-instruct"]
+[Approach "single_model"]
+[Opponent "Random"]
+[FallbackMoves "0"]
+[TotalMoves "57"]
+
+1. e4 h6 2. d4 b6 3. Nf3 h5 4. Nc3 d6 5. Bc4 Be6 6. Bxe6 c6 7. Ng5 Nf6 8. Bxf7+ Kd7 9. Be6+ Ke8 10. Bf7+ Kd7 11. e5 Ng4 12. Be6+ Ke8 13. Bf7+ Kd7 14. Be6+ Ke8 15. Bf7+ Kd7 16. Be6+ Kc7 17. Nf7 d5 18. Nxd8 h4 19. Nxd5+ cxd5 20. Bxd5 b5 21. Ne6+ Kb6 22. Bxa8 Rh6 23. Qxg4 g6 24. Bxh6 a5 25. Nxf8 Nc6 26. Bxc6 a4 27. Qc8 b4 28. Qb7+ Ka5 29. Qb5# 1-0

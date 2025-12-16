@@ -1,0 +1,9 @@
+[Event "Model vs Model Tournament"]
+[Site "Chess Tournament Engine"]
+[Date "2025.11.30"]
+[Round "?"]
+[White "gpt-3.5-turbo-instruct"]
+[Black "meta-llama/llama-3.3-70b-instruct"]
+[Result "1-0"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nc6 4. Nc3 e6 5. e4 Nf6 6. Bxc4 Bb4 7. O-O Qe7 8. Bg5 h6 9. Bh4 1-0

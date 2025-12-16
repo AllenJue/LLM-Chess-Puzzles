@@ -1,0 +1,792 @@
+{
+  "result": "Stockfish wins by checkmate",
+  "total_moves": 74,
+  "model_plays_white": true,
+  "model_approach": "debate",
+  "model_name": "gpt-4-turbo",
+  "opponent_type": "stockfish",
+  "moves": [
+    "g1f3",
+    "g8f6",
+    "c2c4",
+    "e7e6",
+    "g2g3",
+    "d7d5",
+    "f1g2",
+    "f8d6",
+    "e1g1",
+    "d6e7",
+    "d2d4",
+    "a7a5",
+    "b1c3",
+    "e8g8",
+    "c4d5",
+    "e6d5",
+    "a2a4",
+    "h7h6",
+    "f3e5",
+    "b8c6",
+    "e5c6",
+    "b7c6",
+    "e2e4",
+    "a8b8",
+    "e4e5",
+    "f6h7",
+    "d1c2",
+    "h7g5",
+    "f2f4",
+    "g5e4",
+    "c3e4",
+    "d5e4",
+    "c2d2",
+    "b8b4",
+    "f4f5",
+    "c6c5",
+    "d4d5",
+    "b4d4",
+    "d2a5",
+    "f8e8",
+    "f5f6",
+    "c7c6",
+    "f6e7",
+    "d8a5",
+    "d5d6",
+    "h6h5",
+    "c1e3",
+    "a5b6",
+    "f1f6",
+    "d4d3",
+    "f6f7",
+    "c8g4",
+    "e3f4",
+    "c5c4",
+    "g1h1",
+    "e4e3",
+    "h2h3",
+    "g4e6",
+    "f4e3",
+    "b6b2",
+    "a1f1",
+    "b2e5",
+    "f7f8",
+    "g8h7",
+    "f8e8",
+    "e6d5",
+    "f1f3",
+    "d3e3",
+    "f3e3",
+    "e5e3",
+    "d6d7",
+    "e3g3",
+    "d7d8q",
+    "g3g2"
+  ],
+  "game_history": [
+    {
+      "move_number": 1,
+      "player": "Model",
+      "move_uci": "g1f3",
+      "move_san": "Nf3",
+      "fen_after": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 2,
+      "player": "Stockfish",
+      "move_uci": "g8f6",
+      "move_san": "Nf6",
+      "fen_after": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 3,
+      "player": "Model",
+      "move_uci": "c2c4",
+      "move_san": "c4",
+      "fen_after": "rnbqkb1r/pppppppp/5n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 0 2",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 4,
+      "player": "Stockfish",
+      "move_uci": "e7e6",
+      "move_san": "e6",
+      "fen_after": "rnbqkb1r/pppp1ppp/4pn2/8/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 5,
+      "player": "Model",
+      "move_uci": "g2g3",
+      "move_san": "g3",
+      "fen_after": "rnbqkb1r/pppp1ppp/4pn2/8/2P5/5NP1/PP1PPP1P/RNBQKB1R b KQkq - 0 3",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 6,
+      "player": "Stockfish",
+      "move_uci": "d7d5",
+      "move_san": "d5",
+      "fen_after": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 0 4",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 7,
+      "player": "Model",
+      "move_uci": "f1g2",
+      "move_san": "Bg2",
+      "fen_after": "rnbqkb1r/ppp2ppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R b KQkq - 1 4",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 8,
+      "player": "Stockfish",
+      "move_uci": "f8d6",
+      "move_san": "Bd6",
+      "fen_after": "rnbqk2r/ppp2ppp/3bpn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 2 5",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 9,
+      "player": "Model",
+      "move_uci": "e1g1",
+      "move_san": "O-O",
+      "fen_after": "rnbqk2r/ppp2ppp/3bpn2/3p4/2P5/5NP1/PP1PPPBP/RNBQ1RK1 b kq - 3 5",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 10,
+      "player": "Stockfish",
+      "move_uci": "d6e7",
+      "move_san": "Be7",
+      "fen_after": "rnbqk2r/ppp1bppp/4pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQ1RK1 w kq - 4 6",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 11,
+      "player": "Model",
+      "move_uci": "d2d4",
+      "move_san": "d4",
+      "fen_after": "rnbqk2r/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 12,
+      "player": "Stockfish",
+      "move_uci": "a7a5",
+      "move_san": "a5",
+      "fen_after": "rnbqk2r/1pp1bppp/4pn2/p2p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w kq - 0 7",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 13,
+      "player": "Model",
+      "move_uci": "b1c3",
+      "move_san": "Nc3",
+      "fen_after": "rnbqk2r/1pp1bppp/4pn2/p2p4/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 b kq - 1 7",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 14,
+      "player": "Stockfish",
+      "move_uci": "e8g8",
+      "move_san": "O-O",
+      "fen_after": "rnbq1rk1/1pp1bppp/4pn2/p2p4/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 2 8",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 15,
+      "player": "Model",
+      "move_uci": "c4d5",
+      "move_san": "cxd5",
+      "fen_after": "rnbq1rk1/1pp1bppp/4pn2/p2P4/3P4/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 0 8",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 16,
+      "player": "Stockfish",
+      "move_uci": "e6d5",
+      "move_san": "exd5",
+      "fen_after": "rnbq1rk1/1pp1bppp/5n2/p2p4/3P4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 9",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 17,
+      "player": "Model",
+      "move_uci": "a2a4",
+      "move_san": "a4",
+      "fen_after": "rnbq1rk1/1pp1bppp/5n2/p2p4/P2P4/2N2NP1/1P2PPBP/R1BQ1RK1 b - - 0 9",
+      "is_model_turn": true,
+      "is_fallback_move": true
+    },
+    {
+      "move_number": 18,
+      "player": "Stockfish",
+      "move_uci": "h7h6",
+      "move_san": "h6",
+      "fen_after": "rnbq1rk1/1pp1bpp1/5n1p/p2p4/P2P4/2N2NP1/1P2PPBP/R1BQ1RK1 w - - 0 10",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 19,
+      "player": "Model",
+      "move_uci": "f3e5",
+      "move_san": "Ne5",
+      "fen_after": "rnbq1rk1/1pp1bpp1/5n1p/p2pN3/P2P4/2N3P1/1P2PPBP/R1BQ1RK1 b - - 1 10",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 20,
+      "player": "Stockfish",
+      "move_uci": "b8c6",
+      "move_san": "Nc6",
+      "fen_after": "r1bq1rk1/1pp1bpp1/2n2n1p/p2pN3/P2P4/2N3P1/1P2PPBP/R1BQ1RK1 w - - 2 11",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 21,
+      "player": "Model",
+      "move_uci": "e5c6",
+      "move_san": "Nxc6",
+      "fen_after": "r1bq1rk1/1pp1bpp1/2N2n1p/p2p4/P2P4/2N3P1/1P2PPBP/R1BQ1RK1 b - - 0 11",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 22,
+      "player": "Stockfish",
+      "move_uci": "b7c6",
+      "move_san": "bxc6",
+      "fen_after": "r1bq1rk1/2p1bpp1/2p2n1p/p2p4/P2P4/2N3P1/1P2PPBP/R1BQ1RK1 w - - 0 12",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 23,
+      "player": "Model",
+      "move_uci": "e2e4",
+      "move_san": "e4",
+      "fen_after": "r1bq1rk1/2p1bpp1/2p2n1p/p2p4/P2PP3/2N3P1/1P3PBP/R1BQ1RK1 b - - 0 12",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 24,
+      "player": "Stockfish",
+      "move_uci": "a8b8",
+      "move_san": "Rb8",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p2n1p/p2p4/P2PP3/2N3P1/1P3PBP/R1BQ1RK1 w - - 1 13",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 25,
+      "player": "Model",
+      "move_uci": "e4e5",
+      "move_san": "e5",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p2n1p/p2pP3/P2P4/2N3P1/1P3PBP/R1BQ1RK1 b - - 0 13",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 26,
+      "player": "Stockfish",
+      "move_uci": "f6h7",
+      "move_san": "Nh7",
+      "fen_after": "1rbq1rk1/2p1bppn/2p4p/p2pP3/P2P4/2N3P1/1P3PBP/R1BQ1RK1 w - - 1 14",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 27,
+      "player": "Model",
+      "move_uci": "d1c2",
+      "move_san": "Qc2",
+      "fen_after": "1rbq1rk1/2p1bppn/2p4p/p2pP3/P2P4/2N3P1/1PQ2PBP/R1B2RK1 b - - 2 14",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 28,
+      "player": "Stockfish",
+      "move_uci": "h7g5",
+      "move_san": "Ng5",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p4p/p2pP1n1/P2P4/2N3P1/1PQ2PBP/R1B2RK1 w - - 3 15",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 29,
+      "player": "Model",
+      "move_uci": "f2f4",
+      "move_san": "f4",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p4p/p2pP1n1/P2P1P2/2N3P1/1PQ3BP/R1B2RK1 b - - 0 15",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 30,
+      "player": "Stockfish",
+      "move_uci": "g5e4",
+      "move_san": "Ne4",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p4p/p2pP3/P2PnP2/2N3P1/1PQ3BP/R1B2RK1 w - - 1 16",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 31,
+      "player": "Model",
+      "move_uci": "c3e4",
+      "move_san": "Nxe4",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p4p/p2pP3/P2PNP2/6P1/1PQ3BP/R1B2RK1 b - - 0 16",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 32,
+      "player": "Stockfish",
+      "move_uci": "d5e4",
+      "move_san": "dxe4",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p4p/p3P3/P2PpP2/6P1/1PQ3BP/R1B2RK1 w - - 0 17",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 33,
+      "player": "Model",
+      "move_uci": "c2d2",
+      "move_san": "Qd2",
+      "fen_after": "1rbq1rk1/2p1bpp1/2p4p/p3P3/P2PpP2/6P1/1P1Q2BP/R1B2RK1 b - - 1 17",
+      "is_model_turn": true,
+      "is_fallback_move": true
+    },
+    {
+      "move_number": 34,
+      "player": "Stockfish",
+      "move_uci": "b8b4",
+      "move_san": "Rb4",
+      "fen_after": "2bq1rk1/2p1bpp1/2p4p/p3P3/Pr1PpP2/6P1/1P1Q2BP/R1B2RK1 w - - 2 18",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 35,
+      "player": "Model",
+      "move_uci": "f4f5",
+      "move_san": "f5",
+      "fen_after": "2bq1rk1/2p1bpp1/2p4p/p3PP2/Pr1Pp3/6P1/1P1Q2BP/R1B2RK1 b - - 0 18",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 36,
+      "player": "Stockfish",
+      "move_uci": "c6c5",
+      "move_san": "c5",
+      "fen_after": "2bq1rk1/2p1bpp1/7p/p1p1PP2/Pr1Pp3/6P1/1P1Q2BP/R1B2RK1 w - - 0 19",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 37,
+      "player": "Model",
+      "move_uci": "d4d5",
+      "move_san": "d5",
+      "fen_after": "2bq1rk1/2p1bpp1/7p/p1pPPP2/Pr2p3/6P1/1P1Q2BP/R1B2RK1 b - - 0 19",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 38,
+      "player": "Stockfish",
+      "move_uci": "b4d4",
+      "move_san": "Rd4",
+      "fen_after": "2bq1rk1/2p1bpp1/7p/p1pPPP2/P2rp3/6P1/1P1Q2BP/R1B2RK1 w - - 1 20",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 39,
+      "player": "Model",
+      "move_uci": "d2a5",
+      "move_san": "Qxa5",
+      "fen_after": "2bq1rk1/2p1bpp1/7p/Q1pPPP2/P2rp3/6P1/1P4BP/R1B2RK1 b - - 0 20",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 40,
+      "player": "Stockfish",
+      "move_uci": "f8e8",
+      "move_san": "Re8",
+      "fen_after": "2bqr1k1/2p1bpp1/7p/Q1pPPP2/P2rp3/6P1/1P4BP/R1B2RK1 w - - 1 21",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 41,
+      "player": "Model",
+      "move_uci": "f5f6",
+      "move_san": "f6",
+      "fen_after": "2bqr1k1/2p1bpp1/5P1p/Q1pPP3/P2rp3/6P1/1P4BP/R1B2RK1 b - - 0 21",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 42,
+      "player": "Stockfish",
+      "move_uci": "c7c6",
+      "move_san": "c6",
+      "fen_after": "2bqr1k1/4bpp1/2p2P1p/Q1pPP3/P2rp3/6P1/1P4BP/R1B2RK1 w - - 0 22",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 43,
+      "player": "Model",
+      "move_uci": "f6e7",
+      "move_san": "fxe7",
+      "fen_after": "2bqr1k1/4Ppp1/2p4p/Q1pPP3/P2rp3/6P1/1P4BP/R1B2RK1 b - - 0 22",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 44,
+      "player": "Stockfish",
+      "move_uci": "d8a5",
+      "move_san": "Qxa5",
+      "fen_after": "2b1r1k1/4Ppp1/2p4p/q1pPP3/P2rp3/6P1/1P4BP/R1B2RK1 w - - 0 23",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 45,
+      "player": "Model",
+      "move_uci": "d5d6",
+      "move_san": "d6",
+      "fen_after": "2b1r1k1/4Ppp1/2pP3p/q1p1P3/P2rp3/6P1/1P4BP/R1B2RK1 b - - 0 23",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 46,
+      "player": "Stockfish",
+      "move_uci": "h6h5",
+      "move_san": "h5",
+      "fen_after": "2b1r1k1/4Ppp1/2pP4/q1p1P2p/P2rp3/6P1/1P4BP/R1B2RK1 w - - 0 24",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 47,
+      "player": "Model",
+      "move_uci": "c1e3",
+      "move_san": "Be3",
+      "fen_after": "2b1r1k1/4Ppp1/2pP4/q1p1P2p/P2rp3/4B1P1/1P4BP/R4RK1 b - - 1 24",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 48,
+      "player": "Stockfish",
+      "move_uci": "a5b6",
+      "move_san": "Qb6",
+      "fen_after": "2b1r1k1/4Ppp1/1qpP4/2p1P2p/P2rp3/4B1P1/1P4BP/R4RK1 w - - 2 25",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 49,
+      "player": "Model",
+      "move_uci": "f1f6",
+      "move_san": "Rf6",
+      "fen_after": "2b1r1k1/4Ppp1/1qpP1R2/2p1P2p/P2rp3/4B1P1/1P4BP/R5K1 b - - 3 25",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 50,
+      "player": "Stockfish",
+      "move_uci": "d4d3",
+      "move_san": "Rd3",
+      "fen_after": "2b1r1k1/4Ppp1/1qpP1R2/2p1P2p/P3p3/3rB1P1/1P4BP/R5K1 w - - 4 26",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 51,
+      "player": "Model",
+      "move_uci": "f6f7",
+      "move_san": "Rxf7",
+      "fen_after": "2b1r1k1/4PRp1/1qpP4/2p1P2p/P3p3/3rB1P1/1P4BP/R5K1 b - - 0 26",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 52,
+      "player": "Stockfish",
+      "move_uci": "c8g4",
+      "move_san": "Bg4",
+      "fen_after": "4r1k1/4PRp1/1qpP4/2p1P2p/P3p1b1/3rB1P1/1P4BP/R5K1 w - - 1 27",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 53,
+      "player": "Model",
+      "move_uci": "e3f4",
+      "move_san": "Bf4",
+      "fen_after": "4r1k1/4PRp1/1qpP4/2p1P2p/P3pBb1/3r2P1/1P4BP/R5K1 b - - 2 27",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 54,
+      "player": "Stockfish",
+      "move_uci": "c5c4",
+      "move_san": "c4+",
+      "fen_after": "4r1k1/4PRp1/1qpP4/4P2p/P1p1pBb1/3r2P1/1P4BP/R5K1 w - - 0 28",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 55,
+      "player": "Model",
+      "move_uci": "g1h1",
+      "move_san": "Kh1",
+      "fen_after": "4r1k1/4PRp1/1qpP4/4P2p/P1p1pBb1/3r2P1/1P4BP/R6K b - - 1 28",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 56,
+      "player": "Stockfish",
+      "move_uci": "e4e3",
+      "move_san": "e3",
+      "fen_after": "4r1k1/4PRp1/1qpP4/4P2p/P1p2Bb1/3rp1P1/1P4BP/R6K w - - 0 29",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 57,
+      "player": "Model",
+      "move_uci": "h2h3",
+      "move_san": "h3",
+      "fen_after": "4r1k1/4PRp1/1qpP4/4P2p/P1p2Bb1/3rp1PP/1P4B1/R6K b - - 0 29",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 58,
+      "player": "Stockfish",
+      "move_uci": "g4e6",
+      "move_san": "Be6",
+      "fen_after": "4r1k1/4PRp1/1qpPb3/4P2p/P1p2B2/3rp1PP/1P4B1/R6K w - - 1 30",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 59,
+      "player": "Model",
+      "move_uci": "f4e3",
+      "move_san": "Bxe3",
+      "fen_after": "4r1k1/4PRp1/1qpPb3/4P2p/P1p5/3rB1PP/1P4B1/R6K b - - 0 30",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 60,
+      "player": "Stockfish",
+      "move_uci": "b6b2",
+      "move_san": "Qxb2",
+      "fen_after": "4r1k1/4PRp1/2pPb3/4P2p/P1p5/3rB1PP/1q4B1/R6K w - - 0 31",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 61,
+      "player": "Model",
+      "move_uci": "a1f1",
+      "move_san": "Raf1",
+      "fen_after": "4r1k1/4PRp1/2pPb3/4P2p/P1p5/3rB1PP/1q4B1/5R1K b - - 1 31",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 62,
+      "player": "Stockfish",
+      "move_uci": "b2e5",
+      "move_san": "Qxe5",
+      "fen_after": "4r1k1/4PRp1/2pPb3/4q2p/P1p5/3rB1PP/6B1/5R1K w - - 0 32",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 63,
+      "player": "Model",
+      "move_uci": "f7f8",
+      "move_san": "Rf8+",
+      "fen_after": "4rRk1/4P1p1/2pPb3/4q2p/P1p5/3rB1PP/6B1/5R1K b - - 1 32",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 64,
+      "player": "Stockfish",
+      "move_uci": "g8h7",
+      "move_san": "Kh7",
+      "fen_after": "4rR2/4P1pk/2pPb3/4q2p/P1p5/3rB1PP/6B1/5R1K w - - 2 33",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 65,
+      "player": "Model",
+      "move_uci": "f8e8",
+      "move_san": "Rxe8",
+      "fen_after": "4R3/4P1pk/2pPb3/4q2p/P1p5/3rB1PP/6B1/5R1K b - - 0 33",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 66,
+      "player": "Stockfish",
+      "move_uci": "e6d5",
+      "move_san": "Bd5",
+      "fen_after": "4R3/4P1pk/2pP4/3bq2p/P1p5/3rB1PP/6B1/5R1K w - - 1 34",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 67,
+      "player": "Model",
+      "move_uci": "f1f3",
+      "move_san": "Rf3",
+      "fen_after": "4R3/4P1pk/2pP4/3bq2p/P1p5/3rBRPP/6B1/7K b - - 2 34",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 68,
+      "player": "Stockfish",
+      "move_uci": "d3e3",
+      "move_san": "Rxe3",
+      "fen_after": "4R3/4P1pk/2pP4/3bq2p/P1p5/4rRPP/6B1/7K w - - 0 35",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 69,
+      "player": "Model",
+      "move_uci": "f3e3",
+      "move_san": "Rxe3",
+      "fen_after": "4R3/4P1pk/2pP4/3bq2p/P1p5/4R1PP/6B1/7K b - - 0 35",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 70,
+      "player": "Stockfish",
+      "move_uci": "e5e3",
+      "move_san": "Qxe3",
+      "fen_after": "4R3/4P1pk/2pP4/3b3p/P1p5/4q1PP/6B1/7K w - - 0 36",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 71,
+      "player": "Model",
+      "move_uci": "d6d7",
+      "move_san": "d7",
+      "fen_after": "4R3/3PP1pk/2p5/3b3p/P1p5/4q1PP/6B1/7K b - - 0 36",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 72,
+      "player": "Stockfish",
+      "move_uci": "e3g3",
+      "move_san": "Qxg3",
+      "fen_after": "4R3/3PP1pk/2p5/3b3p/P1p5/6qP/6B1/7K w - - 0 37",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 73,
+      "player": "Model",
+      "move_uci": "d7d8q",
+      "move_san": "d8=Q",
+      "fen_after": "3QR3/4P1pk/2p5/3b3p/P1p5/6qP/6B1/7K b - - 0 37",
+      "is_model_turn": true,
+      "is_fallback_move": false
+    },
+    {
+      "move_number": 74,
+      "player": "Stockfish",
+      "move_uci": "g3g2",
+      "move_san": "Qxg2#",
+      "fen_after": "3QR3/4P1pk/2p5/3b3p/P1p5/7P/6q1/7K w - - 0 38",
+      "is_model_turn": false,
+      "is_fallback_move": false
+    }
+  ],
+  "fallback_moves": [
+    {
+      "move_number": 17,
+      "reason": "Debate failed to generate move after 3 attempts",
+      "model_response": "{'round1': {'affirmative_move': 'Nf3', 'negative_move': 'Nf3', 'affirmative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 * Bg5 c6 Qb3', 'negative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 * Bg5 c6 Qb3', 'affirmative_tokens': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative_tokens': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator_response': 'Early consensus - no moderator needed', 'early_consensus': True}, 'final_result': {'final_move_san': 'Nf3', 'final_move_uci': None, 'success': True, 'reason': 'Early consensus - both models agreed', 'supported_side': 'Both', 'source_agent': 'affirmative', 'source_agents': ['affirmative', 'negative']}, 'total_tokens': {'affirmative': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator': None, 'judge': None, 'total_prompt_tokens': 354, 'total_completion_tokens': 140, 'total_tokens': 494}, 'token_events': [{'paradigm': 'debate', 'agent': 'affirmative', 'role': 'affirmative_round1', 'round': 1, 'ply_index': 16, 'turn_number': 9, 'is_white_to_move': True, 'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, {'paradigm': 'debate', 'agent': 'negative', 'role': 'negative_round1', 'round': 1, 'ply_index': 16, 'turn_number': 9, 'is_white_to_move': True, 'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}], 'judge': {}, 'moderator': {'raw_response': None}}",
+      "fallback_move": "a2a4"
+    },
+    {
+      "move_number": 33,
+      "reason": "Debate failed to generate move after 3 attempts",
+      "model_response": "{'round1': {'affirmative_move': 'Nf3', 'negative_move': 'Nf3', 'affirmative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 9. a4 h6 10. Ne5 Nc6 11. Nxc6 bxc6 12. e4 Rb8 13. e5 Nh7 14. Qc2 Ng5 15. f4 Ne4 16. Nxe4 dxe4 *\\nBxe4 Bxe4 Qxe4', 'negative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 9. a4 h6 10. Ne5 Nc6 11. Nxc6 bxc6 12. e4 Rb8 13. e5 Nh7 14. Qc2 Ng5 15. f4 Ne4 16. Nxe4 dxe4 * Bxe4 Qd5 Bxe4', 'affirmative_tokens': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative_tokens': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator_response': 'Early consensus - no moderator needed', 'early_consensus': True}, 'final_result': {'final_move_san': 'Nf3', 'final_move_uci': None, 'success': True, 'reason': 'Early consensus - both models agreed', 'supported_side': 'Both', 'source_agent': 'affirmative', 'source_agents': ['affirmative', 'negative']}, 'total_tokens': {'affirmative': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator': None, 'judge': None, 'total_prompt_tokens': 480, 'total_completion_tokens': 268, 'total_tokens': 748}, 'token_events': [{'paradigm': 'debate', 'agent': 'affirmative', 'role': 'affirmative_round1', 'round': 1, 'ply_index': 32, 'turn_number': 17, 'is_white_to_move': True, 'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, {'paradigm': 'debate', 'agent': 'negative', 'role': 'negative_round1', 'round': 1, 'ply_index': 32, 'turn_number': 17, 'is_white_to_move': True, 'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}], 'judge': {}, 'moderator': {'raw_response': None}}",
+      "fallback_move": "c2d2"
+    }
+  ],
+  "fallback_count": 2,
+  "final_fen": "3QR3/4P1pk/2p5/3b3p/P1p5/7P/6q1/7K w - - 0 38",
+  "timestamp": "2025-11-10T18:42:39.174498",
+  "metadata": {
+    "model_name": "gpt-4-turbo",
+    "model_approach": "debate",
+    "stockfish_time": 1.0,
+    "stockfish_skill": 5,
+    "total_fallback_moves": 2,
+    "fallback_details": [
+      {
+        "move_number": 17,
+        "reason": "Debate failed to generate move after 3 attempts",
+        "model_response": "{'round1': {'affirmative_move': 'Nf3', 'negative_move': 'Nf3', 'affirmative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 * Bg5 c6 Qb3', 'negative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 * Bg5 c6 Qb3', 'affirmative_tokens': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative_tokens': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator_response': 'Early consensus - no moderator needed', 'early_consensus': True}, 'final_result': {'final_move_san': 'Nf3', 'final_move_uci': None, 'success': True, 'reason': 'Early consensus - both models agreed', 'supported_side': 'Both', 'source_agent': 'affirmative', 'source_agents': ['affirmative', 'negative']}, 'total_tokens': {'affirmative': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative': {'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator': None, 'judge': None, 'total_prompt_tokens': 354, 'total_completion_tokens': 140, 'total_tokens': 494}, 'token_events': [{'paradigm': 'debate', 'agent': 'affirmative', 'role': 'affirmative_round1', 'round': 1, 'ply_index': 16, 'turn_number': 9, 'is_white_to_move': True, 'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, {'paradigm': 'debate', 'agent': 'negative', 'role': 'negative_round1', 'round': 1, 'ply_index': 16, 'turn_number': 9, 'is_white_to_move': True, 'prompt_tokens': 177, 'completion_tokens': 70, 'total_tokens': 247, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}], 'judge': {}, 'moderator': {'raw_response': None}}",
+        "fallback_move": "a2a4"
+      },
+      {
+        "move_number": 33,
+        "reason": "Debate failed to generate move after 3 attempts",
+        "model_response": "{'round1': {'affirmative_move': 'Nf3', 'negative_move': 'Nf3', 'affirmative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 9. a4 h6 10. Ne5 Nc6 11. Nxc6 bxc6 12. e4 Rb8 13. e5 Nh7 14. Qc2 Ng5 15. f4 Ne4 16. Nxe4 dxe4 *\\nBxe4 Bxe4 Qxe4', 'negative_response': '1. Nf3 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bd6 5. O-O Be7 6. d4 a5 7. Nc3 O-O 8. cxd5 exd5 9. a4 h6 10. Ne5 Nc6 11. Nxc6 bxc6 12. e4 Rb8 13. e5 Nh7 14. Qc2 Ng5 15. f4 Ne4 16. Nxe4 dxe4 * Bxe4 Qd5 Bxe4', 'affirmative_tokens': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative_tokens': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator_response': 'Early consensus - no moderator needed', 'early_consensus': True}, 'final_result': {'final_move_san': 'Nf3', 'final_move_uci': None, 'success': True, 'reason': 'Early consensus - both models agreed', 'supported_side': 'Both', 'source_agent': 'affirmative', 'source_agents': ['affirmative', 'negative']}, 'total_tokens': {'affirmative': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'negative': {'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, 'moderator': None, 'judge': None, 'total_prompt_tokens': 480, 'total_completion_tokens': 268, 'total_tokens': 748}, 'token_events': [{'paradigm': 'debate', 'agent': 'affirmative', 'role': 'affirmative_round1', 'round': 1, 'ply_index': 32, 'turn_number': 17, 'is_white_to_move': True, 'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}, {'paradigm': 'debate', 'agent': 'negative', 'role': 'negative_round1', 'round': 1, 'ply_index': 32, 'turn_number': 17, 'is_white_to_move': True, 'prompt_tokens': 240, 'completion_tokens': 134, 'total_tokens': 374, 'model': 'gpt-4-turbo', 'finish_reason': 'stop'}], 'judge': {}, 'moderator': {'raw_response': None}}",
+        "fallback_move": "c2d2"
+      }
+    ],
+    "game_engine_version": "1.0",
+    "saved_at": "2025-11-10T18:42:39.174885"
+  }
+}

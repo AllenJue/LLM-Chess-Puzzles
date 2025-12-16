@@ -1,0 +1,91 @@
+{
+  "round1": {
+    "affirmative_move": "Rxe3",
+    "negative_move": "Rxe3",
+    "affirmative_response": "1. e4 c5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. d3 d5 6. e5 Bf5 7. O-O h6 8. h3 e6 9. d4 Ne7 10. dxc5 Qc7 11. Re1 Ng6 12. c3 Bxc5 13. Qa4 O-O 14. Nd4 Be4 15. f3 Bxb1 16. Rxb1 Nxe5 17. Kh1 Bd6 18. Bf4 Rfe8 19. Bxe5 Bxe5 20. Qxc6 Qxc6 21. Nxc6 Bg3 22. Re2 a5 23. b4 axb4 24. cxb4 e5 25. b5 e4 26. fxe4 dxe4 27. b6 e3 28. Rb3 Rxa2 29. Rxe3 Ra1+",
+    "negative_response": "1. e4 c5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. d3 d5 6. e5 Bf5 7. O-O h6 8. h3 e6 9. d4 Ne7 10. dxc5 Qc7 11. Re1 Ng6 12. c3 Bxc5 13. Qa4 O-O 14. Nd4 Be4 15. f3 Bxb1 16. Rxb1 Nxe5 17. Kh1 Bd6 18. Bf4 Rfe8 19. Bxe5 Bxe5 20. Qxc6 Qxc6 21. Nxc6 Bg3 22. Re2 a5 23. b4 axb4 24. cxb4 e5 25. b5 e4 26. fxe4 dxe4 27. b6 e3 28. Rb3 Rxa2 29. Rxe3 Ra1+",
+    "affirmative_tokens": {
+      "prompt_tokens": 309,
+      "completion_tokens": 227,
+      "total_tokens": 536,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative_tokens": {
+      "prompt_tokens": 309,
+      "completion_tokens": 227,
+      "total_tokens": 536,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator_response": "Early consensus - no moderator needed",
+    "early_consensus": true
+  },
+  "final_result": {
+    "final_move_san": "Rxe3",
+    "final_move_uci": null,
+    "success": true,
+    "reason": "Early consensus - both models agreed",
+    "supported_side": "Both",
+    "source_agent": "affirmative",
+    "source_agents": [
+      "affirmative",
+      "negative"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 309,
+      "completion_tokens": 227,
+      "total_tokens": 536,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 309,
+      "completion_tokens": 227,
+      "total_tokens": 536,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 618,
+    "total_completion_tokens": 454,
+    "total_tokens": 1072
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 56,
+      "turn_number": 29,
+      "is_white_to_move": true,
+      "prompt_tokens": 309,
+      "completion_tokens": 227,
+      "total_tokens": 536,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 56,
+      "turn_number": 29,
+      "is_white_to_move": true,
+      "prompt_tokens": 309,
+      "completion_tokens": 227,
+      "total_tokens": 536,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": null
+  }
+}

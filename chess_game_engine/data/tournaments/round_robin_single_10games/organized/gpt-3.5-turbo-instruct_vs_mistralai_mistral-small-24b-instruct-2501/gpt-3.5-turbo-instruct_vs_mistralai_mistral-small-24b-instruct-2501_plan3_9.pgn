@@ -1,0 +1,9 @@
+[Event "Model vs Model Tournament"]
+[Site "Chess Tournament Engine"]
+[Date "2025.11.30"]
+[Round "?"]
+[White "gpt-3.5-turbo-instruct"]
+[Black "mistralai/mistral-small-24b-instruct-2501"]
+[Result "1-0"]
+
+1. e4 e5 2. Nf3 1-0

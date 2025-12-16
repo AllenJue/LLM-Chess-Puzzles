@@ -1,0 +1,234 @@
+{
+  "query1": {
+    "aggressive_move": "h4",
+    "aggressive_uci": null,
+    "aggressive_response": "1. d4 g6 2. Bf4 Bg7 3. Nf3 Nc6 4. e3 d6 5. c3 e5 6. dxe5 Nxe5 7. Nxe5 dxe5 8. Qxd8+ Kxd8 9. Bg3 Ke7 10. Nd2 Be6 11. Nf3 f6 12. a3 Rd8 13. Be2 Nh6 14. Bh4 Nf5 15. Bg3 Nxg3 16. hxg3 h5 17. O-O g5 18. Rfd1 c6 19. Nd2 f5 20. Bc4 b5 21. Bxe6 Kxe6 22. Nb3 Rd5 23. Rxd5 cxd5 24. Nc5+ Kd6 25. Nb7+ Kc6 26. Na5+ Kb6 27. Nb3 a5 28. Rd1 Rd8 29. Nd2 Bf6 30. f4 a4 31. Nf3 gxf4 32. gxf4 e4 33. Nd4 Bxd4 34. Rxd4 Kc5 35. Kh2 Rg8 36. Kh3 Kd6 37. g3 Rg4 38. Kg2 h4 39. Kh3 h4 40. gxh4 Rxh4+ 41. Kxh4 Kc5 42. Kg5 Kd6",
+    "aggressive_tokens": {
+      "prompt_tokens": 428,
+      "completion_tokens": 334,
+      "total_tokens": 762,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "plan_full": [
+      "gxh4",
+      "Rxh4+",
+      "Kxh4",
+      "Kc5",
+      "Kg5",
+      "Kd6"
+    ],
+    "plan_execute": []
+  },
+  "query2": {
+    "positional_move": "h4",
+    "positional_uci": null,
+    "positional_response": "1. d4 g6 2. Bf4 Bg7 3. Nf3 Nc6 4. e3 d6 5. c3 e5 6. dxe5 Nxe5 7. Nxe5 dxe5 8. Qxd8+ Kxd8 9. Bg3 Ke7 10. Nd2 Be6 11. Nf3 f6 12. a3 Rd8 13. Be2 Nh6 14. Bh4 Nf5 15. Bg3 Nxg3 16. hxg3 h5 17. O-O g5 18. Rfd1 c6 19. Nd2 f5 20. Bc4 b5 21. Bxe6 Kxe6 22. Nb3 Rd5 23. Rxd5 cxd5 24. Nc5+ Kd6 25. Nb7+ Kc6 26. Na5+ Kb6 27. Nb3 a5 28. Rd1 Rd8 29. Nd2 Bf6 30. f4 a4 31. Nf3 gxf4 32. gxf4 e4 33. Nd4 Bxd4 34. Rxd4 Kc5 35. Kh2 Rg8 36. Kh3 Kd6 37. g3 Rg4 38. Kg2 h4 39. Kh3 h4 40. gxh4 Rxh4+ 41. Kxh4 Ke6 42. Kg5 Kd6\n\n40. gxh4 Rxh4+ 41. Kxh4 Ke6 42. Kg5",
+    "positional_tokens": {
+      "prompt_tokens": 428,
+      "completion_tokens": 356,
+      "total_tokens": 784,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "plan_full": [
+      "gxh4",
+      "Rxh4+",
+      "Kxh4",
+      "Ke6",
+      "Kg5",
+      "Kd6",
+      "gxh4",
+      "Rxh4+",
+      "Kxh4",
+      "Ke6",
+      "Kg5"
+    ],
+    "plan_execute": []
+  },
+  "query3": {
+    "neutral_move": "h4",
+    "neutral_uci": null,
+    "neutral_response": "1. d4 g6 2. Bf4 Bg7 3. Nf3 Nc6 4. e3 d6 5. c3 e5 6. dxe5 Nxe5 7. Nxe5 dxe5 8. Qxd8+ Kxd8 9. Bg3 Ke7 10. Nd2 Be6 11. Nf3 f6 12. a3 Rd8 13. Be2 Nh6 14. Bh4 Nf5 15. Bg3 Nxg3 16. hxg3 h5 17. O-O g5 18. Rfd1 c6 19. Nd2 f5 20. Bc4 b5 21. Bxe6 Kxe6 22. Nb3 Rd5 23. Rxd5 cxd5 24. Nc5+ Kd6 25. Nb7+ Kc6 26. Na5+ Kb6 27. Nb3 a5 28. Rd1 Rd8 29. Nd2 Bf6 30. f4 a4 31. Nf3 gxf4 32. gxf4 e4 33. Nd4 Bxd4 34. Rxd4 Kc5 35. Kh2 Rg8 36. Kh3 Kd6 37. g3 Rg4 38. Kg2 h4 39. Kh3 h4 40. gxh4 Rg8 41. h5 Rh8 42. Kh4 Ke6 43. Kg5 Rg8+ 44. Kh6 Rg3 45. Kh7 Rxe3 46. h6 Rg3 47. Kh8 e3 48. h7 e2 49. Rd2 e1=Q 50. Rh2 Qg1 51. Rh6+ Kf7 52. Rf6+ Kxf6 53. c4 Qg7#",
+    "neutral_tokens": {
+      "prompt_tokens": 427,
+      "completion_tokens": 422,
+      "total_tokens": 849,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "plan_full": [
+      "gxh4",
+      "Rg8",
+      "h5",
+      "Rh8",
+      "Kh4",
+      "Ke6",
+      "Kg5",
+      "Rg8+",
+      "Kh6",
+      "Rg3",
+      "Kh7",
+      "Rxe3",
+      "h6",
+      "Rg3",
+      "Kh8",
+      "e3",
+      "h7",
+      "e2",
+      "Rd2",
+      "e1=Q",
+      "Rh2",
+      "Qg1",
+      "Rh6+",
+      "Kf7",
+      "Rf6+",
+      "Kxf6",
+      "c4",
+      "Qg7#"
+    ],
+    "plan_execute": []
+  },
+  "final_moves": {
+    "aggressive_uci": null,
+    "positional_uci": null,
+    "neutral_uci": null,
+    "consensus_move": null,
+    "source_agents": [],
+    "selected_agent": null
+  },
+  "plans": {
+    "aggressive": {
+      "full": [
+        "gxh4",
+        "Rxh4+",
+        "Kxh4",
+        "Kc5",
+        "Kg5",
+        "Kd6"
+      ],
+      "execute": []
+    },
+    "positional": {
+      "full": [
+        "gxh4",
+        "Rxh4+",
+        "Kxh4",
+        "Ke6",
+        "Kg5",
+        "Kd6",
+        "gxh4",
+        "Rxh4+",
+        "Kxh4",
+        "Ke6",
+        "Kg5"
+      ],
+      "execute": []
+    },
+    "neutral": {
+      "full": [
+        "gxh4",
+        "Rg8",
+        "h5",
+        "Rh8",
+        "Kh4",
+        "Ke6",
+        "Kg5",
+        "Rg8+",
+        "Kh6",
+        "Rg3",
+        "Kh7",
+        "Rxe3",
+        "h6",
+        "Rg3",
+        "Kh8",
+        "e3",
+        "h7",
+        "e2",
+        "Rd2",
+        "e1=Q",
+        "Rh2",
+        "Qg1",
+        "Rh6+",
+        "Kf7",
+        "Rf6+",
+        "Kxf6",
+        "c4",
+        "Qg7#"
+      ],
+      "execute": []
+    }
+  },
+  "final_plan": {
+    "moves_for_execution": [],
+    "full_moves": [],
+    "source_agent": null
+  },
+  "total_tokens": {
+    "aggressive": {
+      "prompt_tokens": 428,
+      "completion_tokens": 334,
+      "total_tokens": 762,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "positional": {
+      "prompt_tokens": 428,
+      "completion_tokens": 356,
+      "total_tokens": 784,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "neutral": {
+      "prompt_tokens": 427,
+      "completion_tokens": 422,
+      "total_tokens": 849,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "total_prompt_tokens": 1283,
+    "total_completion_tokens": 1112,
+    "total_tokens": 2395
+  },
+  "token_events": [
+    {
+      "paradigm": "self_consistency",
+      "agent": "aggressive",
+      "ply_index": 77,
+      "turn_number": 39,
+      "round": 1,
+      "response_source": "aggressive_gm",
+      "prompt_tokens": 428,
+      "completion_tokens": 334,
+      "total_tokens": 762,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "self_consistency",
+      "agent": "positional",
+      "ply_index": 77,
+      "turn_number": 39,
+      "round": 1,
+      "response_source": "positional_gm",
+      "prompt_tokens": 428,
+      "completion_tokens": 356,
+      "total_tokens": 784,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "self_consistency",
+      "agent": "neutral",
+      "ply_index": 77,
+      "turn_number": 39,
+      "round": 1,
+      "response_source": "neutral_gm",
+      "prompt_tokens": 427,
+      "completion_tokens": 422,
+      "total_tokens": 849,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ]
+}

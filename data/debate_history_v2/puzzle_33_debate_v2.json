@@ -1,0 +1,94 @@
+{
+  "round1": {
+    "affirmative_move": "Qg1+",
+    "negative_move": "Qg5",
+    "affirmative_response": "1. e4 d6 2. d4 Nf6 3. Bd3 g6 4. c3 Bg7 5. Nf3 O-O 6. O-O Nbd7 7. Re1 e5 8. Bg5 h6 9. Bh4 c6 10. Nbd2 Qc7 11. Qc2 Nh5 12. Nc4 Nf4 13. Be7 Nb6 14. Bxd6 Qd8 15. Bxf8 Bxf8 16. Nxb6 axb6 17. Nxe5 Qg5 18. Bf1 Bd6 19. Nf3 Qh5 20. e5 Bc7 21. Qe4 g5 22. g3 Bg4 23. Nd2 Nh3+ 24. Kh1 Qg1+",
+    "negative_response": "1. e4 d6 2. d4 Nf6 3. Bd3 g6 4. c3 Bg7 5. Nf3 O-O 6. O-O Nbd7 7. Re1 e5 8. Bg5 h6 9. Bh4 c6 10. Nbd2 Qc7 11. Qc2 Nh5 12. Nc4 Nf4 13. Be7 Nb6 14. Bxd6 Qd8 15. Bxf8 Bxf8 16. Nxb6 axb6 17. Nxe5 Qg5 18. Bf1 Bd6 19. Nf3 Qh5 20. e5 Bc7 21. Qe4 g5 22. g3 Bg4 23. Nd2 Nh3+ 24. Kh1 Qg5",
+    "moderator_response": {
+      "Whether there is a preference": "Yes",
+      "Supported Side": "Aggressive",
+      "Reason": "Both sides have presented the same moves up to 24...Qg5+, but the aggressive side explicitly includes the check move notation, emphasizing the immediate threat and forcing the king's response. This highlights a more precise and active continuation, which is critical in the position. The aggressive side's notation better reflects the tactical nature of the position, supporting a preference for their approach.",
+      "debate_answer": "1. e4 d6 2. d4 Nf6 3. Bd3 g6 4. c3 Bg7 5. Nf3 O-O 6. O-O Nbd7 7. Re1 e5 8. Bg5 h6 9. Bh4 c6 10. Nbd2 Qc7 11. Qc2 Nh5 12. Nc4 Nf4 13. Be7 Nb6 14. Bxd6 Qd8 15. Bxf8 Bxf8 16. Nxb6 axb6 17. Nxe5 Qg5 18. Bf1 Bd6 19. Nf3 Qh5 20. e5 Bc7 21. Qe4 g5 22. g3 Bg4 23. Nd2 Nh3+ 24. Kh1 Qg1+"
+    }
+  },
+  "final_result": {
+    "final_move_san": "Qg1+",
+    "final_move_uci": null,
+    "success": true,
+    "reason": "Both sides have presented the same moves up to 24...Qg5+, but the aggressive side explicitly includes the check move notation, emphasizing the immediate threat and forcing the king's response. This highlights a more precise and active continuation, which is critical in the position. The aggressive side's notation better reflects the tactical nature of the position, supporting a preference for their approach.",
+    "supported_side": "Aggressive",
+    "source_agent": "moderator",
+    "source_agents": [
+      "moderator"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 278,
+      "completion_tokens": 190,
+      "total_tokens": 468,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 278,
+      "completion_tokens": 189,
+      "total_tokens": 467,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 556,
+    "total_completion_tokens": 379,
+    "total_tokens": 935
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 47,
+      "turn_number": 24,
+      "is_white_to_move": false,
+      "prompt_tokens": 278,
+      "completion_tokens": 190,
+      "total_tokens": 468,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 47,
+      "turn_number": 24,
+      "is_white_to_move": false,
+      "prompt_tokens": 278,
+      "completion_tokens": 189,
+      "total_tokens": 467,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "moderator",
+      "role": "moderator_round1",
+      "round": 1,
+      "ply_index": 47,
+      "turn_number": 24,
+      "is_white_to_move": false,
+      "prompt_tokens": 622,
+      "completion_tokens": 293,
+      "total_tokens": 915,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": "{\"Whether there is a preference\": \"Yes\", \"Supported Side\": \"Aggressive\", \"Reason\": \"Both sides have presented the same moves up to 24...Qg5+, but the aggressive side explicitly includes the check move notation, emphasizing the immediate threat and forcing the king's response. This highlights a more precise and active continuation, which is critical in the position. The aggressive side's notation better reflects the tactical nature of the position, supporting a preference for their approach.\", \"debate_answer\": \"1. e4 d6 2. d4 Nf6 3. Bd3 g6 4. c3 Bg7 5. Nf3 O-O 6. O-O Nbd7 7. Re1 e5 8. Bg5 h6 9. Bh4 c6 10. Nbd2 Qc7 11. Qc2 Nh5 12. Nc4 Nf4 13. Be7 Nb6 14. Bxd6 Qd8 15. Bxf8 Bxf8 16. Nxb6 axb6 17. Nxe5 Qg5 18. Bf1 Bd6 19. Nf3 Qh5 20. e5 Bc7 21. Qe4 g5 22. g3 Bg4 23. Nd2 Nh3+ 24. Kh1 Qg1+\"}"
+  }
+}

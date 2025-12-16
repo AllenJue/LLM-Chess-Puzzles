@@ -1,0 +1,178 @@
+{
+  "query1": {
+    "aggressive_move": "g6",
+    "aggressive_uci": "g7g6",
+    "aggressive_response": "1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 d5 6. Bxd5 Nf6 7. Nf3 Nxd5\n8. exd5 Bb4+ 9. Nc3 O-O 10. O-O c6 11. Qd4 c5 12. Qf4 Na6 13. Rad1 Re8 14. Ne4\nQe7 15. Nd6 Rd8 16. Nc4 b5 17. Nce5 Rf8 18. d6 Qe6 19. d7 Bxd7 20. Nxd7 Rfd8\n21. Nde5 c4 22. h3 c3 23. Bc1 c2 24. Rxd8+ Rxd8 25. Bb2 f6 26. Ng4 Rd1 27. Nd4\nRxf1+ 28. Kxf1 g6 29. Nxe6 Rd1+ 30. Ke2 Re1+ 31. Kd3 c1=Q",
+    "aggressive_tokens": {
+      "prompt_tokens": 344,
+      "completion_tokens": 252,
+      "total_tokens": 596,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "plan_full": [
+      "Nxe6",
+      "Rd1+",
+      "Ke2",
+      "Re1+",
+      "Kd3",
+      "c1=Q"
+    ],
+    "plan_execute": []
+  },
+  "query2": {
+    "positional_move": "d1=Q+",
+    "positional_uci": null,
+    "positional_response": "1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 d5 6. Bxd5 Nf6 7. Nf3 Nxd5\n8. exd5 Bb4+ 9. Nc3 O-O 10. O-O c6 11. Qd4 c5 12. Qf4 Na6 13. Rad1 Re8 14. Ne4\nQe7 15. Nd6 Rd8 16. Nc4 b5 17. Nce5 Rf8 18. d6 Qe6 19. d7 Bxd7 20. Nxd7 Rfd8\n21. Nde5 c4 22. h3 c3 23. Bc1 c2 24. Rxd8+ Rxd8 25. Bb2 f6 26. Ng4 Rd1 27. Nd4\nRxf1+ 28. Kxf1 d1=Q+ 29. Qxd1 cxd1=Q# 30. Ne2 Qexe2+",
+    "positional_tokens": {
+      "prompt_tokens": 344,
+      "completion_tokens": 249,
+      "total_tokens": 593,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "plan_full": [
+      "Qxd1",
+      "cxd1=Q#",
+      "Ne2",
+      "Qexe2+"
+    ],
+    "plan_execute": []
+  },
+  "query3": {
+    "neutral_move": "Qe1+",
+    "neutral_uci": "e6e1",
+    "neutral_response": "1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 d5 6. Bxd5 Nf6 7. Nf3 Nxd5\n8. exd5 Bb4+ 9. Nc3 O-O 10. O-O c6 11. Qd4 c5 12. Qf4 Na6 13. Rad1 Re8 14. Ne4\nQe7 15. Nd6 Rd8 16. Nc4 b5 17. Nce5 Rf8 18. d6 Qe6 19. d7 Bxd7 20. Nxd7 Rfd8\n21. Nde5 c4 22. h3 c3 23. Bc1 c2 24. Rxd8+ Rxd8 25. Bb2 f6 26. Ng4 Rd1 27. Nd4\nRxf1+ 28. Kxf1 Qe1+ 29. Qxe1 Bxe1 30. Kxe1 c1=Q+ 31. Bxc1 Rxd4",
+    "neutral_tokens": {
+      "prompt_tokens": 343,
+      "completion_tokens": 256,
+      "total_tokens": 599,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "plan_full": [
+      "Qxe1",
+      "Bxe1",
+      "Kxe1",
+      "c1=Q+",
+      "Bxc1",
+      "Rxd4"
+    ],
+    "plan_execute": []
+  },
+  "final_moves": {
+    "aggressive_uci": "g7g6",
+    "positional_uci": null,
+    "neutral_uci": "e6e1",
+    "consensus_move": "e6e1",
+    "source_agents": [
+      "neutral"
+    ],
+    "selected_agent": "neutral"
+  },
+  "plans": {
+    "aggressive": {
+      "full": [
+        "Nxe6",
+        "Rd1+",
+        "Ke2",
+        "Re1+",
+        "Kd3",
+        "c1=Q"
+      ],
+      "execute": []
+    },
+    "positional": {
+      "full": [
+        "Qxd1",
+        "cxd1=Q#",
+        "Ne2",
+        "Qexe2+"
+      ],
+      "execute": []
+    },
+    "neutral": {
+      "full": [
+        "Qxe1",
+        "Bxe1",
+        "Kxe1",
+        "c1=Q+",
+        "Bxc1",
+        "Rxd4"
+      ],
+      "execute": []
+    }
+  },
+  "final_plan": {
+    "moves_for_execution": [],
+    "full_moves": [],
+    "source_agent": null
+  },
+  "total_tokens": {
+    "aggressive": {
+      "prompt_tokens": 344,
+      "completion_tokens": 252,
+      "total_tokens": 596,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "positional": {
+      "prompt_tokens": 344,
+      "completion_tokens": 249,
+      "total_tokens": 593,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "neutral": {
+      "prompt_tokens": 343,
+      "completion_tokens": 256,
+      "total_tokens": 599,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "total_prompt_tokens": 1031,
+    "total_completion_tokens": 757,
+    "total_tokens": 1788
+  },
+  "token_events": [
+    {
+      "paradigm": "self_consistency",
+      "agent": "aggressive",
+      "ply_index": 55,
+      "turn_number": 28,
+      "round": 1,
+      "response_source": "aggressive_gm",
+      "prompt_tokens": 344,
+      "completion_tokens": 252,
+      "total_tokens": 596,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "self_consistency",
+      "agent": "positional",
+      "ply_index": 55,
+      "turn_number": 28,
+      "round": 1,
+      "response_source": "positional_gm",
+      "prompt_tokens": 344,
+      "completion_tokens": 249,
+      "total_tokens": 593,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "self_consistency",
+      "agent": "neutral",
+      "ply_index": 55,
+      "turn_number": 28,
+      "round": 1,
+      "response_source": "neutral_gm",
+      "prompt_tokens": 343,
+      "completion_tokens": 256,
+      "total_tokens": 599,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ]
+}

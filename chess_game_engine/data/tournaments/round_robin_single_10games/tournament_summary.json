@@ -1,0 +1,240 @@
+{
+  "tournament_info": {
+    "timestamp": "2025-11-29T21:51:37.212239",
+    "total_players": 5,
+    "total_games": 100,
+    "games_per_matchup": 10,
+    "use_openings": false,
+    "openings_used": 0
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "player": "Stockfish",
+      "rating": 1553.9417557886625,
+      "rd": 68.5534080155817,
+      "games": 40
+    },
+    {
+      "rank": 2,
+      "player": "deepseek-ai/deepseek-v3",
+      "rating": 1531.8394308484828,
+      "rd": 70.05918707846692,
+      "games": 40
+    },
+    {
+      "rank": 3,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "rating": 1520.5828100856231,
+      "rd": 67.68008899556676,
+      "games": 40
+    },
+    {
+      "rank": 4,
+      "player": "meta-llama/llama-3.3-70b-instruct",
+      "rating": 1512.8078197471405,
+      "rd": 66.9703899463931,
+      "games": 40
+    },
+    {
+      "rank": 5,
+      "player": "gpt-3.5-turbo-instruct",
+      "rating": 1380.134204669987,
+      "rd": 76.41485066322127,
+      "games": 40
+    }
+  ],
+  "match_results": [
+    {
+      "player1": "gpt-3.5-turbo-instruct",
+      "player2": "deepseek-ai/deepseek-v3",
+      "games": [
+        "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_1",
+        "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_2",
+        "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_3",
+        "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_4",
+        "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_5",
+        "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_6",
+        "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_7",
+        "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_8",
+        "gpt-3.5-turbo-instruct_vs_deepseek-ai_deepseek-v3_9",
+        "deepseek-ai_deepseek-v3_vs_gpt-3.5-turbo-instruct_10"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "gpt-3.5-turbo-instruct",
+      "player2": "mistralai/mistral-small-24b-instruct-2501",
+      "games": [
+        "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_11",
+        "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_12",
+        "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_13",
+        "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_14",
+        "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_15",
+        "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_16",
+        "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_17",
+        "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_18",
+        "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_19",
+        "mistralai_mistral-small-24b-instruct-2501_vs_gpt-3.5-turbo-instruct_20"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "gpt-3.5-turbo-instruct",
+      "player2": "meta-llama/llama-3.3-70b-instruct",
+      "games": [
+        "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_21",
+        "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_22",
+        "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_23",
+        "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_24",
+        "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_25",
+        "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_26",
+        "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_27",
+        "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_28",
+        "gpt-3.5-turbo-instruct_vs_meta-llama_llama-3.3-70b-instruct_29",
+        "meta-llama_llama-3.3-70b-instruct_vs_gpt-3.5-turbo-instruct_30"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "gpt-3.5-turbo-instruct",
+      "player2": "Stockfish",
+      "games": [
+        "gpt-3.5-turbo-instruct_vs_Stockfish_31",
+        "Stockfish_vs_gpt-3.5-turbo-instruct_32",
+        "gpt-3.5-turbo-instruct_vs_Stockfish_33",
+        "Stockfish_vs_gpt-3.5-turbo-instruct_34",
+        "gpt-3.5-turbo-instruct_vs_Stockfish_35",
+        "Stockfish_vs_gpt-3.5-turbo-instruct_36",
+        "gpt-3.5-turbo-instruct_vs_Stockfish_37",
+        "Stockfish_vs_gpt-3.5-turbo-instruct_38",
+        "gpt-3.5-turbo-instruct_vs_Stockfish_39",
+        "Stockfish_vs_gpt-3.5-turbo-instruct_40"
+      ],
+      "player1_wins": 1,
+      "player2_wins": 9,
+      "draws": 0
+    },
+    {
+      "player1": "deepseek-ai/deepseek-v3",
+      "player2": "mistralai/mistral-small-24b-instruct-2501",
+      "games": [
+        "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_41",
+        "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_42",
+        "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_43",
+        "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_44",
+        "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_45",
+        "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_46",
+        "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_47",
+        "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_48",
+        "deepseek-ai_deepseek-v3_vs_mistralai_mistral-small-24b-instruct-2501_49",
+        "mistralai_mistral-small-24b-instruct-2501_vs_deepseek-ai_deepseek-v3_50"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "deepseek-ai/deepseek-v3",
+      "player2": "meta-llama/llama-3.3-70b-instruct",
+      "games": [
+        "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_51",
+        "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_52",
+        "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_53",
+        "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_54",
+        "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_55",
+        "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_56",
+        "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_57",
+        "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_58",
+        "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_59",
+        "meta-llama_llama-3.3-70b-instruct_vs_deepseek-ai_deepseek-v3_60"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "deepseek-ai/deepseek-v3",
+      "player2": "Stockfish",
+      "games": [
+        "deepseek-ai_deepseek-v3_vs_Stockfish_61",
+        "Stockfish_vs_deepseek-ai_deepseek-v3_62",
+        "deepseek-ai_deepseek-v3_vs_Stockfish_63",
+        "Stockfish_vs_deepseek-ai_deepseek-v3_64",
+        "deepseek-ai_deepseek-v3_vs_Stockfish_65",
+        "Stockfish_vs_deepseek-ai_deepseek-v3_66",
+        "deepseek-ai_deepseek-v3_vs_Stockfish_67",
+        "Stockfish_vs_deepseek-ai_deepseek-v3_68",
+        "deepseek-ai_deepseek-v3_vs_Stockfish_69",
+        "Stockfish_vs_deepseek-ai_deepseek-v3_70"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "mistralai/mistral-small-24b-instruct-2501",
+      "player2": "meta-llama/llama-3.3-70b-instruct",
+      "games": [
+        "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_71",
+        "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_72",
+        "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_73",
+        "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_74",
+        "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_75",
+        "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_76",
+        "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_77",
+        "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_78",
+        "mistralai_mistral-small-24b-instruct-2501_vs_meta-llama_llama-3.3-70b-instruct_79",
+        "meta-llama_llama-3.3-70b-instruct_vs_mistralai_mistral-small-24b-instruct-2501_80"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "mistralai/mistral-small-24b-instruct-2501",
+      "player2": "Stockfish",
+      "games": [
+        "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_81",
+        "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_82",
+        "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_83",
+        "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_84",
+        "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_85",
+        "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_86",
+        "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_87",
+        "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_88",
+        "mistralai_mistral-small-24b-instruct-2501_vs_Stockfish_89",
+        "Stockfish_vs_mistralai_mistral-small-24b-instruct-2501_90"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    },
+    {
+      "player1": "meta-llama/llama-3.3-70b-instruct",
+      "player2": "Stockfish",
+      "games": [
+        "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_91",
+        "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_92",
+        "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_93",
+        "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_94",
+        "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_95",
+        "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_96",
+        "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_97",
+        "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_98",
+        "meta-llama_llama-3.3-70b-instruct_vs_Stockfish_99",
+        "Stockfish_vs_meta-llama_llama-3.3-70b-instruct_100"
+      ],
+      "player1_wins": 5,
+      "player2_wins": 5,
+      "draws": 0
+    }
+  ],
+  "ratings_file": "data/tournaments/round_robin_single_10games/ratings.json"
+}

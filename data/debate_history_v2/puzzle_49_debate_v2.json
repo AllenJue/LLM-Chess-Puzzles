@@ -1,0 +1,94 @@
+{
+  "round1": {
+    "affirmative_move": "Rxd5",
+    "negative_move": "Qxe5",
+    "affirmative_response": "1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. Be3 Nf6 5. h3 d5 6. e5 Nd7 7. d4 cxd4 8. Bxd4 Nxd4 9. Qxd4 Qc7 10. Nc3 g6 11. O-O-O Bg7 12. Nb5 Qa5 13. Nd6+ Ke7 14. Qf4 Nxe5 15. Nxe5 Bxe5 16. Qxe5 Rd8 17. Rxd5 Rxd5",
+    "negative_response": "1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. Be3 Nf6 5. h3 d5 6. e5 Nd7 7. d4 cxd4 8. Bxd4 Nxd4 9. Qxd4 Qc7 10. Nc3 g6 11. O-O-O Bg7 12. Nb5 Qa5 13. Nd6+ Ke7 14. Qf4 Nxe5 15. Nxe5 Bxe5 16. Qxe5 Rd8 17. Rxd5 Qxe5 18. Rxe5 Rxd6",
+    "moderator_response": {
+      "Whether there is a preference": "Yes",
+      "Supported Side": "Positional",
+      "Reason": "The positional side's continuation with 17...Qxe5 18.Rxe5 Rxd6 recaptures material accurately and leads to a balanced position with better control of the center and safer king placement. The aggressive side's move 17...Rxd5 loses the queen and results in material disadvantage.",
+      "debate_answer": "17...Qxe5"
+    }
+  },
+  "final_result": {
+    "final_move_san": "Qxe5",
+    "final_move_uci": null,
+    "success": true,
+    "reason": "The positional side's continuation with 17...Qxe5 18.Rxe5 Rxd6 recaptures material accurately and leads to a balanced position with better control of the center and safer king placement. The aggressive side's move 17...Rxd5 loses the queen and results in material disadvantage.",
+    "supported_side": "Positional",
+    "source_agent": "moderator",
+    "source_agents": [
+      "moderator"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 222,
+      "completion_tokens": 134,
+      "total_tokens": 356,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 222,
+      "completion_tokens": 143,
+      "total_tokens": 365,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 444,
+    "total_completion_tokens": 277,
+    "total_tokens": 721
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 33,
+      "turn_number": 17,
+      "is_white_to_move": false,
+      "prompt_tokens": 222,
+      "completion_tokens": 134,
+      "total_tokens": 356,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 33,
+      "turn_number": 17,
+      "is_white_to_move": false,
+      "prompt_tokens": 222,
+      "completion_tokens": 143,
+      "total_tokens": 365,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "moderator",
+      "role": "moderator_round1",
+      "round": 1,
+      "ply_index": 33,
+      "turn_number": 17,
+      "is_white_to_move": false,
+      "prompt_tokens": 521,
+      "completion_tokens": 96,
+      "total_tokens": 617,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": "{\"Whether there is a preference\": \"Yes\", \"Supported Side\": \"Positional\", \"Reason\": \"The positional side's continuation with 17...Qxe5 18.Rxe5 Rxd6 recaptures material accurately and leads to a balanced position with better control of the center and safer king placement. The aggressive side's move 17...Rxd5 loses the queen and results in material disadvantage.\", \"debate_answer\": \"17...Qxe5\"}"
+  }
+}

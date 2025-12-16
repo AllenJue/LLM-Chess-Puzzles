@@ -1,0 +1,2714 @@
+{
+  "result": "meta-llama/llama-3.3-70b-instruct wins by disqualification (deepseek-ai/deepseek-v3 failed to produce a legal move)",
+  "white_player": "deepseek-ai/deepseek-v3",
+  "black_player": "meta-llama/llama-3.3-70b-instruct",
+  "white_score": 0.0,
+  "black_score": 1.0,
+  "total_moves": 2,
+  "moves": [
+    "e2e4",
+    "e7e5"
+  ],
+  "game_history": [
+    {
+      "move_number": 1,
+      "player": "deepseek-ai/deepseek-v3",
+      "color": "white",
+      "move_uci": "e2e4",
+      "move_san": "e4",
+      "fen_after": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move_number": 2,
+      "player": "meta-llama/llama-3.3-70b-instruct",
+      "color": "black",
+      "move_uci": "e7e5",
+      "move_san": "e5",
+      "fen_after": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    }
+  ],
+  "final_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+  "white_tokens": {
+    "prompt_tokens": 5841,
+    "completion_tokens": 1293,
+    "total_tokens": 7134
+  },
+  "black_tokens": {
+    "prompt_tokens": 1538,
+    "completion_tokens": 51,
+    "total_tokens": 1589
+  },
+  "white_token_log": [
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 119,
+        "completion_tokens": 17,
+        "total_tokens": 136,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 25,
+        "total_tokens": 153,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 135,
+        "completion_tokens": 32,
+        "total_tokens": 167,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "tokens": {
+        "prompt_tokens": 143,
+        "completion_tokens": 47,
+        "total_tokens": 190,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 119,
+        "completion_tokens": 17,
+        "total_tokens": 136,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 25,
+        "total_tokens": 153,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 135,
+        "completion_tokens": 35,
+        "total_tokens": 170,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 119,
+        "completion_tokens": 17,
+        "total_tokens": 136,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 25,
+        "total_tokens": 153,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 135,
+        "completion_tokens": 32,
+        "total_tokens": 167,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 143,
+        "completion_tokens": 40,
+        "total_tokens": 183,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 150,
+        "completion_tokens": 47,
+        "total_tokens": 197,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 158,
+        "completion_tokens": 59,
+        "total_tokens": 217,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 16,
+      "attempt": 2,
+      "tokens": {
+        "prompt_tokens": 165,
+        "completion_tokens": 64,
+        "total_tokens": 229,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 18,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 173,
+        "completion_tokens": 71,
+        "total_tokens": 244,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 20,
+      "attempt": 3,
+      "tokens": {
+        "prompt_tokens": 181,
+        "completion_tokens": 79,
+        "total_tokens": 260,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 22,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 188,
+        "completion_tokens": 89,
+        "total_tokens": 277,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 24,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 197,
+        "completion_tokens": 99,
+        "total_tokens": 296,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 26,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 205,
+        "completion_tokens": 105,
+        "total_tokens": 310,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 119,
+        "completion_tokens": 17,
+        "total_tokens": 136,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 3,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 24,
+        "total_tokens": 152,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 135,
+        "completion_tokens": 32,
+        "total_tokens": 167,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 119,
+        "completion_tokens": 17,
+        "total_tokens": 136,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 2,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 25,
+        "total_tokens": 153,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 135,
+        "completion_tokens": 32,
+        "total_tokens": 167,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 113,
+        "completion_tokens": 15,
+        "total_tokens": 128,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 121,
+        "completion_tokens": 18,
+        "total_tokens": 139,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 129,
+        "completion_tokens": 27,
+        "total_tokens": 156,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 138,
+        "completion_tokens": 35,
+        "total_tokens": 173,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 11,
+      "attempt": 3,
+      "tokens": {
+        "prompt_tokens": 147,
+        "completion_tokens": 45,
+        "total_tokens": 192,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 58,
+        "completion_tokens": 3,
+        "total_tokens": 61,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 59,
+        "completion_tokens": 3,
+        "total_tokens": 62,
+        "model": "deepseek-ai/deepseek-v3",
+        "finish_reason": "stop"
+      }
+    }
+  ],
+  "black_token_log": [
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 91,
+        "completion_tokens": 3,
+        "total_tokens": 94,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 90,
+        "completion_tokens": 3,
+        "total_tokens": 93,
+        "model": "meta-llama/llama-3.3-70b-instruct",
+        "finish_reason": "stop"
+      }
+    }
+  ],
+  "white_responses": [
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 *\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5\na6",
+      "predicted_san": "a6",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4\nb5",
+      "predicted_san": "b5",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 *\nWhite: Nf3",
+      "predicted_san": "Nf3",
+      "board_fen": "r1bqkbnr/2pp1ppp/p1n5/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQK2R b KQkq - 1 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 Nf6\nWhite to move: d4",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/2pp1ppp/p1n5/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQK2R b KQkq - 1 5"
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 Nf6 6. O-O *\nWhite: Bxc6",
+      "predicted_san": "Bxc6",
+      "board_fen": "r1bqkb1r/2pp1ppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 b kq - 3 6"
+    },
+    {
+      "turn": 12,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 Nf6 6. O-O *\nWhite: Be3",
+      "predicted_san": "Be3",
+      "board_fen": "r1bqkb1r/2pp1ppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 b kq - 3 6"
+    },
+    {
+      "turn": 12,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 Nf6 6. O-O *\nWhite: Bxc6",
+      "predicted_san": "Bxc6",
+      "board_fen": "r1bqkb1r/2pp1ppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 b kq - 3 6"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 *\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5\na6",
+      "predicted_san": "a6",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4\nBlack: Nf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Be2",
+      "predicted_san": "Be2",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Re1",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Re1",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 *\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5\na6",
+      "predicted_san": "a6",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O\nBe7",
+      "predicted_san": "Be7",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 *\nb5",
+      "predicted_san": "b5",
+      "board_fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6"
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 *\nBlack to move: d6",
+      "predicted_san": "d6",
+      "board_fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq - 1 7"
+    },
+    {
+      "turn": 16,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 *\nWhite: Na3",
+      "predicted_san": "Na3",
+      "board_fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b kq - 0 8"
+    },
+    {
+      "turn": 16,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 *\nWhite: O-O",
+      "predicted_san": "O-O",
+      "board_fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b kq - 0 8"
+    },
+    {
+      "turn": 18,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 *\nBlack: Na5",
+      "predicted_san": "Na5",
+      "board_fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9"
+    },
+    {
+      "turn": 20,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 *\nWhite: Nbd2",
+      "predicted_san": "Nbd2",
+      "board_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - - 2 10"
+    },
+    {
+      "turn": 20,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 *\nWhite: Nbd2",
+      "predicted_san": "Nbd2",
+      "board_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - - 2 10"
+    },
+    {
+      "turn": 20,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 *\nBlack: c5",
+      "predicted_san": "c5",
+      "board_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - - 2 10"
+    },
+    {
+      "turn": 22,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 *\nBlack to move: exd4",
+      "predicted_san": "exd4",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 b - - 0 11"
+    },
+    {
+      "turn": 24,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 exd4 12. cxd4 Nc6\nWhite: Nbd2",
+      "predicted_san": "Nc6",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/npp5/3PP3/5N1P/PPB2PP1/RNBQR1K1 b - - 0 12"
+    },
+    {
+      "turn": 26,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 exd4 12. cxd4 Nc6 13. d5 Nb4\nWhite: Nb4",
+      "predicted_san": "Nb4",
+      "board_fen": "r1bq1rk1/4bppp/p1np1n2/1ppP4/4P3/5N1P/PPB2PP1/RNBQR1K1 b - - 0 13"
+    },
+    {
+      "turn": 28,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 exd4 12. cxd4 Nc6 13. d5 Nb4 14. Bb3 *\nBg5",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/1ppP4/1n2P3/1B3N1P/PP3PP1/RNBQR1K1 b - - 2 14"
+    },
+    {
+      "turn": 28,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 exd4 12. cxd4 Nc6 13. d5 Nb4 14. Bb3 *\nWhite: Nbd2",
+      "predicted_san": "Nbd2",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/1ppP4/1n2P3/1B3N1P/PP3PP1/RNBQR1K1 b - - 2 14"
+    },
+    {
+      "turn": 28,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 exd4 12. cxd4 Nc6 13. d5 Nb4 14. Bb3 *\nWhite: Nbd2",
+      "predicted_san": "Nbd2",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/1ppP4/1n2P3/1B3N1P/PP3PP1/RNBQR1K1 b - - 2 14"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 *\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5\na4",
+      "predicted_san": "a4",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 6,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5\na4",
+      "predicted_san": "a4",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 6,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+      "predicted_san": "a6",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Re1",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Re1",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Re1",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 *\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5\na4",
+      "predicted_san": "a4",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 6,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5\na6",
+      "predicted_san": "a6",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Be2",
+      "predicted_san": "Be2",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Re1",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O *\nWhite: Re1",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 c5\nWhite: e2e4\nBlack: c7c5\ne4",
+      "predicted_san": "e2e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 c5\nWhite: e2",
+      "predicted_san": "e2",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5\nWhite to move: Nf3",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6\nd4",
+      "predicted_san": "d4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4\nNxd4",
+      "predicted_san": "Nxd4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 *\nBg5",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bqkbnr/pp2pppp/2np4/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Bg5 Nf6\nBg5",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/8/PPP2PPP/RN1QKB1R w KQkq - 3 6"
+    },
+    {
+      "turn": 11,
+      "attempt": 2,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Bg5 Nf6\nBg5",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/8/PPP2PPP/RN1QKB1R w KQkq - 3 6"
+    },
+    {
+      "turn": 11,
+      "attempt": 3,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Bg5 Nf6\nNc3",
+      "predicted_san": "Nc3",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/8/PPP2PPP/RN1QKB1R w KQkq - 3 6"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5\nWhite: e2",
+      "predicted_san": "e2",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 c5\nWhite: e2e4\nBlack: c7c5\ne4",
+      "predicted_san": "e2e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 c5\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 c5\nWhite: e2",
+      "predicted_san": "e2",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 c5\nWhite: e2e4\nBlack: c7c5\ne4",
+      "predicted_san": "e2e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5\nc5",
+      "predicted_san": "c5",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 c5\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 c5\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\ne5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    }
+  ],
+  "black_responses": [
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "raw_response": "1. e4 e5 2. Nf3\nWhite",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\nWhite",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "e5",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    }
+  ],
+  "white_errors": [
+    {
+      "turn": 10,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 12,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 12,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 16,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 28,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 28,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 28,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 6,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 11,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    }
+  ],
+  "black_errors": [
+    {
+      "turn": 4,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 4,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    }
+  ],
+  "timestamp": "2025-11-29T21:44:32.497795",
+  "game_id": "deepseek-ai_deepseek-v3_vs_meta-llama_llama-3.3-70b-instruct_57",
+  "opening": "standard"
+}

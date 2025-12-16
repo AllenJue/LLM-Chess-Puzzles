@@ -1,0 +1,16 @@
+model,total_puzzles,solved,accuracy,total_prompt_tokens,total_completion_tokens,total_tokens,avg_prompt_tokens_per_puzzle,avg_completion_tokens_per_puzzle,avg_tokens_per_puzzle
+with_debate_50_v2,1000,19,1.9,26142,17331,43473,26.142,17.331,43.473
+google_gemma-3-12b-it_free,1000,0,0.0,19851,0,19851,19.851,0.0,19.851
+debate_50_100_20251025_160508,1000,17,1.7000000000000002,24062,15642,39704,24.062,15.642,39.704
+qwen_qwen3-4b_free,1000,0,0.0,0,27520,27520,0.0,27.52,27.52
+mistralai_mistral-small-3.2-24b-instruct_free,1000,0,0.0,0,11729,11729,0.0,11.729,11.729
+self_consistency_50,1000,31,3.1,0,0,0,0.0,0.0,0.0
+single_model_50,1000,26,2.6,0,0,0,0.0,0.0,0.0
+single_model_50_100_20251025_160508,1000,24,2.4,0,0,0,0.0,0.0,0.0
+self_consistency_50_100_20251025_160508,1000,28,2.8000000000000003,44574,11106,55680,44.574,11.106,55.68
+qwen_qwen-2.5-coder-32b-instruct_free,1000,0,0.0,0,18288,18288,0.0,18.288,18.288
+single,1000,3,0.3,1283,512,1795,1.283,0.512,1.795
+qwen_qwen2.5-vl-32b-instruct_free,1000,0,0.0,0,11585,11585,0.0,11.585,11.585
+google_gemma-3-27b-it_free,1000,0,0.0,0,10515,10515,0.0,10.515,10.515
+google_gemma-3-4b-it_free,1000,0,0.0,19296,0,19296,19.296,0.0,19.296
+meta-llama_llama-3.3-8b-instruct_free,1000,1,0.1,0,19055,19055,0.0,19.055,19.055

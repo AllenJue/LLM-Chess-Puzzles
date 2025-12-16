@@ -1,0 +1,14 @@
+[Event "LLM vs Stockfish"]
+[Site "Chess Game Engine"]
+[Date "2025.10.25"]
+[Round "?"]
+[White "Model"]
+[Black "Stockfish"]
+[Result "1-0"]
+[Model "gpt-3.5-turbo-instruct"]
+[Approach "single_model"]
+[FallbackMoves "0"]
+[TotalMoves "37"]
+[StockfishSkill "1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 Nf6 4. Nc3 Be7 5. e5 Ng4 6. h3 Nh6 7. Bxh6 gxh6 8. d5 O-O 9. d6 Bh4 10. g3 Qb6 11. gxh4 Kh8 12. Qd2 f6 13. Qxh6 Rf7 14. Rg1 Qxb2 15. Kd2 fxe5 16. Nxe5 Qxc2+ 17. Kxc2 Rxf2+ 18. Be2 Nc6 19. Qg7# 1-0

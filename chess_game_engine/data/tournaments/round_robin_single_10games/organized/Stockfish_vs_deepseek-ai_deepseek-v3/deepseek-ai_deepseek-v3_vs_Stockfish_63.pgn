@@ -1,0 +1,9 @@
+[Event "Model vs Model Tournament"]
+[Site "Chess Tournament Engine"]
+[Date "2025.11.29"]
+[Round "?"]
+[White "deepseek-ai/deepseek-v3"]
+[Black "Stockfish"]
+[Result "1-0"]
+
+1. e4 e5 1-0

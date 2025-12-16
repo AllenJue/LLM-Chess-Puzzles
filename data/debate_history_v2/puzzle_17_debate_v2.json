@@ -1,0 +1,91 @@
+{
+  "round1": {
+    "affirmative_move": "Rg1",
+    "negative_move": "Rg1",
+    "affirmative_response": "1. d4 d5 2. Nc3 Nf6 3. Bf4 a6 4. e3 Nc6 5. Nf3 Bf5 6. Be2 e6 7. h3 Bb4 8. Bg5 h6 9. Bxf6 Qxf6 10. Qd2 Qg6 11. g4 Bxc2 12. a3 Be4 13. Rg1",
+    "negative_response": "1. d4 d5 2. Nc3 Nf6 3. Bf4 a6 4. e3 Nc6 5. Nf3 Bf5 6. Be2 e6 7. h3 Bb4 8. Bg5 h6 9. Bxf6 Qxf6 10. Qd2 Qg6 11. g4 Bxc2 12. a3 Be4 13. Rg1",
+    "affirmative_tokens": {
+      "prompt_tokens": 183,
+      "completion_tokens": 98,
+      "total_tokens": 281,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative_tokens": {
+      "prompt_tokens": 183,
+      "completion_tokens": 98,
+      "total_tokens": 281,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator_response": "Early consensus - no moderator needed",
+    "early_consensus": true
+  },
+  "final_result": {
+    "final_move_san": "Rg1",
+    "final_move_uci": "h1g1",
+    "success": true,
+    "reason": "Early consensus - both models agreed",
+    "supported_side": "Both",
+    "source_agent": "affirmative",
+    "source_agents": [
+      "affirmative",
+      "negative"
+    ]
+  },
+  "total_tokens": {
+    "affirmative": {
+      "prompt_tokens": 183,
+      "completion_tokens": 98,
+      "total_tokens": 281,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "negative": {
+      "prompt_tokens": 183,
+      "completion_tokens": 98,
+      "total_tokens": 281,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    "moderator": null,
+    "judge": null,
+    "total_prompt_tokens": 366,
+    "total_completion_tokens": 196,
+    "total_tokens": 562
+  },
+  "token_events": [
+    {
+      "paradigm": "debate",
+      "agent": "affirmative",
+      "role": "affirmative_round1",
+      "round": 1,
+      "ply_index": 24,
+      "turn_number": 13,
+      "is_white_to_move": true,
+      "prompt_tokens": 183,
+      "completion_tokens": 98,
+      "total_tokens": 281,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    },
+    {
+      "paradigm": "debate",
+      "agent": "negative",
+      "role": "negative_round1",
+      "round": 1,
+      "ply_index": 24,
+      "turn_number": 13,
+      "is_white_to_move": true,
+      "prompt_tokens": 183,
+      "completion_tokens": 98,
+      "total_tokens": 281,
+      "model": "gpt-4.1-mini",
+      "finish_reason": "stop"
+    }
+  ],
+  "judge": {},
+  "moderator": {
+    "raw_response": null
+  }
+}

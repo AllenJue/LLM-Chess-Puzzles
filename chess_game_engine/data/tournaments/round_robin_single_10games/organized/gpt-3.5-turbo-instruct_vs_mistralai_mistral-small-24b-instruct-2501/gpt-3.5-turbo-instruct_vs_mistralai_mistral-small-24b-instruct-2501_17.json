@@ -1,0 +1,2523 @@
+{
+  "result": "gpt-3.5-turbo-instruct wins by disqualification (mistralai/mistral-small-24b-instruct-2501 failed to produce a legal move)",
+  "white_player": "gpt-3.5-turbo-instruct",
+  "black_player": "mistralai/mistral-small-24b-instruct-2501",
+  "white_score": 1.0,
+  "black_score": 0.0,
+  "total_moves": 19,
+  "moves": [
+    "e2e4",
+    "c7c5",
+    "g1f3",
+    "d7d6",
+    "d2d4",
+    "c5d4",
+    "f3d4",
+    "b8c6",
+    "b1c3",
+    "g8f6",
+    "c1g5",
+    "c6d4",
+    "d1d4",
+    "e7e6",
+    "e1c1",
+    "f8e7",
+    "g5f6",
+    "e7f6",
+    "d4d6"
+  ],
+  "game_history": [
+    {
+      "move_number": 1,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "e2e4",
+      "move_san": "e4",
+      "fen_after": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move_number": 2,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "c7c5",
+      "move_san": "c5",
+      "fen_after": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "move_number": 3,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "g1f3",
+      "move_san": "Nf3",
+      "fen_after": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "move_number": 4,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "d7d6",
+      "move_san": "d6",
+      "fen_after": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"
+    },
+    {
+      "move_number": 5,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "d2d4",
+      "move_san": "d4",
+      "fen_after": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"
+    },
+    {
+      "move_number": 6,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "c5d4",
+      "move_san": "cxd4",
+      "fen_after": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"
+    },
+    {
+      "move_number": 7,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "f3d4",
+      "move_san": "Nxd4",
+      "fen_after": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4"
+    },
+    {
+      "move_number": 8,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "b8c6",
+      "move_san": "Nc6",
+      "fen_after": "r1bqkbnr/pp2pppp/2np4/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
+    },
+    {
+      "move_number": 9,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "b1c3",
+      "move_san": "Nc3",
+      "fen_after": "r1bqkbnr/pp2pppp/2np4/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5"
+    },
+    {
+      "move_number": 10,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "g8f6",
+      "move_san": "Nf6",
+      "fen_after": "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"
+    },
+    {
+      "move_number": 11,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "c1g5",
+      "move_san": "Bg5",
+      "fen_after": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 4 6"
+    },
+    {
+      "move_number": 12,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "c6d4",
+      "move_san": "Nxd4",
+      "fen_after": "r1bqkb1r/pp2pppp/3p1n2/6B1/3nP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7"
+    },
+    {
+      "move_number": 13,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "d1d4",
+      "move_san": "Qxd4",
+      "fen_after": "r1bqkb1r/pp2pppp/3p1n2/6B1/3QP3/2N5/PPP2PPP/R3KB1R b KQkq - 0 7"
+    },
+    {
+      "move_number": 14,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "e7e6",
+      "move_san": "e6",
+      "fen_after": "r1bqkb1r/pp3ppp/3ppn2/6B1/3QP3/2N5/PPP2PPP/R3KB1R w KQkq - 0 8"
+    },
+    {
+      "move_number": 15,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "e1c1",
+      "move_san": "O-O-O",
+      "fen_after": "r1bqkb1r/pp3ppp/3ppn2/6B1/3QP3/2N5/PPP2PPP/2KR1B1R b kq - 1 8"
+    },
+    {
+      "move_number": 16,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "f8e7",
+      "move_san": "Be7",
+      "fen_after": "r1bqk2r/pp2bppp/3ppn2/6B1/3QP3/2N5/PPP2PPP/2KR1B1R w kq - 2 9"
+    },
+    {
+      "move_number": 17,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "g5f6",
+      "move_san": "Bxf6",
+      "fen_after": "r1bqk2r/pp2bppp/3ppB2/8/3QP3/2N5/PPP2PPP/2KR1B1R b kq - 0 9"
+    },
+    {
+      "move_number": 18,
+      "player": "mistralai/mistral-small-24b-instruct-2501",
+      "color": "black",
+      "move_uci": "e7f6",
+      "move_san": "Bxf6",
+      "fen_after": "r1bqk2r/pp3ppp/3ppb2/8/3QP3/2N5/PPP2PPP/2KR1B1R w kq - 0 10"
+    },
+    {
+      "move_number": 19,
+      "player": "gpt-3.5-turbo-instruct",
+      "color": "white",
+      "move_uci": "d4d6",
+      "move_san": "Qxd6",
+      "fen_after": "r1bqk2r/pp3ppp/3Qpb2/8/4P3/2N5/PPP2PPP/2KR1B1R b kq - 0 10"
+    }
+  ],
+  "final_fen": "r1bqk2r/pp3ppp/3Qpb2/8/4P3/2N5/PPP2PPP/2KR1B1R b kq - 0 10",
+  "white_tokens": {
+    "prompt_tokens": 10185,
+    "completion_tokens": 35370,
+    "total_tokens": 45555
+  },
+  "black_tokens": {
+    "prompt_tokens": 4358,
+    "completion_tokens": 1124,
+    "total_tokens": 5482
+  },
+  "white_token_log": [
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 384,
+        "total_tokens": 487,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 316,
+        "total_tokens": 425,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 118,
+        "completion_tokens": 640,
+        "total_tokens": 758,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 126,
+        "completion_tokens": 249,
+        "total_tokens": 375,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 133,
+        "completion_tokens": 364,
+        "total_tokens": 497,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 142,
+        "completion_tokens": 285,
+        "total_tokens": 427,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 516,
+        "total_tokens": 623,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 309,
+        "total_tokens": 412,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 17,
+        "total_tokens": 126,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 118,
+        "completion_tokens": 640,
+        "total_tokens": 758,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 126,
+        "completion_tokens": 249,
+        "total_tokens": 375,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 134,
+        "completion_tokens": 220,
+        "total_tokens": 354,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 377,
+        "total_tokens": 484,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 640,
+        "total_tokens": 743,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 640,
+        "total_tokens": 749,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 118,
+        "completion_tokens": 395,
+        "total_tokens": 513,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 126,
+        "completion_tokens": 558,
+        "total_tokens": 684,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 134,
+        "completion_tokens": 358,
+        "total_tokens": 492,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 141,
+        "completion_tokens": 625,
+        "total_tokens": 766,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 148,
+        "completion_tokens": 236,
+        "total_tokens": 384,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 156,
+        "completion_tokens": 633,
+        "total_tokens": 789,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 17,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 164,
+        "completion_tokens": 338,
+        "total_tokens": 502,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 19,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 171,
+        "completion_tokens": 584,
+        "total_tokens": 755,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 21,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 179,
+        "completion_tokens": 640,
+        "total_tokens": 819,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 23,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 187,
+        "completion_tokens": 640,
+        "total_tokens": 827,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 25,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 196,
+        "completion_tokens": 430,
+        "total_tokens": 626,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 27,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 203,
+        "completion_tokens": 339,
+        "total_tokens": 542,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 534,
+        "total_tokens": 641,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 640,
+        "total_tokens": 743,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 577,
+        "total_tokens": 686,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 118,
+        "completion_tokens": 572,
+        "total_tokens": 690,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 126,
+        "completion_tokens": 227,
+        "total_tokens": 353,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 134,
+        "completion_tokens": 260,
+        "total_tokens": 394,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 537,
+        "total_tokens": 644,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 640,
+        "total_tokens": 743,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 640,
+        "total_tokens": 749,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 118,
+        "completion_tokens": 405,
+        "total_tokens": 523,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 126,
+        "completion_tokens": 249,
+        "total_tokens": 375,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 134,
+        "completion_tokens": 475,
+        "total_tokens": 609,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 539,
+        "total_tokens": 646,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 342,
+        "total_tokens": 445,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 640,
+        "total_tokens": 749,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 117,
+        "completion_tokens": 490,
+        "total_tokens": 607,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 125,
+        "completion_tokens": 423,
+        "total_tokens": 548,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 134,
+        "completion_tokens": 191,
+        "total_tokens": 325,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 143,
+        "completion_tokens": 640,
+        "total_tokens": 783,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 151,
+        "completion_tokens": 640,
+        "total_tokens": 791,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 159,
+        "completion_tokens": 94,
+        "total_tokens": 253,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 509,
+        "total_tokens": 616,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 538,
+        "total_tokens": 641,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 640,
+        "total_tokens": 749,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 116,
+        "completion_tokens": 640,
+        "total_tokens": 756,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 124,
+        "completion_tokens": 640,
+        "total_tokens": 764,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 133,
+        "completion_tokens": 466,
+        "total_tokens": 599,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 142,
+        "completion_tokens": 281,
+        "total_tokens": 423,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 151,
+        "completion_tokens": 222,
+        "total_tokens": 373,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 159,
+        "completion_tokens": 640,
+        "total_tokens": 799,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 17,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 168,
+        "completion_tokens": 640,
+        "total_tokens": 808,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 19,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 176,
+        "completion_tokens": 640,
+        "total_tokens": 816,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 530,
+        "total_tokens": 637,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 640,
+        "total_tokens": 743,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 385,
+        "total_tokens": 494,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 117,
+        "completion_tokens": 612,
+        "total_tokens": 729,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 125,
+        "completion_tokens": 423,
+        "total_tokens": 548,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 134,
+        "completion_tokens": 640,
+        "total_tokens": 774,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 143,
+        "completion_tokens": 304,
+        "total_tokens": 447,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 152,
+        "completion_tokens": 404,
+        "total_tokens": 556,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 107,
+        "completion_tokens": 511,
+        "total_tokens": 618,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 103,
+        "completion_tokens": 553,
+        "total_tokens": 656,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 109,
+        "completion_tokens": 357,
+        "total_tokens": 466,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 117,
+        "completion_tokens": 333,
+        "total_tokens": 450,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 125,
+        "completion_tokens": 245,
+        "total_tokens": 370,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 134,
+        "completion_tokens": 524,
+        "total_tokens": 658,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 143,
+        "completion_tokens": 230,
+        "total_tokens": 373,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 152,
+        "completion_tokens": 640,
+        "total_tokens": 792,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 160,
+        "completion_tokens": 78,
+        "total_tokens": 238,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 17,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 168,
+        "completion_tokens": 88,
+        "total_tokens": 256,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 19,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 177,
+        "completion_tokens": 640,
+        "total_tokens": 817,
+        "model": "gpt-3.5-turbo-instruct",
+        "finish_reason": "length"
+      }
+    }
+  ],
+  "black_token_log": [
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 60,
+        "completion_tokens": 2,
+        "total_tokens": 62,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 121,
+        "completion_tokens": 17,
+        "total_tokens": 138,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 28,
+        "total_tokens": 156,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 137,
+        "completion_tokens": 32,
+        "total_tokens": 169,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 146,
+        "completion_tokens": 41,
+        "total_tokens": 187,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 155,
+        "completion_tokens": 50,
+        "total_tokens": 205,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 163,
+        "completion_tokens": 57,
+        "total_tokens": 220,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 61,
+        "completion_tokens": 2,
+        "total_tokens": 63,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 60,
+        "completion_tokens": 2,
+        "total_tokens": 62,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 120,
+        "completion_tokens": 16,
+        "total_tokens": 136,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 127,
+        "completion_tokens": 22,
+        "total_tokens": 149,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 136,
+        "completion_tokens": 31,
+        "total_tokens": 167,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "tokens": {
+        "prompt_tokens": 145,
+        "completion_tokens": 40,
+        "total_tokens": 185,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 154,
+        "completion_tokens": 49,
+        "total_tokens": 203,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 163,
+        "completion_tokens": 57,
+        "total_tokens": 220,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 16,
+      "attempt": 2,
+      "tokens": {
+        "prompt_tokens": 171,
+        "completion_tokens": 66,
+        "total_tokens": 237,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 18,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 179,
+        "completion_tokens": 73,
+        "total_tokens": 252,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 61,
+        "completion_tokens": 2,
+        "total_tokens": 63,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 60,
+        "completion_tokens": 2,
+        "total_tokens": 62,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 121,
+        "completion_tokens": 15,
+        "total_tokens": 136,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 28,
+        "total_tokens": 156,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 137,
+        "completion_tokens": 32,
+        "total_tokens": 169,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 146,
+        "completion_tokens": 41,
+        "total_tokens": 187,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 155,
+        "completion_tokens": 50,
+        "total_tokens": 205,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 61,
+        "completion_tokens": 2,
+        "total_tokens": 63,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 60,
+        "completion_tokens": 2,
+        "total_tokens": 62,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 121,
+        "completion_tokens": 15,
+        "total_tokens": 136,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 128,
+        "completion_tokens": 28,
+        "total_tokens": 156,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 137,
+        "completion_tokens": 32,
+        "total_tokens": 169,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 146,
+        "completion_tokens": 41,
+        "total_tokens": 187,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 155,
+        "completion_tokens": 50,
+        "total_tokens": 205,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 164,
+        "completion_tokens": 58,
+        "total_tokens": 222,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 16,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 172,
+        "completion_tokens": 66,
+        "total_tokens": 238,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "turn": 18,
+      "attempt": 1,
+      "tokens": {
+        "prompt_tokens": 180,
+        "completion_tokens": 75,
+        "total_tokens": 255,
+        "model": "mistralai/mistral-small-24b-instruct-2501",
+        "finish_reason": "stop"
+      }
+    }
+  ],
+  "white_responses": [
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n2. Nf3 Nc6\n3. Bb5 Nf6\n4. O-O Nxe4\n5. d4 Nd6\n6. Bxc6 dxc6\n7. dxe5 Nf5\n8. Qxd8+ Kxd8\n9. Nc3 Bd7\n10. Rd1 Kc8\n11. Ng5 Be8\n12. Rd3 h6\n13. Nge4 b6\n14. g4 Ne7\n15. f4 Kb7\n16. f5 c5\n17. Bf4 Bc6\n18. Rad1 Re8\n19. Rd8 Rxd8\n20. Rxd8 Nc8\n21. e6 fxe6\n22. fxe6 g5\n23. Be5 Bg7\n24. Rxh8 Bxh8\n25. Bxh8 Bxe4\n26. Nxe4 Kc6\n27. Bg7 Kd5\n28. Nc3+ Kxe6\n29. Bxh6 Kf6\n30. Ne4+ Kg6\n31. Bxg5 Nd6\n32. Nxd6 cxd6\n33. Bf4 d5\n34. h4 d4\n35. h5+ Kf6\n36. Kf2 b5\n37. Kf3 a5\n38. Ke4 a4\n39. g5+ Ke6\n40. h6 Kf7\n41. Kf5 b4\n42. g6+ Kg8\n43. h7+ Kg7\n44. Be5+ Kh6\n45. h8=Q#\n46. Qh4#\n47. Qh8#",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6\n4. Ba4 Nf6 5. O-O Be7 6. Re1 b5\n7. Bb3 d6 8. c3 O-O 9. h3 Nb8\n10. d4 Nbd7 11. Nbd2 Bb7 12. Bc2 Re8\n13. Nf1 Bf8 14. Ng3 g6 15. a4 c5\n16. d5 c4 17. Bg5 h6 18. Be3 Nc5\n19. Qd2 Kh7 20. Nh2 Nfd7 21. Ng4 h5\n22. Nh2 Nb6 23. axb5 axb5 24. Rxa8 Bxa8\n25. f4 exf4 26. Bxf4 Nbd7 27. Nf3 Ne5\n28. Nxe5 dxe5 29. Be3 Bb7 30. Rf1 Kg8\n31. Qf2 Qc7 32. Nxh5 gxh5\n33. Qg3+ Kh7 34. Rf5 Bg7 35. Rxh5+ Kg8\n36. Bh6 f6 37. Qg6 Re7 38. Bxg7 Rxg7\n39. Qe8# e5",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. Nxe6 Rxe6 15. g4 hxg4 16. hxg4 Nh4 17. Bg3 Nf3+ 18. Kg2 Nxe5 19. Rfe1 Bd6 20. Ne4 Rd8 21. Nxd6+ cxd6 22. f4 Nxg4 23. Rxe6+ fxe6 24. Kf3 Nf6 25. Bh4 Kf7 26. c4 d5 27. cxd5 exd5 28. Bf2 b6 29. b4 Ne4 30. Bd4 c5 31. bxc5 bxc5 32. Be5 Nf6 33. Rb1 Rd7 34. Rb5 c4 35. Rc5 Ne4 36. Rc6 Nd2+ 37. Ke3 Nf1+ 38. Kf2 Nd2 39. Ke3 Ne4 40. Kd4 Nf6 41. f5 Ng4 42. Bf4 Nf2 43. Be5 Nd3 44. Bg3 Nb4 45. Rc8 Nxa2 46. Be1 Nc1 47. Bd2 Nb3+ 48. Kc3 Nxd2 49. Kxd2 Kf6 50. Rf8+ Ke5 51. Kc3 Rc7 52. Rd8 d4+ 53. Rxd4 Kxf5 54. Rd5+ Kf4 55. Rd4+ Kf3 56. Rd5 Kf4 57. Rd4+ Kf5 58. Rd5+ Kf6 59. Rd6+ Ke5 60. Rg6 Kf5 61. Rd6 g5 62. Rd5+ Kf4 63. Rd4+ Kf3 64. Rd5 g4 65. Rf5+ Kg2 66. Rg5 g3 67. Rg4 Kf2 68. Rf4+ Kg1 69. Rg4 g2 70. Rg5 Rf7 71. Kxc4 Kf2 72. Kb5 g1=Q 73. Rxg1 Kxg1 74. Ka6 Kf2 75. Kb5 Ke3 76. Ka6 Kd4 77. Kb5 Kd5 78. Ka6 Kc5 79. Ka5 Rf6 80",
+      "predicted_san": "Bb5",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Re6 18. Qf1 Qh5 19. a4 Rfe8 20. axb5 axb5 21. Bxd5 Qxd5 22. Qg2 Qh5 23. Qxc6 Bxg3 24. Qg2 Bf4 25. Ra8 Bb8 26. Kh1 Rg6 27. Bf4 Rxe1+ 28. Nf1 Rxf1+ 29. Qxf1 Bf3+ 30. Qg2 Bxg2+ 31. Kg1 Bxa8+ 32. Kf1 Qd1#",
+      "predicted_san": "Ba4",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. Bb3 Bc5 6. O-O Nf6 7. d3 O-O 8. Bg5 h6 9. Bh4 Be7 10. Nc3 d6 11. h3 Be6 12. Bxe6 fxe6 13. d4 exd4 14. Nxd4 Nxd4 15. Qxd4 c5 16. Qd3 Nh5 17. Bxe7 Qxe7 18. Rad1 Rad8 19. Ne2 Qg5 20. Qd2 Qg6 21. Qe3 e5 22. Rd2 Nf4 23. Nxf4 Rxf4 24. f3 Rdf8 25. Kh2 R8f6 26. Rfd1 Qf7 27. Rxd6 Rxd6 28. Rxd6 Qxa2 29. Qxc5 Qxb2 30. Rxa6 Rf8 31. Rb6 Qc1 32. Rxb5 Qf4+ 33. Kh1 Qc1+ 34. Qg1 Qxc2 35. Rxe5 Rd8 36. Rd5 Rb8 37. Rd1 Rb2 38. Re1 Qd2 39. e5 Kf7 40. e6+ Ke7 41. Qc5+ Kf6 42. Qe5+ Ke7 43. Qxg7+ Kd6 44. Qd7+ Kc5 45. Qxd2 Rxd2 46. e7 1-0\n47. e7",
+      "predicted_san": "Bb3",
+      "board_fen": "r1bqkbnr/2pp1ppp/p1n5/1p2p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "raw_response": "6. O-O Be7 7. Re1 O-O 8. c3 d6 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4 16. Nbd2 Nb4 17. Bb1 Bd7 18. a3 Nc6 19. Bd3 Qb7 20. Rc1 Rfc8 21. Qe2 Rab8 22. d5 Na5 23. Nh2 Bd8 24. f4 Bb6 25. fxe5 dxe5 26. Nhf3 Bxe3+ 27. Qxe3 Re8 28. Rc5 Qb6 29. Rec1 Nb7 30. R5c3 Qxe3+ 31. Kh1 Nd6 32. Bxb5 Qf4 33. Bxd7 Nxd7 34. Rc7 Nf6 35. R1c6 Ndxe4 36. Nxe4 Nxe4 37. d6 Rxb2 38. d7 Rb1+ 39. Ng1 Nf2#\n40. Kh2 e4+",
+      "predicted_san": "O-O",
+      "board_fen": "r1bqkb1r/2pp1ppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQK2R w KQkq - 2 6"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 b4\n24. d5 Ne7\n25. Nh4 b3\n26. a3 Bb5\n27. Qf3 Bd7\n28. Bg5 Ne8\n29. Bxe7 Bxh3\n30. Bg5 Bd7\n31. Nhf5 f6\n32. Be3 Bxf5\n33. Nxf5 Rc7\n34. Qg4 Kh8\n35. g3 Rac8\n36. Kg2 g6\n37. Nh4 Ng7\n38. Rh1 Kg8\n39. Nxg6 hxg6\n40. Qxg6 Rf7\n41. Bh6 Qe7\n42. Qh7+ Kxh7\n43. Bxg7+ Kxg7\n44. Bd3 Rh8\n45. Rg1 Kf8\n46. Kf1 Rfh7\n47. Ke2 Rh1\n48. Rg2 R8h2\n49. Rxh2 Rxh2\n50. Bb5 Qh7\n51. Bd3 Qh5+\n52. Ke3 Qd1\n53. Be2 Qc1+\n54. Kf3 Qxb2\n55. g4 Qxa3\n56. Kg3 Rh1\n57. Kg2 Rc1\n58. Bf3 b2\n59. Kg3 b1=Q\n60. g5 Rg1+\n61. Kh4 Qxf3\n62. gxf6 Qg4#\n63. Kh5 Qg5#",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 Re8\n24. Qd2 Rad8\n25. Bg5 Kh8\n26. Bxf6 gxf6\n27. Qh6 Rg8\n28. Qxf6+ Rg7\n29. Nh5 Rg8\n30. Ng5 Be8\n31. Nxg7 Rxg7\n32. d5 Nd4\n33. Qd8 Qd7\n34. Qxd7 Bxd7\n35. h4 h6\n36. Nh3 Bxh3\n37. Kh2 Bxg2\n38. Rc1 Nf3#",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 *",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. Nxe6 Rxe6 15. g4 hxg4 16. hxg4 Nh4 17. Rd3 Rd8 18. Rfd1 Rxd3 19. Rxd3 Ng6 20. Bg3 Nxe5 21. Bxe5 Rxe5 22. Kg2 Bb4 23. Nd1 Re2 24. c3 Bd6 25. Kf3 Re1 26. Ne3 g6 27. Nc4 Ke7 28. Re3+ Rxe3+ 29. Kxe3 Ke6 30. Ke4 f5+ 31. gxf5+ gxf5+ 32. Kd3 Bc5 33. f3 Kd5 34. b4 Bg1 35. Na5 b6 36. c4+ Kd6 37. Nb3 Ke5 38. a4 Kf4 39. Ke2 Kg3 40. a5 bxa5 41. Nxa5 c5 42. b5 Bd4 43. Nc6 Kf4 44. Nxa7 Ke5 45. Nc6+ Kd6 46. Kd3 Bf6 47. Na5 Ke5 48. Nb3 Kd6 49. Nd2 Ke5 50. Nf1 Kf4 51. Ke2 Bd4 52. Nd2 Ke5 53. Nb3 Kd6 54. Kd3 Bf6 55. Na5 Ke5 56. Nb7 Be7 57. Na5 Kf4 58. Ke2 Bd6 59. Nc6 Kg5 60. Ke3 Kf6 61. f4 Ke6 62. Kf3 Kf6 63. Na5 Ke6 64. Nb3 Kf6 65. Nc1 Ke6 66. Nd3 Kf6 67. Kg3 Ke6 68. Kh4 Kf6 69. Kh5 Be7 70. Kh6 Bd6 71. Kh7 Kf7 72. Kh6 Kf6 73. Kh5 Be7 74. Ne5 Bd6 75. Nd7+ Ke6 76. Nb8 Bxf4 77. Kg6 Be3 78. Nc6 f4 79. Nd8+ Ke5 80. Nf7+ Kd4 81. Ng5 Kxc4 82. Kf5 Kxb5",
+      "predicted_san": "Bb5",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Re6 18. Qf1 Qh5 19. a4 Rfe8 20. axb5 axb5 21. Bxd5 Qxd5 22. Qg2 Qh5 23. Qxc6 Bxg3 24. Qg2 Bf4 25. Ra8 Bb8 26. Kh1 Rg6 27. Bf4 Rxe1+ 28. Nf1 Rxf1+ 29. Qxf1 Bf3+ 30. Qg2 Bxg2+ 31. Kg1 Bxa8+ 32. Kf1 Qd1#",
+      "predicted_san": "Ba4",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4 16. Nbd2 Bd7 17. Rc1 Qb7 18. Bb1 Rfc8 19. Nf1 Bd8 20. Ng3 Bb6 21. Qd2 Ba5 22. Qe2 Bxe1 23. Rxe1 Re8 24. d5 Ne7 25. Nh4 Rac8 26. Bg5 Kh8 27. Bxf6 gxf6 28. Qf3 Ng8 29. Nhf5 Qc7 30. Qg4 Bxf5 31. Nxf5 *\n31... Qc1",
+      "predicted_san": "O-O",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Bb7\n10. d4 Re8\n11. Nbd2 Bf8\n12. a4 h6\n13. Bc2 exd4\n14. cxd4 Nb4\n15. Bb1 c5\n16. d5 Nd7\n17. Ra3 c4\n18. Nd4 Qb6\n19. N2f3 Nc5\n20. Be3 Nbd3\n21. Bxd3 Nxd3\n22. Rxd3 cxd3\n23. Qxd3 Qa5\n24. axb5 axb5\n25. Bd2 Qa4\n26. b3 Qa6\n27. Nxb5 Rac8\n28. Nfd4 g6\n29. Qg3 Qb6\n30. Be3 Rxe4\n31. Nf5 Qxb5\n32. Nxh6+ Bxh6\n33. Bxh6 Rxe1+\n34. Kh2 Qxd5\n35. f3 Qe5\n36. Bf4 Qa1\n37. Qg5 Rh1+\n38. Kg3 Qe1+\n39. Kg4 Rc5\n40. Qd8+ Kh7\n41. Qf6 Bc8+\n42. Qf5 Bxf5+\n43. Kg5 Bxh3+\n44. Kf6 Qe6#\n45. 0-1",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 O-O\n8. c3 d5\n9. exd5 Nxd5\n10. Nxe5 Nxe5\n11. Rxe5 c6\n12. d4 Bd6\n13. Re1 Qh4\n14. g3 Qh3\n15. Be3 Bg4\n16. Qd3 Rae8\n17. Nd2 Re6\n18. Qf1 Qh5\n19. a4 Rfe8\n20. axb5 axb5\n21. Bxd5 Qxd5\n22. Qg2 Qh5\n23. Ra6 Bf8\n24. Rxc6 Bh3\n25. Qf3 Bg4\n26. Qg2 Bh3\n27. Qf3 Bg4\n28. Qg2 Bh3\n29. Qf3 Bg4\n30. Qg2 Bh3\n31. Qf3 Bg4\n32. Qg2 Bh3\n33. Qf3 Bg4\n34. Qg2 Bh3\n35. Qf3 Bg4\n36. Qg2 Bh3\n37. Qf3 Bg4\n38. Qg2 Bh3\n39. Qf3 Bg4\n40. Qg2 Bh3\n41. Qf3 Bg4\n42. Qg2 Bh3\n43. Qf3 Bg4\n44. Qg2 Bh3\n45. Qf3 Bg4\n46. Qg2 Bh3\n47. Qf3 Bg4\n48. Qg2 Bh3\n49. Qf3 Bg4\n50. Qg2 Bh3\n51. Qf3 Bg4\n52. Qg2 Bh3\n53. Qf3 Bg4\n54. Qg2 Bh3\n55. Qf3 Bg4\n56. Qg2 Bh3\n57. Qf3 Bg4\n58. Qg2 Bh3\n59. Qf3 Bg4\n60. Qg2 Bh3\n61. Qf3 Bg4\n62. Qg2 Bh3\n63. Qf3 Bg4\n64. Qg2 Bh3\n65. Qf3 Bg4\n66. Qg2 Bh3\n67. Qf3 Bg4\n68. Qg2 Bh3\n69. Qf3 Bg4\n70. Qg2 Bh3\n71. Qf3 Bg4\n72. Qg2 Bh3\n73. Qf3 Bg4\n74. Qg2 Bh3\n75. Qf3 Bg4\n76. Qg2 Bh3\n77. Qf",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6\n4. Ba4 Nf6 5. O-O Be7 6. Re1 b5\n7. Bb3 d6 8. c3 O-O 9. h3 Na5\n10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4\n13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4\n16. Nbd2 Bd7 17. Rc1 Qb7 18. Bb1 Rfc8\n19. Nf1 Bd8 20. Ng3 Bb6 21. Qd2 Ba5\n22. Qe2 Bxe1 23. Rxe1 Re8 24. Qd2 Rac8\n25. Bg5 Kh8 26. Bxf6 gxf6 27. Qh6 Rg8\n28. Qxf6+ Rg7 29. Nh5 Rg8 30. Ng5 Be8\n31. Nxg7 Rxg7 32. dxe5 dxe5 33. Rd1 Qe7\n34. Qxe7 Nxe7 35. Rd8 Rg8 36. Nf3 f6\n37. Bd3 Kg7 38. Rb8 Bc6 39. Rxg8+ Kxg8\n40. Kf1 Kf7 41. Ke2 Ke6 42. Ke3 Kd6\n43. Nh4 Kc5 44. a3 Bd7 45. Nf3 Nc6\n46. Nd2 Nd4 47. f4 Be6 48. fxe5 fxe5\n49. Nf3 Nxf3 50. Kxf3 Kd4 51. Bxb5 Bb3\n52. g4 Bd1+ 53. Be2 Bc2 54. h4 Bxe4+\n55. Kf2 Bc2 56. g5 e4 57. h5 e3+ 58. Kg3 Bd3\n59. Kf3 Be4+ 60. Kf4 Bd3 61. Kf3 Be4+ 62. Kg3 Bd3\n63. Kf3 Be4+ 64. Kg3 Bd3 65. Kf3 Be4+ 66. Kg3 Bd3 67. Kf3 Be4+ 68. Kg3 Bd3 69. Kf3 Be4+ 70. Kg3 Bd3 71. Kf3 Be4+ 72. Kg3 Bd3 73. Kf3 Be4+ 74. Kg3 Bd3 75. Kf3 Be4+ 76. Kg3 Bd3 77. Kf3 Be4+ 78. Kg3 Bd3 79. Kf3 Be",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. Nxe6 Rxe6 15. g4 hxg4 16. hxg4 Nh4 17. Bg3 Nf3+ 18. Kg2 Nxe5 19. Rfe1 Bd6 20. f4 Nxg4 21. Rxe6+ fxe6 22. Kf3 Nf6 23. Rh1 Kf7 24. Ne4 Nxe4 25. Kxe4 Rd8 26. Bh4 Rh8 27. Rh2 g5 28. Bg3 Rxh2 29. Bxh2 gxf4 30. Bxf4 Bxf4 31. Kxf4 Kf6 32. Ke4 e5 33. c4 Ke6 34. b4 b6 35. a4 a6 36. b5 cxb5 37. cxb5 axb5 38. axb5 Kd6 39. Kf5 Kd5 40. Kf6 e4 41. Ke7 e3 42. Kd7 e2 43. Kxc7 e1=Q 44. Kxb6 Qe6+ 45. Ka7 Kc5 46. b6 Qxb6+ 47. Ka8 Qb5 48. Ka7 Kc6 49. Ka8 Qb7#\n50. Ka8",
+      "predicted_san": "Bb5",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Re6 18. Qf1 Qh5 19. a4 Rfe8 20. axb5 axb5 21. Bxd5 Qxd5 22. Qg2 Qh5 23. Ra6 Bf8 24. Rxc6 Bh3 25. Qf3 Bg4 26. Qg2 Bh3 27. Qf3 Bg4 28. Qh1 Rxc6 29. Qxc6 Re6 30. Qa8 f5 31. Qd5 Qf7 32. Ra1 f4 33. Bxf4 Re1+ 34. Rxe1 Qxd5 35. f3 Bxf3 36. Re5 Qa8 37. Kf2 Bc6 38. Re2 Qa1 39. Nf1 b4 40. c4 b3 41. Be3 Be4 42. Nd2 Bd3 43. Re1 Qxb2 44. c5 Qc2 45. Kf3 b2 46. h4 b1=Q 47. Nxb1 Be4+ 48. Kf4 Bc6 49. Nd2 Qg6 50. g4 Qf6+ 51. Kg3 Be7 52. g5 Qf5 53. Bf4 Bd7 54. Rxe7 Qh3+ 55. Kf2 Qxh4+ 56. Ke3 Qe1+ 57. Kd3 Qxe7 58. Be5 Qxg5 59. Ne4 Qg6 60. Ke3 Bc6 61. Nd6 Qg5+ 62. Kd3 Qg6+ 63. Kc4 Qe6+ 64. Kd3 Qb3+ 65. Kd2 Qb2+ 66. Ke3 Qc3+ 67. Kf4 Qf3+ 68. Kg5 h6+ 69. Kh4 g5# Bf6",
+      "predicted_san": "Ba4",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Bb7 10. d4 Re8 11. Nbd2 Bf8 12. a4 h6 13. Bc2 exd4 14. cxd4 Nb4 15. Bb1 c5 16. d5 Nd7 17. Ra3 c4 18. Nd4 Qb6 19. N2f3 Nc5 20. Be3 Nbd3 21. Bxd3 Nxd3 22. Rxd3 cxd3 23. Qxd3 Qa5 24. axb5 axb5 25. Bd2 Qa4 26. b3 Qa6 27. Nxb5 Rac8 28. Nfd4 g6 29. Qg3 Qb6 30. Be3 Rxe4 31. Rd1 Bxd5 32. Nf5 Qxb5 33. Nxh6+ Bxh6 34. Bxh6 Qxb3 35. Rd3 Qb1+ 36. Kh2 Re1 37. Qxd6 Rh1+ 38. Kg3 Qxd3+ 39. f3 Qf5 40. Bf4 Rc2 41. Qd8+ Kh7 42. Qh4+ Qh5 43. Qf6 Rxg2+ 44. Kxg2 Qxf3+ 45. Kh2 Qg2# 0-1\n46. Kxg2",
+      "predicted_san": "O-O",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "raw_response": "6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4 16. Nbd2 Bd7 17. Rc1 Qb7 18. Bb1 Rfc8 19. Nf1 Bd8 20. Ng3 Bb6 21. Qd2 Ba5 22. Qe2 Bxe1 23. Rxe1 Re8 24. Qd2 Rac8 25. Bg5 Kh8 26. Bxf6 gxf6 27. Qh6 Rg8 28. Qxf6+ Rg7 29. Nh5 Rg8 30. Ng5 Be8 31. Nxg7 Rxg7 32. dxe5 dxe5 33. Rd1 Qe7 34. Qxe7 Nxe7 35. Rd8 Rg8 36. Nf3 f6 37. Bd3 Kg7 38. Rb8 Bc6 39. Rxg8+ Kxg8 40. Kf1 Kf7 41. Ke2 Ke6 42. Ke3 Kd6 43. Nd2 Kc5 44. a3 Bd7 45. Nb1 Nc6 46. Nc3 Nd4 47. Nd5 f5 48. Nf6 f4+ 49. Kd2 Be6 50. Nxh7 b4 51. Ng5 Bg8 52. h4 bxa3 53. bxa3 Nb3+ 54. Kc3 Nd4 55. h5 Nb5+ 56. Bxb5 Kxb5 57. h6 Kc5 58. h7 Bxh7 59. Nxh7 Kd6 60. Ng5 Kc5 61. Nf3 Kd6 62. Kb4 Ke6 63. Kxa4 Kd6 64. Kb5 Ke6 65. a4 Kd6 66. a5 Ke6 67. a6 Kd6 68. a7 Ke6 69. a8=Q Kd6 70. Qd5+ Ke7 71. Qxe5+ Kd7 72. Qxf4 Ke6 73. Qf5+ Ke7 74. Qg6 Kd7 75. Qf6 Kc7 76. Qe6 Kb7 77. Qd6 Ka7 78. Qc6 Kb8 79. Qd7 Ka8 80. Kb6 Kb8 81. Qb7# d5",
+      "predicted_san": "Re1",
+      "board_fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6"
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "raw_response": "7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Re6 18. Qf1 Qh5 19. a4 Rfe8 20. axb5 axb5 21. Bxd5 Qxd5 22. Qg2 Qh5 23. Qxc6 Bxg3 24. Qg2 Bf4 25. Ra8 Bb8 26. Kh1 Rg6 27. Bf4 Rxe1+ 28. Nf1 Rxf1+ 29. Qxf1 Bf3+ 30. Qg2 Bxg2+ 31. Kg1 Bxa8+ 32. Kf1 Qd1#\n33. Bc1 Qxc1#",
+      "predicted_san": "Bb3",
+      "board_fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq - 0 7"
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "raw_response": "8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4 16. Nbd2 Bd7 17. Rc1 Qb7 18. Bb1 Rfc8 19. Nf1 Bd8 20. Ng3 Bb6 21. Qd2 Ba5 22. Qe2 Bxe1 23. Rxe1 Re8 24. Qd2 Qa6 25. Bg5 Qa5 26. Qd1 Nxd4 27. Nxd4 exd4 28. Bxf6 gxf6 29. Nh5 Re6 30. Rf1 Kh8 31. Qxd4 b4 32. Nxf6 Qe5 33. Qxe5 dxe5 34. Nxd7 Rd8 35. Nc5 Rc6 36. Nxa4 Rd2 37. b3 Kg7 38. g3 h5 39. Kg2 h4 40. gxh4 Kh6 41. Kf3 Kh5 42. Ke3 Rd8 43. Bd3 Kxh4 44. Bc4 f6 45. Nb2 Ra8 46. Nd3 Rxa2 47. Nxb4 Rxc4 48. Nxa2 Rc2 49. Nb4 Rc3+ 50. Nd3 Rxb3 51. Rg1 Kxh3 52. Rg6 Rb6 53. Nxe5 Rb3+ 54. Nd3 Kh4 55. Rxf6 Kg5 56. Rf5+ Kg6 57. f4 Ra3 58. Rd5 Kf6 59. Rd6+ Ke7 60. e5 Ra1 61. Ke4 Ra4+ 62. Kf5 Ra3 63. Nc5 Ra5 64. Ne4 Ra4 65. Nf6 Ra7 66. Rd7+ Rxd7 67. Nxd7 Kxd7 68. Kf6 Ke8 69. Ke6 Kf8 70. Kd7 Kf7 71. e6+ Kf6 72. e7 Kf5 73. e8=Q Kxf4 74. Qe6 Kg5 75. Qf7 Kg4 76. Qf6 Kg3 77. Qf5 Kg2 78. Qf4 Kg1 79. Qd2 Kf1 80. Ke6 Kg1 81. Kf5 Kf1 82. Kg4 Kg1 83. Kg3 Kf1 84. Qf2#\n85. Qf1#",
+      "predicted_san": "c3",
+      "board_fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w kq - 0 8"
+    },
+    {
+      "turn": 17,
+      "attempt": 1,
+      "raw_response": "9. h3 Bb7 10. d4 Re8 11. Nbd2 Bf8 12. a4 h6 13. Bc2 exd4 14. cxd4 Nb4 15. Bb1 c5\n16. d5 Nd7 17. Ra3 c4 18. Nd4 Qb6 19. N2f3 Nc5 20. Be3 Nbd3 21. Bxd3 Nxd3 22. Rxd3 cxd3\n23. Qxd3 bxa4 24. Nf5 Qb5 25. Qd4 Rac8 26. Bxh6 Rc4 27. Qd2 Rcxe4 28. Rxe4 Rxe4\n29. Bxg7 Bxg7 30. Qg5 Qxb2 31. Qd8+ Kh7 32. Ng5+ Kg6 33. Nxe4 Kxf5 34. Nxd6+ Kg6\n35. Qe7 Qa1+ 36. Kh2 Qe5+ 37. Qxe5 Bxe5+ 38. g3 Bxd6 39. f4 a3 40. h4 a2 41. Kh3 a1=Q\n42. Kg4 Qd1+ 43. Kh3 Bxd5 44. h5+ Kxh5 45. g4+ Qxg4+ 46. Kh2 Qg2# 47. f5 Qh1#",
+      "predicted_san": "h3",
+      "board_fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9"
+    },
+    {
+      "turn": 19,
+      "attempt": 1,
+      "raw_response": "10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4 16. Nbd2\nBd7 17. Rc1 Qb7 18. Bb1 Rfc8 19. Nf1 Bd8 20. Ng3 Bb6 21. Qd2 Ba5 22. Qe2 Bxe1\n23. Rxe1 Re8 24. d5 Ne7 25. Nh4 Rac8 26. Bg5 Kh8 27. Bxf6 gxf6 28. Qf3 Ng8 29. Nhf5\nBxf5 30. Nxf5 Qd7 31. Qg4 Qxf5 32. Qxf5 Kg7 33. Bd3 Rc5 34. Re3 Ne7 35. Rg3+ Ng6\n36. h4 h5 37. Qxh5 Rh8 38. Qf5 Rxh4 39. Rh3 Rf4 40. Qd7 Rc1+ 41. Kh2 Rxf2 42. Qxd6\nNf4 43. Rg3+ Ng6 44. Bxb5 Rxb2 45. Bxa4 Rxa2 46. Be8 Ra7 47. Qb6 Re7 48. Bc6\nRd1 49. Qd8 Ra7 50. d6 Raa1 51. Rf3 Rh1+ 52. Kg3 Nf4 53. Rxf4 exf4+ 54. Kxf4\nRaf1+ 55. Kg3 Rd1 56. Bd5 Rd3+ 57. Kf2 Rd2+ 58. Ke3 Rhd1 59. Qe7 Rd3+ 60. Kf2\nR1d2+ 61. Kg1 Rd1+ 62. Kh2 Rxd5 63. exd5 Rxd5 64. d7 Rh5+ 65. Kg1 Re5 66. Qxe5\nfxe5 67. d8=Q Kg6 68. Kf2 Kf5 69. Ke3 f6 70. Qd7+ Kg5 71. Ke4 Kg6 72. Qf5+ Kg7\n73. Kd5 Kf7 74. Kd6 Kg7 75. Ke6 e4 76. Qxf6+ Kh7 77. Kf7 e3 78. Qg7# Qe5",
+      "predicted_san": "Bc2",
+      "board_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10"
+    },
+    {
+      "turn": 21,
+      "attempt": 1,
+      "raw_response": "11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4 16. Nbd2 Bd7 17. Rc1 Qb7 18. Bb1 Rfc8 19. Nf1 Bd8 20. Ng3 Bb6 21. Qd2 Ba5 22. Qe2 Bxe1 23. Rxe1 Re8 24. d5 Ne7 25. Nh4 Rac8 26. Bg5 Kh8 27. Bxf6 gxf6 28. Qh5 Rf8 29. Qh6 Ng8 30. Qh5 Ne7 31. Qh6 Ng8 32. Qh5 Ne7 33. Qh6 Ng8 34. Qh5 Ne7 35. Qh6 Ng8 36. Qh5 Ne7 37. Qh6 Ng8 38. Qh5 Ne7 39. Qh6 Ng8 40. Qh5 Ne7 41. Qh6 Ng8 42. Qh5 Ne7 43. Qh6 Ng8 44. Qh5 Ne7 45. Qh6 Ng8 46. Qh5 Ne7 47. Qh6 Ng8 48. Qh5 Ne7 49. Qh6 Ng8 50. Qh5 Ne7 51. Qh6 Ng8 52. Qh5 Ne7 53. Qh6 Ng8 54. Qh5 Ne7 55. Qh6 Ng8 56. Qh5 Ne7 57. Qh6 Ng8 58. Qh5 Ne7 59. Qh6 Ng8 60. Qh5 Ne7 61. Qh6 Ng8 62. Qh5 Ne7 63. Qh6 Ng8 64. Qh5 Ne7 65. Qh6 Ng8 66. Qh5 Ne7 67. Qh6 Ng8 68. Qh5 Ne7 69. Qh6 Ng8 70. Qh5 Ne7 71. Qh6 Ng8 72. Qh5 Ne7 73. Qh6 Ng8 74. Qh5 Ne7 75. Qh6 Ng8 76. Qh5 Ne7 77. Qh6 Ng8 78. Qh5 Ne7 79. Qh6 Ng8 80. Qh5 Ne7 81. Qh6 Ng8 82. Qh5 Ne7 83. Qh6 Ng8 84. Qh5 Ne7 85. Qh6 Ng8 86. Qh5 Ne7 87. Qh6 Ng8 88. Qh5 Ne7 89. Qh6 Ng8 90. Qh5",
+      "predicted_san": "d4",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - - 0 11"
+    },
+    {
+      "turn": 23,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3\nO-O 9. h3 Na5 10. Bc2 c5 11. d4 exd4 12. cxd4 Nc6 13. Nc3 Bb7 14. Bf4 cxd4 15.\nNxd4 Nxd4 16. Qxd4 Rc8 17. Rad1 Rc4 18. Qd2 b4 19. Nd5 Nxd5 20. exd5 Bf6 21. Bb3\nRc5 22. Qxb4 Rb5 23. Qxd6 Bxb2 24. Qxd8 Rxd8 25. Bc7 Rc8 26. d6 Bc6 27. d7 Bxd7\n28. Rxd7 h6 29. Bxf7+ Kh7 30. Re6 Rc5 31. Bg6+ Kg8 32. Rde7 Rf8 33. Bd6 Rc1+ 34.\nKh2 Rcc8 35. Re8 Rfxe8 36. Rxe8+ Rxe8 37. Bxe8 a5 38. Kg3 Bc3 39. Kf4 Be1 40.\nf3 Bd2+ 41. Kf5 Bc3 42. Kg6 Bb2 43. Bf7+ Kh8 44. Bf8 Bc3 45. f4 Bb2 46. f5 Bc3\n47. f6 Bxf6 48. Bxg7+ Bxg7 49. g4 Bf8 50. h4 Bg7 51. g5 hxg5 52. hxg5 Bf8 53.\nKf6 Bg7+ 54. Ke6 Bc3 55. g6 Kg7 56. Kd5 Bb4 57. Kc4 Be1 58. Kb5 Bd2 59. a4 Be1\n60. Kc4 Bd2 61. Kd3 Be1 62. Ke2 Bb4 63. Kd3 Be1 64. Ke4 Bb4 65. Kf5 Be1 66. Kg5\nBb4 67. Kh5 Be1 68. Kg5 Bb4 69. Kf5 Be1 70. Ke6 Bb4 71. Kd5 Be1 72. Kc4 Bb4\n73. Kb5 Be1 74. Kc6 Bb4 75. Kd7 Be1 76. Ke8 Bb4 77. Kd7 Be1 78. K",
+      "predicted_san": "cxd4",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/npp5/3pP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 0 12"
+    },
+    {
+      "turn": 25,
+      "attempt": 1,
+      "raw_response": "13. d5 Nb4 14. Bb3 c4 15. Bc2 Nxc2 16. Qxc2 Nd7 17. Be3 Bf6 18. Nc3 Re8 19. Bd4 Bxd4 20. Nxd4 Ne5 21. Rad1 Qg5 22. Kh1 Qh4 23. Re3 Bd7 24. Nf3 Nxf3 25. Rxf3 Re5 26. Re1 Rae8 27. Rfe3 f5 28. exf5 Rxe3 29. Rxe3 Rxe3 30. fxe3 Qe1+ 31. Kh2 Qxe3 32. Qe4 Qxe4 33. Nxe4 Bxf5 34. Nxd6 Bb1 35. a3 Kf8 36. Kg3 Ke7 37. Nb7 Be4 38. d6+ Kd7 39. Nc5+ Kxd6 40. Nxe4+ Kd5 41. Kf3 Kd4 42. Nc3 Kd3 43. Nd5 Kc2 44. Nc7 Kxb2 45. Nxa6 c3 46. Nb4 Kxa3 47. Nc2+ Kb2 48. Nd4 c2 49. Nxc2 Kxc2 50. Ke4 b4 51. Kd4 b3 52. Kc4 b2 53. Kd4 b1=Q 54. Ke4 Qg1 55. Kf3 Kd3 56. Kg3 Ke3 57. h4 Qf2+ 58. Kh3 Kf4 59. Kh2 Qxh4+ 60. Kg1 Kg3 61. Kf1 Qe4 62. Kg1 Qe1# 0-1\n63. Kh2 Qf2",
+      "predicted_san": "d5",
+      "board_fen": "r1bq1rk1/4bppp/p1np1n2/1pp5/3PP3/5N1P/PPB2PP1/RNBQR1K1 w - - 1 13"
+    },
+    {
+      "turn": 27,
+      "attempt": 1,
+      "raw_response": "14. Bb3 c4 15. Bc2 Nxc2 16. Qxc2 Re8 17. Nc3 Bf8 18. Bg5 h6 19. Bh4 g5 20. Bg3 Nh5 21. Bh2 Bg7 22. Rad1 Qf6 23. e5 dxe5 24. Bxe5 Qg6 25. Qxg6 fxg6 26. Bxg7 Rxe1+ 27. Rxe1 Kxg7 28. Re7+ Kf6 29. d6 Be6 30. Ne4+ Kf5 31. Nc5 Bd5 32. Nd4+ Kf6 33. Nd7# Bf7 34. Nc6 Nf4 35. Nce5 Be6 36. Rh7 h5 37. g3 Nxh3+ 38. Kg2 g4 39. f4 Bd5+ 40. Kf1 Be4 41. Rf7+ Ke6 42. Rf6+ Kd5 43. Nb6+ Kd4 44. Nxa8 Bxa8 45. d7 Ke3 46. d8=Q Be4 47. Qb6+ Kd2 48. Rd6+ Kc2 49. Qd4 Bf5 50. Qc3+ Kb1 51. Rd1+ Kxa2 52. Qa3# *\nBb7",
+      "predicted_san": "Bb3",
+      "board_fen": "r1bq1rk1/4bppp/p2p1n2/1ppP4/1n2P3/5N1P/PPB2PP1/RNBQR1K1 w - - 1 14"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 Re8\n24. d5 Ne7\n25. Nh4 Rac8\n26. Bg5 Kh8\n27. Bxf6 gxf6\n28. Qh5 Rg8\n29. Qxf7 Rg7\n30. Qxf6 Ng8\n31. Qxd6 Re8\n32. Nhf5 Rg6\n33. Qb4 Qb6\n34. Bd3 Nf6\n35. Rc1 Reg8\n36. Rc5 Bxf5\n37. exf5 Rxg3\n38. fxg3 Nd7\n39. Qxb5 Qxc5+\n40. Qxc5 Nxc5\n41. Bb5 Rb8\n42. Bc6 Rxb2\n43. d6 Rxa2\n44. d7 Nxd7\n45. Bxd7 a3\n46. Be6 Rb2\n47. g4 a2\n48. Bxa2 Rxa2\n49. Kh2 Kg7\n50. Kg3 Kf6\n51. h4 Ra3+\n52. Kf2 e4\n53. Ke2 Ke5\n54. Kf2 Kf4\n55. f6 Ra2+\n56. Kg1 Kg3\n57. Kf1 Rf2+\n58. Ke1 Rxf6\n59. g5 Rf2\n60. h5 Rxg2\n61. g6 hxg6\n62. hxg6 Kf3\n63. Kf1 Rxg6\n64. Ke1 Rd6\n65. Kf1 Rd1# 0-1\n66. Ke2 Rd2+",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n2. Nf3 Nc6\n3. Bb5 Nf6\n4. O-O Nxe4\n5. d4 Nd6\n6. Bxc6 dxc6\n7. dxe5 Nf5\n8. Qxd8+ Kxd8\n9. Nc3 Bd7\n10. Rd1 Kc8\n11. Ng5 Be8\n12. Rd3 h6\n13. Nge4 b6\n14. g4 Ne7\n15. f4 Kb7\n16. Be3 c5\n17. Rad1 Bc6\n18. Rd8 Rxd8\n19. Rxd8 Ng6\n20. Kf2 Be7\n21. Rxh8 Nxh8\n22. f5 Bh4+\n23. Ke2 g6\n24. Bxh6 gxf5\n25. gxf5 Bd7\n26. Bg7 Bxf5\n27. Bxh8 Kc6\n28. Bf6 Bxf6\n29. Nxf6 Bxc2\n30. h4 b5\n31. h5 b4\n32. Nce4 c4\n33. h6 b3\n34. axb3 cxb3\n35. h7 a5\n36. h8=Q a4\n37. Qe8+ Kb6\n38. Nd5+ Ka5\n39. Nec3 a3\n40. Qb5#\n41. Qb4+ Ka6\n42. Qxa3+ Kb7\n43. Qb4+ Kc8\n44. Qc5 Kd7\n45. Qxc7+ Ke6\n46. Qd6+ Kf5\n47. Qf6+ Kg4\n48. Ne3+ Kh5\n49. Nxc2 bxc2\n50. Kd2 c1=Q+\n51. Kxc1 Kg4\n52. Qxf7 Kg5\n53. e6 Kg4\n54. e7 Kg5\n55. e8=Q Kg4\n56. Qeg8+ Kh4\n57. Qfh7#\n58. Qg1 Kh5\n59. Qh7#\n60. Qh3#\n61. Qf5#\n62. Qg7#\n63. Qg5#\n64. Qg4#\n65. Qg5#\n66. Qg4#\n67. Qg5#\n68. Qg4#\n69. Qg5#\n70. Qg4#\n71. Qg5#\n72. Qg4#\n73. Qg5#\n74. Qg4#\n75. Qg5#\n76. Qg4#\n77. Qg5#\n78. Qg4#\n79. Qg5#\n80. Qg4#\n81. Qg5#",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6\n4. Ba4 Nf6 5. O-O Be7 6. Re1 b5\n7. Bb3 d6 8. c3 O-O 9. h3 Bb7\n10. d4 Re8 11. Nbd2 Bf8 12. a4 h6\n13. Bc2 exd4 14. cxd4 Nb4 15. Bb1 c5\n16. d5 Nd7 17. Ra3 c4 18. Nd4 Qf6\n19. N2f3 Nc5 20. axb5 Nbd3 21. Bxd3 Nxd3\n22. Rxd3 cxd3 23. Qxd3 axb5 24. Qxb5 Ba6\n25. Qb3 Reb8 26. Qd1 Bc4 27. b3 Bb5\n28. Bb2 Bd7 29. Qd2 Qd8 30. e5 dxe5\n31. Nxe5 Bb4 32. Bc3 Bxc3 33. Qxc3 Rc8\n34. Qf3 Be8 35. Nec6 Bxc6 36. Nxc6 Qd6\n37. Ne7+ Kf8 38. Nxc8 Rxc8 39. Qf5 Rb8\n40. Qh7 f6 41. Qh8+ Kf7 42. Qh7 Rxb3\n43. Qe4 Rb8 44. Qe6+ Qxe6 45. dxe6+ Ke7\n46. f4 Rb6 47. f5 Rb5 48. g4 Rb3\n49. Kg2 Rb2+ 50. Kg3 Rb3+ 51. Kh4 Rb7\n52. Kh5 Kf8 53. Kg6 Re7 54. Rd1 Re8\n55. Rd7 Re7 56. Rxe7 Kxe7 57. Kxg7 h5\n58. gxh5 Ke8 59. h6 Ke7 60. h7 Kd6\n61. h8=Q Ke5 62. Qf8 Kxf5 63. Qxf6+ Ke4\n64. e7 Kd5 65. e8=Q Kc4 66. Qd6 Kc3\n67. Qc8+ Kb3 68. Qb6+ Ka4 69. Qa8# d5",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. Nxe6 Rxe6 15. g4 hxg4 16. hxg4 Nh4 17. Rd3 Rd8 18. Rfd1 Rxd3 19. Rxd3 Ng6 20. Bg3 Nxe5 21. Bxe5 Rxe5 22. Kg2 Bb4 23. Nd1 Re2 24. c3 Bd6 25. Kf3 Re1 26. Ne3 g6 27. Nc4 Ke7 28. Re3+ Rxe3+ 29. Kxe3 Ke6 30. Ke4 f5+ 31. gxf5+ gxf5+ 32. Kd3 Bc5 33. f3 Kd5 34. b4 Bf2 35. Na5 b6 36. c4+ Kd6 37. Nb3 Ke5 38. Ke2 Bg1 39. Kf1 Be3 40. Ke2 Bg5 41. Kd3 Kf4 42. Nd4 c5 43. bxc5 bxc5 44. Ne6+ Kxf3 45. Nxg5+ Kg4 46. Ne6 f4 47. Ke4 f3 48. Ke3 Kg3 49. Nxc5 f2 50. Ne4+ Kg4 51. Nxf2+ Kf5 52. Kd4 Ke6 53. Kc5 Kd7 54. Ne4 Kc8 55. Kc6 Kb8 56. Nc5 Kc8 57. Na6 Kd8 58. Nxc7 Kc8 59. Nb5 Kb8 60. Nxa7 Kxa7 61. Kd7 Kb6 62. Kd6 Kb7 63. c5 Kc8 64. Kc6 Kb8 65. Kd7 Kb7 66. c6+ Kb6 67. c7 Ka7 68. c8=Q Kb6 69. Qc4 Ka5 70. Qb3 Ka6 71. Kc6 Ka5 72. Qb5# d5",
+      "predicted_san": "Bb5",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Re6 18. Qf1 Qh5 19. a4 Rfe8 20. axb5 axb5 21. Bxd5 Qxd5 22. Qg2 Qh5 23. Qxc6 Bxg3 24. Qg2 Bb8 25. Ra8 Rg6 26. Bf4 Rxe1+ 27. Nf1 Rxf1+ 28. Kxf1 Be2+ 29. Ke1 Rxg2 30. Rxb8# Qg4",
+      "predicted_san": "Ba4",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Qh5 18. a4 Re6 19. axb5 axb5 20. Ra6 Bc7 21. Bxd5 Qxd5 22. c4 bxc4 23. Qxc4 Qh5 24. Rxc6 Rxc6 25. Qxc6 Ba5 26. Ra1 Bxd2 27. Bxd2 Bf3 28. Qc4 Bd5 29. Qd3 Re8 30. Re1 Rxe1+ 31. Bxe1 Qh3 32. Qf1 Qg4 33. Qb5 Qe4 34. Qb8+ 1/2-1/2\n35. Qe8#",
+      "predicted_san": "O-O",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 Re8\n24. d5 Ne7\n25. Nh4 Rac8\n26. Bg5 Kh8\n27. Bxf6 gxf6\n28. Qh5 Rg8\n29. Qxf7 Rg7\n30. Qxf6 Ng8\n31. Qxd6 Re8\n32. Nhf5 Rg6\n33. Qb4 Qb6\n34. Bd3 Nf6\n35. Rc1 Reg8\n36. Rc5 Bxf5\n37. exf5 Rxg3\n38. fxg3 Nd7\n39. Qxb5 Qxc5+\n40. Qxc5 Nxc5\n41. Bb5 Rb8\n42. Bc6 Rxb2\n43. d6 Rxa2\n44. d7 Nxd7\n45. Bxd7 a3\n46. Be6 Rb2\n47. g4 a2\n48. Bxa2 Rxa2\n49. Kh2 Kg7\n50. Kg3 Kf6\n51. h4 Ra3+\n52. Kf2 e4\n53. Ke2 Ke5\n54. Kf2 Kf4\n55. f6 Ra2+\n56. Kg1 Kg3\n57. Kf1 Rf2+\n58. Ke1 Rxf6\n59. g5 Rf2\n60. h5 Rxg2\n61. g6 hxg6\n62. hxg6 Kf3\n63. Kf1 Rxg6\n64. Ke1 Rd6\n65. Kf1 Rd1#\n66. Kh2 e3\n67. Kh3 Rh1#",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "Game: e4 d5  Nc3 d4  Nce2 e5  Nf3 Nc6  d3 Bg4  Ng3 Bb4+  Ke2\n\n1. e4 d5 2. Nc3 d4 3. Nce2 e5 4. Nf3 Nc6 5. d3 Bg4 6. Ng3 Bb4+ 7. Ke2 Nf6 8. h3 Bxf3+ 9. gxf3 O-O 10. Bg5 h6 11. Bd2 Bxd2 12. Qxd2 Qd6 13. Nf5 Qe6 14. Rg1 Nh5 15. Nxh6+ Kh7 16. Nf5 Nf4+ 17. Kd1 g6 18. Ng3 Kg7 19. Ne2 Nxh3 20. Bxh3 Qxh3 21. Ng3 Rh8 22. Ke2 Qe6 23. Rh1 Rxh1 24. Rxh1 Rh8 25. Rxh8 Kxh8 26. Qh6+ Kg8 27. b3 Nb4 28. Kd2 Nxa2 29. Qg5 Qd6 30. Nf5 Qb4+ 31. Kd1 Nc3+ 32. Kc1 Qa3+ 33. Kd2 Nb1+ 34. Ke2 Nc3+ 35. Kf1 Qa1+ 36. Kg2 Ne2 37. Qd8+ Kh7 38. Qh4+ Kg8 39. Qd8+ Kh7 40. Qh4+ Kg8 41. Qd8+ Kh7 42. Qh4+ Kg8 43. Qd8+ Kh7 44. Qh4+ Kg8 45. Qd8+ Kh7 46. Qh4+ Kg8 47. Qd8+ Kh7 48. Qh4+ Kg8 49. Qd8+ Kh7 50. Qh4+ Kg8 51. Qd8+ Kh7 52. Qh4+ Kg8 53. Qd8+ Kh7 54. Qh4+ Kg8 55. Qd8+ Kh7 56. Qh4+ Kg8 57. Qd8+ Kh7 58. Qh4+ Kg8 59. Qd8+ Kh7 60. Qh4+ Kg8 61. Qd8+ Kh7 62. Qh4+ Kg8 63. Qd8+ Kh7 64. Qh4+ Kg8 65. Qd8+ Kh7 66. Qh4+ Kg8 67. Qd8+ Kh7 68. Qh4+ Kg8 69",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6\n4. Ba4 Nf6 5. O-O Be7 6. Re1 b5\n7. Bb3 d6 8. c3 O-O 9. h3 Bb7\n10. d4 Re8 11. Nbd2 Bf8 12. a4 h6\n13. Bc2 exd4 14. cxd4 Nb4 15. Bb1 c5\n16. d5 Nd7 17. Ra3 c4 18. Nd4 Qb6\n19. Nf5 Ne5 20. Rg3 Kh8 21. Nf3 Nbd3\n22. Be3 Qd8 23. Nxe5 Nxe5 24. Qh5 Qf6\n25. Bg5 Qg6 26. Qh4 Qh7 27. Bf6 Ng6\n28. Qh5 gxf6 29. e5 Rxe5 30. Rxe5 dxe5\n31. Nh4 Bxd5 32. Nxg6+ fxg6 33. Rxg6 Bf7\n34. Qf3 Bxg6 35. Qxa8 Qg8 36. Bxg6 Qxg6\n37. Qxf8+ Kh7 38. Qe7+ Qg7 39. Qe6 Qg6\n40. Qxa6 Qb1+ 41. Kh2 Qxb2 42. axb5 c3\n43. Qb7+ Kg6 44. Qe4+ Kg7 45. Qg4+ Kf7\n46. Qd7+ Kg6 47. Qg4+ Kf7 48. Qd7+ Kg6\n49. Qg4+ Kf7 50. Qd7+ Kg6 51. Qg4+ Kf7\n52. Qd7+ Kg6 53. Qg4+ Kf7 54. Qd7+ Kg6\n55. Qg4+ Kf7 56. Qd7+ Kg6 57. Qg4+ Kf7\n58. Qd7+ Kg6 59. Qg4+ Kf7 60. Qd7+ Kg6\n61. Qg4+ Kf7 62. Qd7+ Kg6 63. Qg4+ Kf7\n64. Qd7+ Kg6 65. Qg4+ Kf7 66. Qd7+ Kg6\n67. Qg4+ Kf7 68. Qd7+ Kg6 69. Qg4+ Kf7\n70. Qd7+ Kg6 71. Qg4+ Kf7 72. Qd7+ Kg6\n73.",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bf4 Be7 12. Rad1 Be6 13. Ng5 Rh6 14. Nxe6 Rxe6 15. g4 hxg4 16. hxg4 Nh4 17. Bg3 Nf3+ 18. Kg2 Nxe5 19. Rfe1 Bd6 20. f4 Nxg4 21. Rxe6+ fxe6 22. Kf3 Nf6 23. Rh1 Kf7 24. Ne4 Nxe4 25. Kxe4 Rd8 26. Bh4 Rh8 27. Rh2 g5 28. Bg3 Rxh2 29. Bxh2 gxf4 30. Bxf4 Bxf4 31. Kxf4 Kf6 32. Ke4 e5 33. c4 Ke6 34. b4 b6 35. a4 a6 36. b5 cxb5 37. cxb5 axb5 38. axb5 Kd6 39. Kd3 Kd5 40. Ke3 e4 41. Kd2 Kd4 42. Ke2 e3 43. Kd1 Kd3 44. Ke1 e2 45. Kf2 Kd2 46. Kf3 e1=Q 47. Kf4 Qe6 48. Kg5 Ke3 49. Kh5 Kf4 50. Kh4 Qg4# 0-1\n51. Kh3",
+      "predicted_san": "Bb5",
+      "board_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d4 Bd6 13. Re1 Qh4 14. g3 Qh3 15. Be3 Bg4 16. Qd3 Rae8 17. Nd2 Re6 18. Qf1 Qh5 19. a4 Rfe8 20. axb5 axb5 21. Bxd5 Qxd5 22. Qg2 Qh5 23. Qxc6 Bxg3 24. Qg2 Bf4 25. Ra8 Bb8 26. Kh1 Rg6 27. Bf4 Rxe1+ 28. Nf1 Rxf1+ 29. Qxf1 Bf3+ 30. Qg2 Bxg2+ 31. Kg1 Bxa8+ 32. Kf1 Qd1#",
+      "predicted_san": "Ba4",
+      "board_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 cxd4 13. cxd4 Nc6 14. Nb3 a5 15. Be3 a4 16. Nbd2 Bd7 17. Rc1 Qb7 18. Bb1 Rfc8 19. Nf1 Bd8 20. Ng3 Bb6 21. Qd2 Ba5 22. Qe2 Bxe1 23. Rxe1 Re8 24. Qd2 Qa6 25. Bg5 Qa5 26. Qd1 Nxd4 27. Nxd4 exd4 28. Bxf6 gxf6 29. Nh5 Re6 30. Rf1 Kh8 31. Qxd4 b4 32. Nxf6 Qe5 33. Qxe5 dxe5 34. Nxd7 Rd8 35. Nc5 Rc6 36. Nxa4 Rd2 37. b3 Kg7 38. g3 h5 39. Kg2 h4 40. gxh4 Kh6 41. Kf3 Kh5 42. Ke3 Rd8 43. Bd3 Kxh4 44. Bc4 f6 45. Nb2 Ra8 46. Nd3 Rxa2 47. Nxb4 Rxc4 48. Nxa2 Rc2 49. Nb4 Rc3+ 50. Nd3 Rxb3 51. Rg1 Ra3 52. Rg6 Ra6 53. Nxe5 Ra3+ 54. Nd3 Ra6 55. Kf4 Kh5 56. Kf5 Ra5+ 57. e5 fxe5 58. Nxe5 Ra2 59. f4 Ra3 60. Rg8 Kh6 61. Ng4+ Kh7 62. Nf6+ Kh6 63. Rg6# d3",
+      "predicted_san": "O-O",
+      "board_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 Re8\n24. d5 Ne7\n25. Nh4 Rac8\n26. Bg5 Kh8\n27. Bxf6 gxf6\n28. Qh5 Rg8\n29. Qxf7 Rg7\n30. Qxf6 Ng8\n31. Qxd6 Re8\n32. Nhf5 Rg6\n33. Qb4 Qb6\n34. Bd3 Nf6\n35. Rc1 Reg8\n36. Kf1 Bxf5\n37. exf5 Rxg3\n38. fxg3 Qe3\n39. Rc3 Nxd5\n40. Qe4 Qxe4\n41. Bxe4 Nxc3\n42. bxc3 Rxg3\n43. Bc6 Rxc3\n44. Bxb5 Ra3\n45. Bc4 Kg7\n46. Kf2 Kf6\n47. Be6 Rc3\n48. Ke2 e4\n49. Kd2 Rg3\n50. Bd7 Rxg2+\n51. Ke3 Rxa2\n52. Kxe4 a3\n53. Be6 Rh2\n54. Kf4 a2\n55. Bxa2 Rxa2\n56. Kg4 Ra4+\n57. Kh5 Kxf5\n58. h4 Rb4\n59. Kh6 Rxh4+\n60. Kg7 h5\n61. Kh6 Rh1\n62. Kg7 h4\n63. Kh6 h3\n64. Kh5 h2\n65. Kh4 Rg1\n66. Kh3 h1=Q#\n67. Kh4 Qh2#",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nf6 5. Nxe5 Nxe5 6. d4 Bxd4 7. Qxd4 Nc6 8. Bxc6 bxc6 9. Bg5 d6 10. e5 dxe5 11. Qxe5+ Be6 12. Nc3 O-O 13. Rad1 Qe7 14. Ne4 Rfe8 15. Bxf6 gxf6 16. Nxf6+ Kf8 17. Nxh7+ Kg8 18. Nf6+ Kf8 19. Qg5 Qb4 20. Nh7#\n\n*1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nf6 5. Nxe5 Nxe5 6. d4 Bxd4 7. Qxd4 Nc6 8. Bxc6 bxc6 9. Bg5 d6 10. e5 dxe5 11. Qxe5+ Be6 12. Nc3 O-O 13. Rad1 Qe7 14. Ne4 Rfe8 15. Bxf6 gxf6 16. Nxf6+ Kf8 17. Nxh7+ Kg8 18. Nf6+ Kf8 19. Qg5 Qb4 20. Nh7# e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O 12. Nc2 Bg5 13. a4 bxa4 14. Rxa4 a5 15. Bc4 Rb8 16. b3 Kh8 17. O-O f5 18. exf5 Bxf5 19. Nce3 Be6 20. Qd3 Bxe3 21. Nxe3 Bxc4 22. Qxc4 Ne7 23. Rd1 Qb6 24. Ra3 Rbc8 25. Qd3 d5 26. Ra2 Qxb3 27. Rxa5 Rxc3 28. Qd2 d4 29. Ng4 Nc6 30. Ra6 Qb5 31. Raa1 e4 32. Rab1 Qf5 33. h3 h5 34. Nh2 Rd3 35. Qe2 Rxd1+ 36. Rxd1 d3 37. Qe3 Nb4 38. Nf1 Nd5 39. Qd4 Nf4 40. Ng3 Qg6 41. Qxe4 Qxe4 42. Nxe4 Re8 43. f3 Rc8 44. Rd2 Rc2 45. Kf2 h4 46. Ke3 Nxg2+ 47. Kxd3 Rxd2+ 48. Kxd2 Nf4 49. Ng5 Kg8 50. Ke3 Ng6 51. Ke4 Kf8 52. Kf5 Ne7+ 53. Kg4 Ng6 54. Kh5 Ne5 55. Kxh4 Ke7 56. Kg3 Kf6 57. Ne4+ Kf5 58. Nd6+ Kf6 59. f4 Ng6 60. Kg4 Ne7 61. Ne4+ Kf7 62. Kg5 Nd5 63. h4 Ne3 64. h5 Nd5 65. Nd6+ Kg8 66. f5 Kh7 67. Ne8 Kg8 68. Kg6 Nf4+ 69. Kg5 Nd5 70. Nd6 Kh7 71. Nf7 Kg8 72. Ne5 Kh7 73. Ng4 Kg8 74. Kg6 Nf4+ 75. Kg5 Nd5 76. h6 gxh6+ 77. Nxh6+ Kf8 78. Ng4 Kf7 79. Ne5+ Kf8 80. Kg6 Ne",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 a5 15. f5 a4 16. Nbd4 exd4 17. Nxd4 b3 18. Kb1 bxc2+ 19. Nxc2 Bb3 20. axb3 axb3 21. Na3 Ne5 22. h4 Ra4 23. Qg2 Qa8 24. Rd4 Rxd4 25. Bxd4 Nc7 26. Rh3 Rb8 27. Rc3 Na6 28. Bxa6 Qxa6 29. f6 Bf8 30. fxg7 Bxg7 31. h5 Qa4 32. Qd2 Nf3 33. Rxf3 Qxd4 34. Qxd4 Bxd4 35. Rd3 Be5 36. Nc4 Rb4 37. Nxe5 dxe5 38. h6 Kf8 39. Re3 Ke7 40. Kc1 Ke6 41. Kd2 Rd4+ 42. Kc3 Rd1 43. Kxb3 Rg1 44. Kc4 Rxg5 45. b4 Rg1 46. b5 Rc1+ 47. Rc3 Rxc3+ 48. Kxc3 Kd6 49. Kc4 f6 50. b6 Kc6 51. b7 Kxb7 52. Kd5 Kc7 53. Ke6 Kc6 54. Kxf6 Kd6 55. Kg7 Ke7 56. Kxh7 Kf7 57. Kh8 Kf8 58. Kh7 Kf7 59. Kh8 Kf8 60. h7 Kf7 61. 1/2-1/2\n\nBc4",
+      "predicted_san": "d4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3 Qc7 9. O-O-O Nbd7 10. g4 b5 11. Bxf6 Nxf6 12. g5 Nd7 13. f5 O-O 14. f6 gxf6 15. gxf6 Nxf6 16. Rg1+ Kh8 17. e5 dxe5 18. Qxa8 exd4 19. Ne4 Bb7 20. Qa7 Nxe4 21. Qxd4+ e5 22. Qd7 Rc8 23. Qxc7 Rxc7 24. Bd3 Nf2 25. Rd2 Nxd3+ 26. Rxd3 Be4 27. Rd2 h6 28. Re1 Bg5 29. Rxe4 Rd7 30. Re2 Rxd2 31. Rxd2 Kg7 32. Kd1 Bxd2 33. Kxd2 f5 34. b3 Kf6 35. c4 bxc4 36. bxc4 Ke6 37. Kd3 Kd6 38. a3 Kc5 39. Kc3 f4 40. Kd3 f3 41. Ke3 e4 42. h4 Kxc4 43. h5 Kb3 44. Kxe4 f2 45. Kf5 f1=Q+ 46. Kg6 Qf4 47. Kh7 Kxa3 48. Kg6 Kb4 49. Kh7 Kc5 50. Kg6 Kd6 51. Kh7 Ke7 52. Kg6 Qg5+ 53. Kh7 Kf7 54. Kh8 Qg7# 55. hxg7",
+      "predicted_san": "Nxd4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. Nc3 Nf6 6. Bg5 e6 7. Qd2 Be7 8. O-O-O O-O 9. f4 h6 10. Bh4 Nxe4 11. Nxe4 Bxh4 12. Nxc6 bxc6 13. Qxd6 Qb6 14. Qc5 Qc7 15. g3 Be7 16. Qc3 Rb8 17. Bg2 c5 18. Rd2 Bb7 19. Rhd1 Bd5 20. b3 c4 21. Rxd5 exd5 22. Rxd5 Rfc8 23. Bh3 Rd8 24. Rxd8+ Rxd8 25. Qxc4 Ba3+ 26. Kb1 Rd1# 27. Qc1#",
+      "predicted_san": "Nc3",
+      "board_fen": "r1bqkbnr/pp2pppp/2np4/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "raw_response": "6. Bg5 e6 7. Qd2 Be7 8. O-O-O O-O 9. f4 Nxd4 10. Qxd4 Qa5 11. Bc4 Rd8 12. Bb3 b5 13. f5 b4 14. Ne2 exf5 15. exf5 Bxf5 16. Rhf1 Bg6 17. h4 Rac8 18. Nf4 Qc5 19. Nxg6 hxg6 20. Qd3 d5 21. Rde1 Rc7 22. Re5 Rcd7 23. Rfe1 Bf8 24. Bxf6 gxf6 25. Re8 Kg7 26. h5 Rxe8 27. Rxe8 Qg1+ 28. Qd1 Qxd1+ 29. Kxd1 gxh5 30. Ke2 Re7+ 31. Rxe7 Bxe7 32. Bxd5 f5 33. Kf3 Kf6 34. Bc4 Bd6 35. Bd3 Kg5 36. Bc4 f6 37. Bd3 Be5 38. b3 a5 39. Bc4 h4 40. Bd3 f4 41. Be4 f5 42. Bd3 Bd4 43. Bc4 Be3 44. Bd3 Kf6 45. Bc4 Ke5 46. Bd3 Kd4 47. Bxf5 Kc3 48. Bd3 Kb2 49. Kg4 Kxa2 50. Kxh4 Kb2 51. Kg4 Kc3 52. Kf3 Kd4 53. g4 fxg3 54. Kxg3 Kc3 55. Kf3 Bd4 56. Ke4 Bb6 57. Kd5 Bd8 58. Kc6 Bg5 59. Kb5 Bd8 60. Ka4 Kd4 61. Kb5 Kd5 62. Ka4 Kc5 63. Bc4 Bc7 64. Bd3 Bb6 65. Bc4 Kd4 66. Bd3 Kc3 67. Bc4 Kxc2 68. Bd3+ Kxd3 69. Kb5 Kc3 70. Ka4 Kb2 71. Kb5 Kxb3 72. Kxb6 a4 73. Kb5 a3 74. Kc5 a2 75. Kd5 a1=Q 76. Ke4 Qc3 77. Kd5 Kc2 78. Ke4 b3 79. Kd5 b2 80. Ke4 b1=Q 81. Kd5 Qbb4 82. Ke6 Qcc5 83. Kd7 Qbb6",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "raw_response": "7. Bb5 Qb6 8. Be3 Qc7 9. Nd5 Qa5+ 10. Bd2 Qd8 11. Nxc6 bxc6 12. Bxc6 Rb8 13. Bc3 e6 14. Ne3 Qc7 15. Ba4 Ba6 16. Qd4 e5 17. Qd2 Bb7 18. Nd5 Bxd5 19. Qxd5 Be7 20. O-O O-O 21. Bxd7 Qxd7 22. Bxe5 Rb5 23. Qd3 Rxe5 24. f4 Rb5 25. b3 Bf6 26. Rad1 Qc6 27. c4 Ra5 28. a4 Re8 29. Rfe1 Qb6+ 30. Kh1 Qf2 31. Qxd6 Rh5 32. Qd7 Rf8 33. Qg4 Rh4 34. Qf3 Qxf3 35. gxf3 Rxf4 36. Kg2 Bc3 37. Re3 Bb4 38. Red3 Rf6 39. Rd7 a5 40. R1d5 Rg6+ 41. Kf2 Rh6 42. Kg2 Rg6+ 43. Kf2 Rh6 44. Kg2 Rg6+ 45. Kf2 Rh6 46. Kg2 Rg6+ 47. Kf2 Rh6 48. Kg2 Rg6+ 49. Kf2 Rh6 50. Kg2 Rg6+ 51. Kf2 Rh6 52. Kg2 Rg6+ 53. Kf2 Rh6 54. Kg2 Rg6+ 55. Kf2 Rh6 56. Kg2 Rg6+ 57. Kf2 Rh6 58. Kg2 Rg6+ 59. Kf2 Rh6 60. Kg2 Rg6+ 61. Kf2 Rh6 62. Kg2 Rg6+ 63. Kf2 Rh6 64. Kg2 Rg6+ 65. Kf2 Rh6 66. Kg2 Rg6+ 67. Kf2 Rh6 68. Kg2 Rg6+ 69. Kf2 Rh6 70. Kg2 Rg6+ 71. Kf2 Rh6 72. Kg2 Rg6+ 73. Kf2 Rh6 74. Kg2 Rg6+ 75. Kf2 Rh6 76. Kg2 Rg6+ 77. Kf2 Rh6 78. Kg2 Rg6+ 79. Kf2 Rh6 80. Kg2 Rg6+ 81. Kf2 Rh6 82. Kg2 Rg6+",
+      "predicted_san": "Bb5",
+      "board_fen": "r1bqkb1r/pp1npppp/2np4/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 5 7"
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "raw_response": "8. Bxc6 bxc6 9. Nxc6 Qb6 10. Nd4 Qxb2 11. Nd5 Ra7 12. O-O e6 13. Rb1 Qxa2 14. Nc6 Rb7 15. Ra1 Qc4 16. Na5 Qxe4 17. Nxb7 Bxb7 18. Nc7# B1c3",
+      "predicted_san": "Bxc6",
+      "board_fen": "r1bqkb1r/1p1npppp/p1np4/1B4B1/3NP3/2N5/PPP2PPP/R2QK2R w KQkq - 0 8"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 Re8\n24. d5 Ne7\n25. Nh4 Rac8\n26. Bg5 Kh8\n27. Bxf6 gxf6\n28. Qh5 Rg8\n29. Qxf7 Rg7\n30. Qxf6 Ng8\n31. Qxd6 Re8\n32. Nhf5 Rg6\n33. Qb4 Qb6\n34. Bd3 Nf6\n35. Rc1 Reg8\n36. Kf1 Bxf5\n37. exf5 Rxg3\n38. fxg3 Qe3\n39. Rc3 Nxd5\n40. Qc5 Qxc5\n41. Rxc5 Nb4\n42. Bxb5 Nxa2\n43. Bxa4 Nb4\n44. Rxe5 Nd3\n45. Re8 Nxb2\n46. Rxg8+ Kxg8\n47. Bb3+ Kg7\n48. Ke2 Kf6\n49. g4 h5\n50. Kd2 hxg4\n51. hxg4 Kg5\n52. Kc2 Kxg4\n53. f6 Kg3\n54. f7 Kxg2\n55. f8=Q Kg3\n56. Kxb2 Kg4\n57. Kc3 Kg5\n58. Kd4 Kg6\n59. Ke5 Kg5\n60. Qg7+ Kh4\n61. Kf4 Kh3\n62. Qg3# B1c4",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "d4 d5\n1. d4 d5 2. Nf3 Nf6 3. Bf4 Bf5 4. e3 e6 5. Bd3 Bxd3 6. Qxd3 c6 7. O-O Bd6 8. Bxd6 Qxd6 9. Nbd2 O-O 10. c4 Nbd7 11. c5 Qc7 12. b4 e5\n13. dxe5 Nxe5 14. Nxe5 Qxe5 15. Nf3 Qe4 16. Qxe4 Nxe4 17. Rfd1 a5 18. a3 axb4 19. axb4 Nc3 20. Re1 Na2 21. Reb1 Nxb4 22. Rxa8 Rxa8\n23. h3 Ra4 24. Nd4 Kf8 25. Nf5 g6 26. Nd6 Nd3 27. Rxb7 Nxc5 28. Rxf7+ Kg8 29. Rc7 Ra6 30. Ne8 Ne4 31. f3 Ra1+ 32. Kh2 Nd2 33. Nf6+ Kf8\n34. Nxh7+ Ke8 35. Nf6+ Kd8 36. Rxc6 Nf1+ 37. Kg1 Nxe3+ 38. Kf2 d4 39. Rd6+ Ke7 40. Rxd4 Nd1+ 41. Kg3 Kxf6 42. Rd6+ Kg7 43. Rd7+ Kh6\n44. Rd6 Ne3 45. Kf2 Nf5 46. Rd2 Kg5 47. g3 Rh1 48. Kg2 Ra1 49. h4+ Kh6 50. Kh3 Ra3 51. Rf2 Nd4 52. Kg2 Kh5 53. f4 Kg4 54. Rd2 Rxg3+\n55. Kf2 Rf3+ 56. Kg2 Nf5 57. Rd8 Nxh4+ 58. Kg1 Kg3 59. Rd2 Rxf4 60. Rd3+ Nf3+ 61. Kf1 Re4 62. Rd1 g5 63. Ra1 g4 64. Rd1 Kh3\n65. Kf2 Nh4 66. Rh1# g3+",
+      "predicted_san": "d4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 d6 3. e4 Nf6 4. Nc3 g6 5. Nf3 Bg7 6. Be2 O-O 7. O-O e6 8. Bg5 h6 9. Bh4 g5 10. Bg3 e5 11. Nd2 a6 12. a4 Nbd7 13. Nc4 Nb6 14. Ne3 Bd7 15. a5 Nc8 16. h4 Nh7 17. hxg5 hxg5 18. Bg4 Ne7 19. Bxd7 Qxd7 20. Qg4 Qxg4 21. Nxg4 f5 22. exf5 Nxf5 23. Ne4 Rad8 24. c3 Nf6 25. Ngxf6+ Bxf6 26. Ra3 Kg7 27. Rb3 Rd7 28. Rb6 Bd8 29. Rb3 Bxa5 30. Nxg5 Kg6 31. Ne6 Rh8 32. Ra1 Rdh7 33. Kf1 Rh1+ 34. Ke2 Rxa1 35. Rxb7 Rhh1 36. Kf3 Rab1 37. Kg4 Bxc3 38. Nf8+ Kf6 39. Nh7+ Kg6 40. Nf8+ Kf6 41. Nh7+ Kg6 42. Nf8+ Kf6 43. Nh7+ Kg6 44. Nf8+ Kf6 45. Nh7+ Kg6 46. Nf8+ Kf6 47. Nh7+ Kg6 48. Nf8+ Kf6 49. Nh7+ Kg6 50. Nf8+ Kf6 51. Nh7+ Kg6 52. Nf8+ Kf6 53. Nh7+ Kg6 54. Nf8+ Kf6 55. Nh7+ Kg6 56. Nf8+ Kf6 57. Nh7+ Kg6 58. Nf8+ Kf6 59. Nh7+ Kg6 60. Nf8+ Kf6 61. Nh7+ Kg6 62. Nf8+ Kf6 63. Nh7+ Kg6 64. Nf8+ Kf6 65. Nh7+ Kg6 66. Nf8+ Kf6 67. Nh7+ Kg6 68. Nf8+ Kf6 69. Nh7+ Kg6 70. Nf8+ Kf6 71. Nh7+ Kg6 72. Nf8+ Kf6 73. Nh7+ Kg6 74. Nf8+ Kf6 75. Nh7+ Kg6 76",
+      "predicted_san": "d5",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 exd5 4. exd5 d6 5. Nf3 Nf6 6. Nc3 Be7 7. Bb5+ Bd7 8. a4 O-O 9. O-O Bg4 10. h3 Bh5 11. Re1 a6 12. Be2 Nbd7 13. Bf4 Re8 14. Nd2 Bxe2 15. Rxe2 Bf8 16. Rxe8 Qxe8 17. Nc4 Ne5 18. Bxe5 dxe5 19. Qe2 Nd7 20. Re1 f6 21. f4 b5 22. axb5 axb5 23. Nxb5 Qb8 24. Nc3 exf4 25. Qe6+ Kh8 26. Qxd7 f3 27. Qg4 fxg2 28. Qxg2 Qf4 29. Qe4 Qg3+ 30. Kf1 Qxh3+ 31. Qg2 Qf5+ 32. Kg1 Qf4 33. b3 Qd4+ 34. Re3 Ra1+ 35. Kf2 Rc1 36. Qe4 Rxc2+ 37. Kf3 Rxc3 38. Qxd4 cxd4 39. Rxc3 dxc3 40. Ke3 h5 41. d6 h4 42. d7 Be7 43. Kd3 h3 44. Ne3 h2 45. Nf5 h1=Q 46. Nxe7 Qd1+ 47. Kxc3 Qxd7 48. Ng6+ Kh7 49. Nf8+ Kh6 50. Nxd7 g5 51. b4 g4 52. Kd3 g3 53. Ke3 f5 54. b5 f4+ 55. Kf3 Kg5 56. b6 Kh4 57. b7 Kh3 58. b8=Q g2 59. Qh8# g1=Q 60. Qh5# g5 61. Qh7# g4+ 62. Kxf4 Qf2+ 63. Kg5 Qe3+ 64. Kh5 Qe8+ 65. Kh6 Qe6+ 66. Kg5 Qe5+ 67. Kh6 Qf6+ 68. Kh5 Qe5+ 69. Kh6 Qf6+ 70. Kh5 Qe5+ 71. Kh6 Qf6+ 72. Kh5 Qe5+ 73. Kh6 Qf6+ 74. Kh5 Qe5+ 75. Kh6 Qf6+ 76",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pp1p1ppp/4p3/2pP4/8/8/PPP1PPPP/RNBQKBNR w KQkq - 0 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 exd5 5. exd5 Nd4 6. Nf3 Nxf3+ 7. Qxf3 d6 8. Bb5+ Bd7 9. O-O Nf6 10. Re1+ Be7 11. Bg5 O-O 12. Bd3 h6 13. Bh4 Re8 14. Re2 Bg4 15. Qg3 Bxe2 16. Nxe2 Nxd5 17. Bxe7 Qxe7 18. Re1 Nb4 19. Bb5 Nxc2 20. Rc1 Nd4 21. Nxd4 cxd4 22. Bxe8 Rxe8 23. h3 Qe5 24. Qd3 Qe4 25. Qb5 d3 26. Rd1 d2 27. Kh2 Qe2 28. Qa4 Re4 29. Qc2 Rd4 30. Qc8+ Kh7 31. Qf5+ Kg8 32. Qc8+ Kh7 33. Qf5+ Kg8 34. Qc8+ Kh7 35. Qf5+ Kg8 36. Qc8+ Kh7 37. Qf5+ Kg8 38. Qc8+ Kh7 39. Qf5+ Kg8 40. Qc8+ Kh7 41. Qf5+ Kg8 42. Qc8+ Kh7 43. Qf5+ Kg8 44. Qc8+ Kh7 45. Qf5+ Kg8 46. Qc8+ Kh7 47. Qf5+ Kg8 48. Qc8+ Kh7 49. Qf5+ Kg8 50. Qc8+ Kh7 51. Qf5+ Kg8 52. Qc8+ Kh7 53. Qf5+ Kg8 54. Qc8+ Kh7 55. Qf5+ Kg8 56. Qc8+ Kh7 57. Qf5+ Kg8 58. Qc8+ Kh7 59. Qf5+ Kg8 60. Qc8+ Kh7 61. Qf5+ Kg8 62. Qc8+ Kh7 63. Qf5+ Kg8 64. Qc8+ Kh7 65. Qf5+ Kg8 66. Qc8+ Kh7 67. Qf5+ Kg8 68. Qc8+ Kh7 69. Qf5+ Kg8 70. Qc8+ Kh7 71. Qf5+ Kg8 72. Qc8+ Kh7 73. Qf5+ Kg8 74. Qc8+ Kh",
+      "predicted_san": "Nc3",
+      "board_fen": "r1bqkbnr/pp1p1ppp/2n1p3/2pP4/4P3/8/PPP2PPP/RNBQKBNR w KQkq - 1 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. Bg5 Be7 6. d6 Bf8 7. e5 h6 8. Bh4 g5 9. Bg3 Nh7 10. Bd3 Bg7 11. Qe2 O-O 12. Qe4 f5 13. exf6 Nxf6 14. Qg6 Qe8 15. Qxe8 Rxe8 16. O-O-O a6 17. h4 g4 18. f3 b5 19. fxg4 Nxg4 20. Ne4 c4 21. Be2 Ne3 22. Rd2 Bb7 23. Nc5 Bc8 24. Bf3 Rb8 25. Bxc6 dxc6 26. d7 Bxd7 27. Nxd7 Rbd8 28. Nf3 Nd5 29. Nde5 c3 30. bxc3 Nxc3 31. Rxd8 Rxd8 32. Nxc6 Rd7 33. Nfe5 Rd5 34. Ne7+ Kh7 35. Nxd5 exd5 36. Kb2 Ne4 37. Bh2 Nf2 38. Rf1 Ng4 39. Rf5 Nxh2 40. Kb3 Bxe5 41. Rxe5 Ng4 42. Rxd5 Ne3 43. Rd7+ Kg8 44. g3 Nf5 45. Rd3 Kf7 46. Kb4 Ke6 47. Ka5 Ke5 48. Kxa6 Nd4 49. Rxd4 Kxd4 50. Kxb5 Kc3 51. a4 Kxc2 52. a5 Kd3 53. a6 Ke3 54. a7 Kf3 55. a8=Q+ Kxg3 56. Qe4 h5 57. Kc4 Kh3 58. Kd3 Kg3 59. Ke3 Kh3 60. Kf2 Kh2 61. Qg2# B1g1",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bqkb1r/pp1p1ppp/2n1pn2/2pP4/4P3/2N5/PPP2PPP/R1BQKBNR w KQkq - 3 5"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxc3 7. bxc3 Kxd8 8. Nf3 Be7 9. Bb5 Kc7 10. O-O a6 11. Bxc6 dxc6 12. Ne5 f6 13. Nc4 b5 14. Ne3 Rd8 15. Qh5 h6 16. Qf7 Rd7 17. Qxg7 Bb7 18. Rad1 Rad8 19. Rxd7+ Rxd7 20. Rd1 Bd6 21. Qxf6 Bc8 22. Qxe6 Bxh2+ 23. Kxh2 Rxd1 24. Qe5+ Rd6 25. Nf5 Bxf5 26. exf5 Kd7 27. f6 Re6 28. Qf5 Kd6 29. f7 Re5 30. f8=Q+ Kd5 31. Qd3+ Ke6 32. Qdd6# 1-0\n33. Qff6#",
+      "predicted_san": "Bxd8",
+      "board_fen": "r1bqkb1r/pp1p1ppp/2n1p3/2pn2B1/4P3/2N5/PPP2PPP/R2QKBNR w KQkq - 0 6"
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "raw_response": "7. Nxd5 exd5 8. Qxd5 Be7 9. Bc4 O-O 10. Nf3 d6 11. O-O Be6 12. Qd3 Nc6 13. Bxe6 fxe6 14. Qb3 Rf6 15. Qxb7 Raf8 16. Qxc6 Rg6 17. Kh1 h5 18. Qd7 Rf7 19. Qe8+ Bf8 20. Rad1 Rgf6 21. Rxd6 Re7 22. Qxh5 Rh6 23. Qxc5 Rf7 24. Ng5 Rf4 25. Qe5 Rfh4 26. Rxe6 Rxh2+ 27. Qxh2 Rxh2+ 28. Kxh2 g6 29. Rxg6+ Kh8 30. Rd1 a5 31. Rd7 a4 32. Rh7# g5",
+      "predicted_san": "Nxd5",
+      "board_fen": "r1bnkb1r/pp1p1ppp/4p3/2pn4/4P3/2N5/PPP2PPP/R2QKBNR w KQkq - 0 7"
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8. Nf3 d6 9. Bb5+ Bd7 10. Bxd7+ Qxd7 11. O-O Be7 12. Qd3 O-O 13. Rad1 Nc6 14. Nxe7+ Qxe7 15. Qxd6 Qxd6 16. Rxd6 Rad8 17. Rfd1 Rxd6 18. Rxd6 Rd8 19. Rxd8+ Nxd8 20. Nxe5 f6 21. Nd7 b6 22. Nb8 Kf7 23. f4 Ke6 24. Kf2 Kd6 25. Ke3 Kc7 26. Na6+ Kb7 27. Nxc5+ bxc5 28. e5 fxe5 29. fxe5 Kc6 30. Ke4 Ne6 31. Kf5 Kd5 32. b3 Nd4+ 33. Kf4 Nxc2 34. Kf5 Nd4+ 35. Kf4 Ne6+ 36. Kf5 a5 37. g4 Nd4+ 38. Kf4 Ne2+ 39. Kf5 Nc3 40. e6 Kd6 41. a3 Nb5 42. a4 Nd4+ 43. Ke4 Nxb3 44. Kd3 Kxe6 45. Kc4 Nd2+ 46. Kxc5 Ke5 47. Kb5 Kf4 48. Kxa5 Kxg4 49. Kb5 Nb3 50. Kb4 Nd4 51. Kc5 Nb3+ 52. Kb4 Nd4 53. Kc5 Nb3+ 54. Kb4 Nd4 55. Kc5 Nb3+ 56. Kb4 Nd4 57. Kc5 Nb3+ 58. Kb4 Nd4 59. Kc5 Nb3+ 60. Kb4 Nd4 61. Kc5 Nb3+ 62. Kb4 Nd4 63. Kc5 Nb3+ 64. Kb4 Nd4 65. Kc5 Nb3+ 66. Kb4 Nd4 67. Kc5 Nb3+ 68. Kb4 Nd4 69. Kc5 Nb3+ 70. Kb4 Nd4 71. Kc5 Nb3+ 72. Kb4 Nd4 73. Kc5 Nb3+ 74. Kb4 Nd4 75. Kc5 Nb3+ 76. Kb4 Nd4 77. Kc5 Nb3+ 78. Kb4 Nd",
+      "predicted_san": "Nf3",
+      "board_fen": "r1bnkb1r/pp1p1ppp/8/2pNp3/4P3/8/PPP2PPP/R2QKBNR w KQkq - 0 8"
+    },
+    {
+      "turn": 17,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8.\nNf3 Nc6 9. Bc4 d6 10. O-O Be6 11. Qd2 Be7 12. Rad1 O-O 13. Nxe7+ Qxe7 14. Bxe6\nQxe6 15. Qxd6 Qxa2 16. Qxc5 Qxb2 17. Rb1 Qa2 18. Rxb7 Rac8 19. Nxe5 Nxe5 20.\nQxe5 Rxc2 21. Ra1 Qc4 22. h3 Rc1+ 23. Rxc1 Qxc1+ 24. Kh2 Qa3 25. Qd5 a5 26.\ne5 a4 27. Ra7 Qb4 28. g3 Qb6 29. Rxa4 Qxf2+ 30. Qg2 Qxg2+ 31. Kxg2 Re8 32.\nKf3 g6 33. Kf4 Kg7 34. Ra7 Re6 35. g4 h6 36. h4 Rb6 37. Ra4 Rb1 38. Ra7 Rb4+\n39. Kf3 Rb3+ 40. Kf4 Rb4+ 41. Kf3 Rb3+ 42. Kf4 Rb4+ 43. Kf3 Rb3+ 44. Kf4 Rb4+\n45. Kf3 Rb3+ 46. Kf4 Rb4+ 47. Kf3 Rb3+ 48. Kf4 Rb4+ 49. Kf3 Rb3+ 50. Kf4 Rb4+\n51. Kf3 Rb3+ 52. Kf4 Rb4+ 53. Kf3 Rb3+ 54. Kf4 Rb4+ 55. Kf3 Rb3+ 56. Kf4 Rb4+\n57. Kf3 Rb3+ 58. Kf4 Rb4+ 59. Kf3 Rb3+ 60. Kf4 Rb4+ 61. Kf3 Rb3+ 62. Kf4 Rb4+\n63. Kf3 Rb3+ 64. Kf4 Rb4+ 65. Kf3 Rb3+ 66. Kf4 Rb4+ 67. Kf3 Rb3+ 68. Kf4 Rb4+\n69. Kf3 Rb3+ 70. Kf4 Rb4+ 71. Kf3 R",
+      "predicted_san": "Bc4",
+      "board_fen": "r1b1kb1r/pp1p1ppp/2n5/2pNp3/4P3/5N2/PPP2PPP/R2QKB1R w KQkq - 2 9"
+    },
+    {
+      "turn": 19,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8.\nNf3 Nc6 9. Bc4 Be7 10. O-O O-O 11. Qd2 d6 12. Rad1 Bg4 13. Nxe7+ Qxe7 14. Qxd6\nQxd6 15. Rxd6 Bxf3 16. gxf3 Nd4 17. Kg2 Nxc2 18. Rd7 Rab8 19. Rc1 Nd4 20. Bd5\nb6 21. Rxa7 Ne2 22. Rc2 Nf4+ 23. Kg3 Nxd5 24. exd5 Rfd8 25. Rd2 Rd6 26. f4 exf4+\n27. Kxf4 Rbd8 28. Ke5 f6+ 29. Ke4 Re8+ 30. Kf3 Re5 31. Ra8+ Kf7 32. Ra7+ Kg6 33.\nRb7 Kh6 34. a4 g5 35. h3 Kg6 36. b3 h5 37. Kg3 f5 38. f4 Re3+ 39. Kf2 gxf4 40.\nRb8 Rxh3 41. Kg2 Rxb3 42. a5 Rg3+ 43. Kf2 bxa5 44. Ra8 h4 45. Rxa5 h3 46. Rxc5\nRg2+ 47. Ke1 Rxd2 48. Kxd2 h2 49. Rc1 Rxd5+ 50. Ke2 Kg5 51. Rh1 Kg4 52. Rxh2\nf3+ 53. Ke3 Kg3 54. Rh8 f4+ 55. Ke4 Rg5 56. Rf8 f2 57. Rxf4 Rg4 58. Rxg4+ Kxg4\n59. Ke3 f1=Q 60. Kd4 Qe2 61. Kd5 Qe3 62. Kd6 Qe4 63. Kc5 Qd3 64. Kc6 Qd4 65.\nKb5 Qc3 66. Kb6 Qc4 67. Kb7 Qc5 68. Kb8 Qc6 69. Ka7 Qb5 70. Ka8 Kf5 71. Ka7 Ke6\n72. Ka8 Kd7 73. Ka7 Kc7 74. Ka8 Qb7# 75. Ka7 Qb6+ 76. Ka8 Qb8# 77. Ka7 Qb7#",
+      "predicted_san": "O-O",
+      "board_fen": "r1b1k2r/pp1pbppp/2n5/2pNp3/2B1P3/5N2/PPP2PPP/R2QK2R w KQkq - 4 10"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Bb7\n10. d4 Re8\n11. Nbd2 Bf8\n12. a4 h6\n13. Bc2 exd4\n14. cxd4 Nb4\n15. Bb1 c5\n16. d5 Nd7\n17. Ra3 c4\n18. Nd4 Qb6\n19. N2f3 Nc5\n20. Be3 Nbd3\n21. Bxd3 Nxd3\n22. Rxd3 cxd3\n23. Qxd3 Qa5\n24. axb5 axb5\n25. Bd2 Qa4\n26. b3 Qa6\n27. Nxb5 Rac8\n28. Nfd4 g6\n29. Qg3 Qb6\n30. Be3 Rxe4\n31. Rd1 Bxd5\n32. Nf5 Qxb5\n33. Rxd5 Qxb3\n34. Nxh6+ Bxh6\n35. Bxh6 Qxg3\n36. fxg3 Rc6\n37. Bf4 Re6\n38. Kf2 Kf8\n39. Kf3 Ke7\n40. h4 Rc5\n41. Rd3 d5\n42. g4 Re4\n43. h5 gxh5\n44. gxh5 Ke6\n45. h6 Rc8\n46. g4 f5\n47. g5 Rcc4\n48. Bd2 Rh4\n49. Re3+ Rce4\n50. Ra3 Rh3+\n51. Kg2 Rxa3\n52. h7 Ra8\n53. g6 Rg4+\n54. Kf3 Rxg6\n55. Bc3 Rh6\n56. h8=Q Rhxh8\n57. Bxh8 Rxh8\n58. Kf4 Rh4+\n59. Kg5 Rg4+\n60. Kh5 d4\n61. Kh6 d3\n62. Kh5 d2\n63. Kh6 d1=Q\n64. Kh7 Qh1#\n65. Kh8 Qxh8#",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 Re8\n24. d5 Ne7\n25. Nh4 Rac8\n26. Bg5 Kh8\n27. Bxf6 gxf6\n28. Qh5 Rg8\n29. Qxf7 Rg7\n30. Qxf6 Ng8\n31. Qxd6 Re8\n32. Nhf5 Rg6\n33. Qb4 Qb6\n34. Bd3 Nh6\n35. Nxh6 Rxh6\n36. Rc1 Rf6\n37. Rc2 Rg8\n38. Kh2 Rxf2\n39. Qe7 Rxc2\n40. Qxe5+ Rg7\n41. Bxc2 Qf2\n42. Bd3 Kg8\n43. Qb8+ Kf7\n44. Qc7 Ke8\n45. Qe5+ Kf8\n46. Qd6+ Kg8\n47. Qb8+ Qf8\n48. Qxf8+ Kxf8\n49. e5 Rg5\n50. e6 Be8\n51. Be4 Ke7\n52. h4 Re5\n53. Bf3 Kd6\n54. Kh3 Bg6\n55. Kg4 Bb1\n56. a3 Ba2\n57. Kf4 Bxd5\n58. Bxd5 Kxd5\n59. g4 Kxe6\n60. g5 Re2\n61. h5 Rxb2\n62. g6 hxg6\n63. hxg6 Kf6\n64. Ke4 Rb3\n65. Kd4 Rxa3\n66. Kc5 Rb3\n67. Kd4 a3\n68. Kc5 a2\n69. Kd4 a1=Q+\n70. Kc5 Qc3+\n71. Kb6 Qd4+ 72. Ka5 Ra3+ 73. Kxb5 Rb3+ 74. Kc6 Rc3+ 75. Kb5 Qc4+ 76. Kb6 Rb3+ 77. Ka5 Qb",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O 12. Nc2 Bg5 13. a4 bxa4 14. Rxa4 a5 15. Bc4 Rb8 16. b3 Kh8 17. Nce3 g6 18. O-O f5 19. exf5 gxf5 20. f4 exf4 21. Nxf4 Qb6 22. Nd5 Qa7 23. Qe2 Re8 24. Re1 f4 25. Qh5 Re5 26. Kh1 fxe3 27. Rf1 Be6 28. Nf6 Bxc4 29. Rxc4 e2 30. Re1 Bxf6 31. Qf3 Qg7 32. Rxc6 Rf8 33. Rxe2 Bd8 34. Rxe5 Rxf3 35. Re8+ Rf8 36. Rxf8+ Qxf8 37. h3 Qf1+ 38. Kh2 Qf4+ 39. Kh1 Bh4 40. Rc8+ Kg7 41. Rc7+ Kg6 42. Rc4 Qf1+ 43. Kh2 Bf2 44. Rg4+ Kf5 45. h4 Qg1+ 46. Kh3 Qh1# 47.",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 a5 15. f5 a4 16. Nbd4 exd4 17. Nxd4 b3 18. Kb1 bxc2+ 19. Nxc2 Bb3 20. axb3 axb3 21. Na3 Ne5 22. h4 Ra4 23. Qg2 Qa8 24. Rd4 Rxd4 25. Bxd4 Nc7 26. Rh3 Rb8 27. Rc3 Na6 28. Bxa6 Qxa6 29. f6 Bf8 30. fxg7 Bxg7 31. h5 Qa4 32. Qd2 Nf3 33. Rxf3 Qxd4 34. Qxd4 Bxd4 35. Nc4 Rb5 36. Nxd6 Rxg5 37. Rxb3 Rxh5 38. Nf5 Be5 39. Rb5 f6 40. Rb7 Rh2 41. b4 h5 42. b5 h4 43. b6 h3 44. Rg7+ Kf8 45. b7 Rb2+ 46. Kc1 h2 47. Rh7 Rxb7 48. Rh8+ Kf7 49. Rh7+ Kg6 50. Rh6+ Kg5 51. Rh8 Kf4 52. Rxh2 Kxe4 53. Rf2 Bf4+ 54. Kc2 Kxf5 55. Kd3 Re7 56. Rf1 Kg4 57. Rg1+ Bg3 58. Rf1 f5 59. Kd2 f4 60. Kd3 f3 61. Kd2 f2 62. Kd3 Kf3 63. Kd2 Kg2 64. Rxf2+ Bxf2 65. Kd3 Kf3 66. Kc4 Rd7 67. Kb5 Rc7 68. Ka6 Rc5 69. Kb6 Ke4 70. Kb7 Kd5 71. Kb6 Kd6 72. Kb7 Rc6 73. Kb8 Rc7 74. Ka8 Kc6 75. Kb8 Kb6 76. Ka8 Rc8# 0-1\n77. Kb8",
+      "predicted_san": "d4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Be7 8. Qf3 Qc7 9. O-O-O Nbd7 10. g4 b5 11. Bxf6 Nxf6 12. g5 Nd7 13. f5 O-O 14. f6 gxf6 15. gxf6 Nxf6 16. Rg1+ Kh8 17. e5 dxe5 18. Qxa8 exd4 19. Ne4 Bb7 20. Qa7 Nxe4 21. Qxd4+ e5 22. Qd7 Rc8 23. Qxc7 Rxc7 24. Bd3 Nf2 25. Rd2 Nxd3+ 26. Rxd3 Be4 27. Rd2 h6 28. Re1 Bg5 29. Rxe4 Rd7 30. Re2 Rxd2 31. Rxd2 Kg7 32. Kd1 Bxd2 33. Kxd2 f5 34. b3 Kf6 35. c4 bxc4 36. bxc4 Ke6 37. Kd3 Kd6 38. a3 Kc5 39. Kc3 f4 40. Kd3 f3 41. Ke3 e4 42. h4 Kxc4 43. h5 Kb3 44. Kxe4 f2 45. Kf5 f1=Q+ 46. Kg6 Qf4 47. Kh7 Kxa3 48. Kg6 Kb4 49. Kh7 Kc5 50. Kg6 Kd6 51. Kh7 Ke7 52. Kg6 Qg5+ 53. Kh7 Kf7 54. Kh8 Qg7#\n55. hxg7",
+      "predicted_san": "Nxd4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. Nc3 Nf6 6. Bg5 e6 7. Qd2 Be7 8. O-O-O O-O 9. f4 Nxd4 10. Qxd4 Qa5 11. Bc4 Rd8 12. Bb3 Bd7 13. Rhe1 Bc6 14. f5 e5 15. Qd3 Rac8 16. Bxf6 Bxf6 17. Nd5 Bxd5 18. Qxd5 Qxd5 19. Rxd5 Rc5 20. Red1 Rxd5 21. Rxd5 Kf8 22. Kd2 Ke7 23. Kd3 Rc8 24. Rb5 Rc7 25. Bd5 b6 26. a4 Rc5 27. Rb3 Bg5 28. Ra3 Bc1 29. Ra2 a5 30. c3 Rc7 31. b4 axb4 32. cxb4 Bg5 33. a5 bxa5 34. bxa5 Ra7 35. a6 Kd8 36. Bb7 Kc7 37. Rc2+ Kd7 38. Rc8 Bd8 39. Ra8 Rxa8 40. Bxa8 Bb6 41. Kc4 Kc7 42. Kd5 Bc5 43. Bc6 Kb6 44. Bb7 Kc7 45. g4 h6 46. h4 Kd7 47. g5 hxg5 48. hxg5 Kc7 49. g6 fxg6 50. fxg6 Kd7 51. Bc6+ Kc7 52. Be8 Kd8 53. Bf7 Kc7 54. Ke6 Kb6 55. Be8 Kxa6 56. Kf7 d5 57. exd5 e4 58. Kxg7 e3 59. Kf7 e2 60. g7 e1=Q 61. g8=Q Qf2+ 62. Ke6 Qe3+ 63. Kd7 Qe7+ 64. Kc8 Qb7+ 65. Kd8 Qe7+ 66. Kc8 Qb7+ 67. Kd8 Qe7+ 68. Kc8 Qb7+ 69. Kd8 Qe7+ 70. Kc8 Qb7+ 71. Kd8 Qe7+ 72. Kc8 Qb7+ 73. Kd8 Qe7+ 74. Kc8 Qb7+ 75. Kd8 Qe7+ 76. Kc8 Qb7+ 77. Kd8 Qe7+ 78. Kc8 Qb7+",
+      "predicted_san": "Nc3",
+      "board_fen": "r1bqkbnr/pp2pppp/2np4/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "raw_response": "6. Bg5 e6 7. Qd2 Be7 8. O-O-O O-O 9. f4 a6 10. Nxc6 bxc6 11. e5 Nd5 12. Bxe7 Qxe7 13. Ne4 dxe5 14. fxe5 Rb8 15. c4 Nb6 16. Qd6 Qb7 17. b3 Nd7 18. Bd3 a5 19. Bc2 a4 20. Rd3 axb3 21. axb3 Ra8 22. Kb2 Qa7 23. Rhd1 Qa2+ 24. Kc3 Qa5+ 25. Kd4 c5+ 26. Ke3 Ra6 27. Qe7 Nxe5 28. Rd8 Ng6 29. Rxf8+ Nxf8 30. Rd8 Qe1+ 31. Kf3 Qf1+ 32. Kg3 Qe1+ 33. Kh3 Qe3+ 34. g3 Qh6+ 35. Kg2 g6 36. Rxc8 Ra2 37. Nf6+ Kg7 38. Qxf8+ Kxf6 39. Qxh6 Rxc2+ 40. Kh3 1-0\n41. Qf4+",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "raw_response": "7. Qxd4 e5 8. Qd2 Be7 9. O-O-O O-O 10. Bxf6 Bxf6 11. Qxd6 Qxd6 12. Rxd6 Be6 13. Nd5 Bxd5 14. Rxd5 Rfd8 15. Bc4 Rxd5 16. Bxd5 Rb8 17. Rd1 b6 18. Bc6 Rd8 19. Rxd8+ Bxd8 20. Kd2 Kf8 21. Kd3 Ke7 22. Kc4 Kd6 23. Kb5 a5 24. Bd5 f6 25. c4 g5 26. a3 h5 27. b4 axb4 28. axb4 h4 29. c5+ bxc5 30. bxc5+ Kc7 31. c6 Be7 32. Kc4 Bd6 33. Kd3 Bc5 34. Ke2 Bd4 35. Kf3 Bc5 36. g3 hxg3 37. fxg3 Bg1 38. h4 gxh4 39. gxh4 Bc5 40. Kg4 Bf8 41. Kf5 Bg7 42. Kg6 Bf8 43. Kxf6 Kd6 44. h5 Bh6 45. Kg6 Bf4 46. h6 Bxh6 47. Kxh6 Kc7 48. Kg6 Kd6 49. Kf6 Kc7 50. Kxe5 Kd8 51. Kd6 Kc8 52. Be6+ Kd8 53. c7+ Ke8 54. c8=Q# Qxc8",
+      "predicted_san": "Qxd4",
+      "board_fen": "r1bqkb1r/pp2pppp/3p1n2/6B1/3nP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "1... e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 d6\n8. c3 O-O\n9. h3 Na5\n10. Bc2 c5\n11. d4 Qc7\n12. Nbd2 cxd4\n13. cxd4 Nc6\n14. Nb3 a5\n15. Be3 a4\n16. Nbd2 Bd7\n17. Rc1 Qb7\n18. Bb1 Rfc8\n19. Nf1 Bd8\n20. Ng3 Bb6\n21. Qd2 Ba5\n22. Qe2 Bxe1\n23. Rxe1 Re8\n24. d5 Ne7\n25. Nh4 Rac8\n26. Bg5 Kh8\n27. Bxf6 gxf6\n28. Qh5 Rg8\n29. Qxf7 Rg7\n30. Qxf6 Ng8\n31. Qxd6 Re8\n32. Nhf5 Rg6\n33. Qb4 Qb6\n34. Bd3 Nf6\n35. Rc1 Reg8\n36. Kf1 Bxf5\n37. exf5 Rxg3\n38. fxg3 Qe3\n39. Rc3 Nxd5\n40. Qc5 Qxc5\n41. Rxc5 Nb4\n42. Bxb5 Nxa2\n43. Bxa4 Nb4\n44. Rxe5 Nd3\n45. Re8 Nxb2\n46. Rxg8+ Kxg8\n47. Bb3+ Kg7\n48. Ke2 Kf6\n49. g4 h5\n50. Kd2 hxg4\n51. hxg4 Kg5\n52. Kc3 Kxg4\n53. f6 Kg5\n54. f7 Kg6\n55. f8=Q Kh7\n56. Qf7+ Kh6\n57. Qf6+ Kh7\n58. Bc2+ Kg8\n59. Bg6 Na4+\n60. Kb4 Nc5\n61. Qf7+ Kh8\n62. Qh7# B1c4",
+      "predicted_san": "e5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n2. Nf3 Nc6\n3. Bb5 a6\n4. Ba4 Nf6\n5. O-O Be7\n6. Re1 b5\n7. Bb3 O-O\n8. c3 d6\n9. d4 Bg4\n10. d5 Na5\n11. Bc2 c6\n12. dxc6 Nxc6\n13. Nbd2 d5\n14. h3 Bh5\n15. g4 Bg6\n16. exd5 Nxd5\n17. Nxe5 Nxe5\n18. Rxe5 Nf4\n19. Bxg6 fxg6\n20. Qf3 Nd3\n21. Qd5+ Qxd5\n22. Rxd5 Nxf2\n23. Kg2 Rad8\n24. Rxd8 Bxd8\n25. Nf3 Nd3\n26. b3 Bf6\n27. Bd2 Rc8\n28. Nd4 Bxd4\n29. cxd4 Rc2\n30. Rd1 Nb2\n31. Rc1 Rxd2+\n32. Kf3 Rxd4\n33. Rc8+ Kf7\n34. Rc7+ Kf6\n35. Rc6+ Ke5\n36. Rxa6 Rd3+\n37. Kg2 Kf4\n38. Ra7 Rd2+\n39. Kf1 Kg3\n40. Rxg7 Nd3\n41. Rxh7 Rf2+\n42. Kg1 Rxa2\n43. Kf1 Rf2+\n44. Kg1 Re2\n45. Rf7 Re1+\n46. Rf1 Rxf1+\n47. Kxf1 Kxh3\n48. Ke2 Nc5\n49. b4 Na6\n50. Kf3 Nxb4\n51. Kf4 Nd5+\n52. Kg5 b4\n53. Kxg6 Kxg4\n54. Kf7 b3\n55. Ke6 b2\n56. Kxd5 b1=Q\n57. Kd4 Qb5\n58. Ke4 Qc5\n59. Kd3 Kf3\n60. Kd2 Qc4\n61. Kd1 Ke3\n62. Ke1 Qc1#\n63. Ke2 Qd2#\n64. Kf1 Qf2#\n65. Kg1 Kf3#\n66. Kh1 Qg2#\n67. Nxg2",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O 12. Nc2 Bg5 13. a4 bxa4 14. Rxa4 a5 15. Bc4 Rb8 16. b3 Kh8 17. O-O f5 18. exf5 Bxf5 19. Nce3 Be6 20. Qd3 Bxe3 21. Nxe3 Bxc4 22. Qxc4 Qb6 23. Nd5 Qb5 24. Qxb5 Rxb5 25. Nc7 Rxb3 26. Rc4 Nd8 27. Ra1 Rb2 28. f3 Nb7 29. Ne6 Re8 30. Rc7 h6 31. Nxg7 Rg8 32. Nf5 Rgxg2+ 33. Kf1 Rxh2 34. Kg1 Rbg2+ 35. Kf1 Nc5 36. Rxa5 Rf2+ 37. Kg1 Rfg2+ 38. Kf1 Rg8 39. Raa7 Rb8 40. Kg1 Rh5 41. Rh7+ Kg8 42. Rag7+ Kf8 43. Rh8# d5",
+      "predicted_san": "Nf3",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 5,
+      "attempt": 1,
+      "raw_response": "3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 12. g5 b4 13. Ne2 Ne8 14. f4 a5 15. f5 a4 16. Nbd4 exd4 17. Nxd4 b3 18. Kb1 bxc2+ 19. Nxc2 Bb3 20. axb3 axb3 21. Na3 Ne5 22. h4 Ra4 23. Qg2 Qa8 24. Rd4 Rxd4 25. Bxd4 Nc7 26. Rh3 Rb8 27. Rc3 Bd8 28. Qe2 Rb4 29. Qe3 Qa4 30. Bxe5 dxe5 31. Qd3 Rd4 32. Qf3 Rxe4 33. Rxb3 Re1+ 34. Ka2 e4 35. Qf2 Rd1 36. Bc4 Qd7 37. Rb8 Rd2 38. Qc5 Qd4 39. Qxc7 Rxb2+ 40. Ka1 Rxb8+ 41. Ka2 Qb2# 0-1\n42. Qxb8+ Qxb8",
+      "predicted_san": "d4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"
+    },
+    {
+      "turn": 7,
+      "attempt": 1,
+      "raw_response": "4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3 b5 8. Qd2 Bb7 9. O-O-O Nbd7 10. g4 Nb6 11. g5 Nfd7 12. h4 Rc8 13. Kb1 Ne5 14. Qf2 Nec4 15. Bc1 b4 16. Nce2 d5 17. Nf4 e5 18. Nde6 fxe6 19. Nxe6 Qd6 20. Bh3 d4 21. Rhe1 Rc6 22. f4 Bc8 23. fxe5 Qxe5 24. Bf4 Qa5 25. Nc7+ Rxc7 26. Bxc7 Bxh3 27. Qxd4 Be7 28. Qxg7 Rf8 29. Qxh7 Be6 30. Qg6+ Bf7 31. Qc6+ Nd7 32. Qxd7# Qxa2+",
+      "predicted_san": "Nxd4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"
+    },
+    {
+      "turn": 9,
+      "attempt": 1,
+      "raw_response": "5. Nc3 Nf6 6. Bg5 e6 7. Qd2 Be7 8. O-O-O O-O 9. f4 Nxd4 10. Qxd4 Qa5 11. Bc4 Bd7 12. e5 dxe5 13. fxe5 Bc6 14. Bd2 Nd7 15. Nd5 Qd8 16. Nxe7+ Qxe7 17. Rhe1 Rfd8 18. Qg4 Nf8 19. Bg5 Rxd1+ 20. Rxd1 Qc5 21. Bf6 Ng6 22. Bxe6 fxe6 23. Qxe6+ Kh8 24. Qf7 Qf8 25. Qxf8+ Rxf8 26. Bg5 Nxe5 27. Be3 a6 28. Bc5 Re8 29. g3 h6 30. b3 Kh7 31. Kb2 Nf3 32. h4 Re2 33. Rd3 Ne1 34. Rc3 Be4 35. Bd4 Nxc2 36. Be5 Nb4+ 37. Ka3 a5 38. Ka4 Bc6+ 39. Kxa5 Nxa2 40. Rc5 Re3 41. b4 Ra3+ 42. Kb6 Nxb4 43. Rc4 Nd5+ 44. Kc5 Ra5+ 45. Kd6 Ne3 46. Rc1 Rd5+ 47. Ke6 Ng4 48. Bf4 Nf6 49. Ra1 Bd7+ 50. Ke7 Bg4 51. Ra7 Rd7+ 52. Kf8 Kg6 53. Ra5 Rf7# 54. Kg8 Nd7 55. h5+ Kf6 56. Kh7 Nf8+ 57. Kg8 Ne6 58. Be5+ Ke7 59. Ra7 Bf3 60. Ra3 Bxh5 61. Rb3 Bf3 62. Rb6 Bc6 63. Rb4 Rf8+ 64. Kh7 Kf7 65. Rb2 Be4# 66. Kh8 Rxh7# 67. Kxh7 Bxh7",
+      "predicted_san": "Nc3",
+      "board_fen": "r1bqkbnr/pp2pppp/2np4/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
+    },
+    {
+      "turn": 11,
+      "attempt": 1,
+      "raw_response": "6. Bg5 e6 7. Qd2 Be7 8. O-O-O O-O 9. f4 Nxd4 10. Qxd4 Qa5 11. Kb1 Rd8 12. Bd3 e5 13. Qf2 Be6 14. f5 Ng4 15. Qh4 Bxg5 16. Qxg5 Nf2 17. fxe6 fxe6 18. Bc4 Re8 19. Rhf1 Nxd1 20. Rxd1 Qc5 21. Bb3 b5 22. Qg4 Kh8 23. Bxe6 b4 24. Nd5 Rf8 25. Bf5 g6 26. Bxg6 hxg6 27. Qxg6 Qf2 28. Qh6+ Kg8 29. Ne7+ Kf7 30. Nf5 Rad8 31. Qg7+ Ke6 32. Qe7# Qe7",
+      "predicted_san": "Bg5",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"
+    },
+    {
+      "turn": 13,
+      "attempt": 1,
+      "raw_response": "7. Qxd4 e5 8. Qd2 Be7 9. O-O-O O-O 10. Bxf6 Bxf6 11. Qxd6 Qxd6 12. Rxd6 Be6 13. Nd5 Bxd5 14. Rxd5 Rfd8 15. Bc4 Rxd5 16. Bxd5 Rb8 17. Rd1 b6 18. Rd3 Rd8 19. Ra3 a5 20. Rb3 Rd6 21. Rc3 g6 22. Rc7 Bg5+ 23. Kd1 Rf6 24. f3 Be3 25. Ke2 Bc5 26. c3 h5 27. a3 g5 28. b4 axb4 29. axb4 Bd6 30. Rc6 Be7 31. Rxf6 Bxf6 32. c4 Be7 33. b5 Bc5 34. g3 Kg7 35. h3 Kg6 36. Kd3 f5 37. exf5+ Kxf5 38. Be4+ Kf6 39. Bd5 Kf5 40. Bf7 h4 41. gxh4 gxh4 42. Bd5 Kf4 43. Be4 Kg3 44. Bf5 Kxf3 45. Bg4+ Kf4 46. Ke2 e4 47. Be6 e3 48. Bd5 Kg3 49. Be6 Kf4 50. Bd5 Kg3 51. Be6 Kf4 52. Bd5 Kg3 53. Be6 Kf4 54. Bd5 Kg3 55. Be6 Kf4 56. Bd5 Kg3 57. Be6 Kf4 58. Bd5 Kg3 59. Be6 Kf4 60. Bd5 Kg3 61. Be6 Kf4 62. Bd5 Kg3 63. Be6 Kf4 64. Bd5 Kg3 65. Be6 Kf4 66. Bd5 Kg3 67. Be6 Kf4 68. Bd5 Kg3 69. Be6 Kf4 70. Bd5 Kg3 71. Be6 Kf4 72. Bd5 Kg3 73. Be6 Kf4 74. Bd5 Kg3 75. Be6 Kf4 76. Bd5 Kg3 77. Be6 Kf4 78. Bd5 Kg3 79. Be6 Kf4 80. Bd5 Kg3 81. Be6 Kf4 82. Bd5 Kg3 83. Be6 Kf4 84. Bd5 Kg3 85. Be6 Kf4 86. Bd5 Kg3 87. Be6 Kf4 88. Bd5 Kg3 89. Be",
+      "predicted_san": "Qxd4",
+      "board_fen": "r1bqkb1r/pp2pppp/3p1n2/6B1/3nP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7"
+    },
+    {
+      "turn": 15,
+      "attempt": 1,
+      "raw_response": "8. O-O-O Be7 9. Bxf6 gxf6 10. Nb5 O-O 11. Nxd6 Qa5 12. Kb1 Rd8 13. Nc4 Rxd4 14. Rxd4 Qe1+ 15. Rd1 Qxd1# 16. Bc1 Qxc1#",
+      "predicted_san": "O-O-O",
+      "board_fen": "r1bqkb1r/pp3ppp/3ppn2/6B1/3QP3/2N5/PPP2PPP/R3KB1R w KQkq - 0 8"
+    },
+    {
+      "turn": 17,
+      "attempt": 1,
+      "raw_response": "9. Bxf6 gxf6 10. Bb5+ Bd7 11. Bxd7+ Qxd7 12. f4 O-O-O 13. Qxa7 Qc6 14. Rd4 Kd7 15. Rb4 Rb8 16. Rd1 Rhc8 17. Rb6 Qc7 18. Nb5 Qxc2#",
+      "predicted_san": "Bxf6",
+      "board_fen": "r1bqk2r/pp2bppp/3ppn2/6B1/3QP3/2N5/PPP2PPP/2KR1B1R w kq - 2 9"
+    },
+    {
+      "turn": 19,
+      "attempt": 1,
+      "raw_response": "10. Qxd6 Qxd6 11. Rxd6 Bxc3 12. bxc3 Ke7 13. Rd4 Bd7 14. Be2 Rac8 15. Kb2 Rc5\n16. Rhd1 Bc6 17. f3 Rc8 18. c4 Ba4 19. R1d2 b5 20. cxb5 Bxb5 21. Bxb5 Rxb5+ 22.\nKc1 Rc7 23. c4 Rb4 24. Rc2 e5 25. Rd5 f6 26. c5 Rb5 27. Kd2 Rd7 28. Kc3 Rxd5\n29. exd5 Rxc5+ 30. Kb3 Rxc2 31. Kxc2 Kd6 32. Kd3 Kxd5 33. g4 g6 34. h4 f5 35.\ngxf5 gxf5 36. h5 h6 37. a3 a6 38. a4 a5 39. Kc3 e4 40. fxe4+ fxe4 41. Kd2 Kd4\n42. Ke2 e3 43. Ke1 Kd3 44. Kd1 e2+ 45. Ke1 Kc3 46. Kxe2 Kb4 47. Kd2 Kxa4 48.\nKc2 Kb4 49. Kb2 Kc4 50. Ka3 Kd4 51. Ka4 Ke4 52. Kxa5 Kf4 53. Kb4 Kg4 54. Kc3\nKxh5 55. Kd2 Kg4 56. Ke2 Kg3 57. Kf1 Kh2 58. Kf2 h5 59. Kf3 h4 60. Kg4 h3 61.\nKf3 Kg1 62. Kg3 h2 63. Kh3 h1=Q+ 64. Kg3 Qe4 65. Kh3 Kf2 66. Kh2 Qh4# 67. Kh1 Qh3# 68. Kh2 Qg2# 69. Kh1 Qh3# 70. Kh2 Qg2# 71. Kh1 Qh3# 72. Kh2 Qg2# 73. Kh1 Qh3# 74. Kh2 Qg2# 75. Kh1 Qh3# 76. Kh2 Qg2# 77. Kh1 Qh3# 78. Kh2 Qg2# 79. Kh1 Qh3# 80. Kh2 Qg2# 81. Kh1 Qh3# 82. Kh2 Qg2# 83. Kh1 Qh3# 84. Kh2 Qg2# 85. Kh1 Qh3# 86. Kh2 Q",
+      "predicted_san": "Qxd6",
+      "board_fen": "r1bqk2r/pp3ppp/3ppb2/8/3QP3/2N5/PPP2PPP/2KR1B1R w kq - 0 10"
+    }
+  ],
+  "black_responses": [
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "c5",
+      "predicted_san": "c5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3\n\n2...d6",
+      "predicted_san": "d6",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4\n\n4. Nxd4",
+      "predicted_san": "cxd4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4\n\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3\n\nNf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/pp2pppp/2np4/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5"
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5\n\nNd7",
+      "predicted_san": "Nd7",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 4 6"
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nd7 7. Bb5\n\na6",
+      "predicted_san": "a6",
+      "board_fen": "r1bqkb1r/pp1npppp/2np4/1B4B1/3NP3/2N5/PPP2PPP/R2QK2R b KQkq - 6 7"
+    },
+    {
+      "turn": 16,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nd7 7. Bb5 a6 8. Bxc6\n\nBxd7+",
+      "predicted_san": "Bxd7+",
+      "board_fen": "r1bqkb1r/1p1npppp/p1Bp4/6B1/3NP3/2N5/PPP2PPP/R2QK2R b KQkq - 0 8"
+    },
+    {
+      "turn": 16,
+      "attempt": 2,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nd7 7. Bb5 a6 8. Bxc6\n\nBxd7+",
+      "predicted_san": "Bxd7+",
+      "board_fen": "r1bqkb1r/1p1npppp/p1Bp4/6B1/3NP3/2N5/PPP2PPP/R2QK2R b KQkq - 0 8"
+    },
+    {
+      "turn": 16,
+      "attempt": 3,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nd7 7. Bb5 a6 8. Bxc6\n\nBxd7+",
+      "predicted_san": "Bxd7+",
+      "board_fen": "r1bqkb1r/1p1npppp/p1Bp4/6B1/3NP3/2N5/PPP2PPP/R2QK2R b KQkq - 0 8"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n\n1. e4 e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\n\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\n\n1. e4 e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "c5",
+      "predicted_san": "c5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5\n\n2...e6",
+      "predicted_san": "e6",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2pP4/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4\n\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pp1p1ppp/4p3/2pP4/4P3/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3\n\nNf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/pp1p1ppp/2n1p3/2pP4/4P3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5\n\nNd7",
+      "predicted_san": "Nd7",
+      "board_fen": "r1bqkb1r/pp1p1ppp/2n1pn2/2pP2B1/4P3/2N5/PPP2PPP/R2QKBNR b KQkq - 4 5"
+    },
+    {
+      "turn": 10,
+      "attempt": 2,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5\n\nNxd5",
+      "predicted_san": "Nxd5",
+      "board_fen": "r1bqkb1r/pp1p1ppp/2n1pn2/2pP2B1/4P3/2N5/PPP2PPP/R2QKBNR b KQkq - 4 5"
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8\n\nNxd8",
+      "predicted_san": "Nxd8",
+      "board_fen": "r1bBkb1r/pp1p1ppp/2n1p3/2pn4/4P3/2N5/PPP2PPP/R2QKBNR b KQkq - 0 6"
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5\n\ne5",
+      "predicted_san": "e5",
+      "board_fen": "r1bnkb1r/pp1p1ppp/4p3/2pN4/4P3/8/PPP2PPP/R2QKBNR b KQkq - 0 7"
+    },
+    {
+      "turn": 16,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8. Nf3\n\nBb4",
+      "predicted_san": "Bb4",
+      "board_fen": "r1bnkb1r/pp1p1ppp/8/2pNp3/4P3/5N2/PPP2PPP/R2QKB1R b KQkq - 1 8"
+    },
+    {
+      "turn": 16,
+      "attempt": 2,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8. Nf3\n\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "r1bnkb1r/pp1p1ppp/8/2pNp3/4P3/5N2/PPP2PPP/R2QKB1R b KQkq - 1 8"
+    },
+    {
+      "turn": 18,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8. Nf3 Nc6 9. Bc4\n\nBe7",
+      "predicted_san": "Be7",
+      "board_fen": "r1b1kb1r/pp1p1ppp/2n5/2pNp3/2B1P3/5N2/PPP2PPP/R2QK2R b KQkq - 3 9"
+    },
+    {
+      "turn": 20,
+      "attempt": 1,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8. Nf3 Nc6 9. Bc4 Be7 10. O-O\n\nNf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1b1k2r/pp1pbppp/2n5/2pNp3/2B1P3/5N2/PPP2PPP/R2Q1RK1 b kq - 5 10"
+    },
+    {
+      "turn": 20,
+      "attempt": 2,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8. Nf3 Nc6 9. Bc4 Be7 10. O-O\n\nNf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1b1k2r/pp1pbppp/2n5/2pNp3/2B1P3/5N2/PPP2PPP/R2Q1RK1 b kq - 5 10"
+    },
+    {
+      "turn": 20,
+      "attempt": 3,
+      "raw_response": "1. d4 c5 2. d5 e6 3. e4 Nc6 4. Nc3 Nf6 5. Bg5 Nxd5 6. Bxd8 Nxd8 7. Nxd5 e5 8. Nf3 Nc6 9. Bc4 Be7 10. O-O\n\nNf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1b1k2r/pp1pbppp/2n5/2pNp3/2B1P3/5N2/PPP2PPP/R2Q1RK1 b kq - 5 10"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n\n1. e4 e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\n\n1. e4 e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\n\n1. e4 e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "c5",
+      "predicted_san": "c5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3\n\nd6",
+      "predicted_san": "d6",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4\n\n4. Nxd4",
+      "predicted_san": "cxd4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4\n\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3\n\nNf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/pp2pppp/2np4/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5"
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5\n\nNxd4",
+      "predicted_san": "Nxd4",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 4 6"
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4\n\nBc7",
+      "predicted_san": "Bc7",
+      "board_fen": "r1bqkb1r/pp2pppp/3p1n2/6B1/3QP3/2N5/PPP2PPP/R3KB1R b KQkq - 0 7"
+    },
+    {
+      "turn": 14,
+      "attempt": 2,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4\n\nBc5",
+      "predicted_san": "Bc5",
+      "board_fen": "r1bqkb1r/pp2pppp/3p1n2/6B1/3QP3/2N5/PPP2PPP/R3KB1R b KQkq - 0 7"
+    },
+    {
+      "turn": 14,
+      "attempt": 3,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4\n\nBc7",
+      "predicted_san": "Bc7",
+      "board_fen": "r1bqkb1r/pp2pppp/3p1n2/6B1/3QP3/2N5/PPP2PPP/R3KB1R b KQkq - 0 7"
+    },
+    {
+      "turn": 1,
+      "attempt": 1,
+      "raw_response": "e4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "raw_response": "1. e4 e5\n\n1. e4 e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "raw_response": "1. e4 e5\n\ne4",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "raw_response": "1. e4 e5\n\n1. e4 e5",
+      "predicted_san": "e4",
+      "board_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "turn": 2,
+      "attempt": 1,
+      "raw_response": "c5",
+      "predicted_san": "c5",
+      "board_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "turn": 4,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3\n\nd6",
+      "predicted_san": "d6",
+      "board_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "turn": 6,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4\n\n4. Nxd4",
+      "predicted_san": "cxd4",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"
+    },
+    {
+      "turn": 8,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4\n\nNc6",
+      "predicted_san": "Nc6",
+      "board_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3\n\nNf6",
+      "predicted_san": "Nf6",
+      "board_fen": "r1bqkbnr/pp2pppp/2np4/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5"
+    },
+    {
+      "turn": 12,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5\n\nNxd4",
+      "predicted_san": "Nxd4",
+      "board_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 4 6"
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4\n\ne6",
+      "predicted_san": "e6",
+      "board_fen": "r1bqkb1r/pp2pppp/3p1n2/6B1/3QP3/2N5/PPP2PPP/R3KB1R b KQkq - 0 7"
+    },
+    {
+      "turn": 16,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4 e6 8. O-O-O\n\nBe7",
+      "predicted_san": "Be7",
+      "board_fen": "r1bqkb1r/pp3ppp/3ppn2/6B1/3QP3/2N5/PPP2PPP/2KR1B1R b kq - 1 8"
+    },
+    {
+      "turn": 18,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4 e6 8. O-O-O Be7 9. Bxf6\n\nBxf6",
+      "predicted_san": "Bxf6",
+      "board_fen": "r1bqk2r/pp2bppp/3ppB2/8/3QP3/2N5/PPP2PPP/2KR1B1R b kq - 0 9"
+    },
+    {
+      "turn": 20,
+      "attempt": 1,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4 e6 8. O-O-O Be7 9. Bxf6 Bxf6 10. Qxd6\n\nQd3",
+      "predicted_san": "Qd3",
+      "board_fen": "r1bqk2r/pp3ppp/3Qpb2/8/4P3/2N5/PPP2PPP/2KR1B1R b kq - 0 10"
+    },
+    {
+      "turn": 20,
+      "attempt": 2,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4 e6 8. O-O-O Be7 9. Bxf6 Bxf6 10. Qxd6\n\nQd3",
+      "predicted_san": "Qd3",
+      "board_fen": "r1bqk2r/pp3ppp/3Qpb2/8/4P3/2N5/PPP2PPP/2KR1B1R b kq - 0 10"
+    },
+    {
+      "turn": 20,
+      "attempt": 3,
+      "raw_response": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Bg5 Nxd4 7. Qxd4 e6 8. O-O-O Be7 9. Bxf6 Bxf6 10. Qxd6\n\nQd3",
+      "predicted_san": "Qd3",
+      "board_fen": "r1bqk2r/pp3ppp/3Qpb2/8/4P3/2N5/PPP2PPP/2KR1B1R b kq - 0 10"
+    }
+  ],
+  "white_errors": [],
+  "black_errors": [
+    {
+      "turn": 16,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 16,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 16,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 10,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 16,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 14,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 14,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 14,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 3,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 1,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 2,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    },
+    {
+      "turn": 20,
+      "attempt": 3,
+      "error_type": "exception",
+      "error_message": "object of type 'NoneType' has no len()"
+    }
+  ],
+  "timestamp": "2025-11-29T21:22:07.006387",
+  "game_id": "gpt-3.5-turbo-instruct_vs_mistralai_mistral-small-24b-instruct-2501_17",
+  "opening": "standard"
+}
